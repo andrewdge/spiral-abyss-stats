@@ -6,7 +6,10 @@ module.exports = {
       zIndex: {
         '-1': '-1',
         '-10': '-10',
-      }
+      },
+      backgroundImage: theme => ({
+        'watatsumi': "url('../public/images/watatsumi.png')"
+      }),
     },
   },
   variants: {
