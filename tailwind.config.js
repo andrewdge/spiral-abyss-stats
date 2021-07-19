@@ -6,7 +6,11 @@ module.exports = {
       zIndex: {
         '-1': '-1',
         '-10': '-10',
-      }
+      },
+
+      colors: {
+        'menu-item': '#4e5a70',
+      },
     },
   },
   variants: {

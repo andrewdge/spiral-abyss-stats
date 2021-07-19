@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
+import VersionButton from './versionButton'
 
 const NavbarModal = (props) => {
 
@@ -19,9 +20,12 @@ const NavbarModal = (props) => {
                 <div className="pt-20 bg-gradient-to-b from-yellow-100 h-screen">
                     <Dialog.Title className="text-red w-100px">Title</Dialog.Title>
                     <Dialog.Description className="text-red w-100px">Desc</Dialog.Description>
-                    <div className="flex flex-row flex-wrap">
+                    <div className="flex flex-row flex-wrap gap-2">
                         <button className="w-100px" onClick={() => props.setIsOpen(false)}>Confirm</button>
                         <button className="w-100px" onClick={() => props.setIsOpen(false)}>Cancel</button>
+                        <VersionButton version={"july waxing phase"} />
+                        <VersionButton version={"july waning phase"} />
+                        <VersionButton version={"august waxing phase"} />
                     </div>
                 </div>
             </Dialog>
