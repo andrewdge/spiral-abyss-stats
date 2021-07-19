@@ -8,7 +8,6 @@ const VersionButton = (props) => {
                     {props.version}
                 </div>
             </div>
-            
         </button>
     )
     
