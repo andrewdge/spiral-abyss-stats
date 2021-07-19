@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className='p-3'>
                 <button>
                     <Image className='cursor-pointer z-0' src="https://spiralabyss.s3.amazonaws.com/paimon.png" alt="paimon" 
-                        width={100} height={116} onClick={() => setIsOpen(!isOpen) }
+                        width={100} height={116} onMouseOver={() => setIsOpen(true) } onBlur={() => setIsOpen(false)}
                     />
                     
                 </button>
