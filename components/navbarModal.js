@@ -1,4 +1,5 @@
 import React, { useState, Fragment } from 'react'
+import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import { Dialog, Transition } from '@headlessui/react'
 import VersionButton from './versionButton'
 
@@ -19,10 +20,21 @@ const NavbarModal = (props) => {
                 <Dialog.Overlay />
                 <div className="pt-20 bg-gradient-to-b from-yellow-100 h-screen">
                     <Dialog.Title className="text-red w-100px">Title</Dialog.Title>
-                    <Dialog.Description className="text-red w-100px">Desc</Dialog.Description>
-                    <div className="flex flex-row flex-wrap gap-2">
-                        <button className="w-100px" onClick={() => props.setIsOpen(false)}>Confirm</button>
-                        <button className="w-100px" onClick={() => props.setIsOpen(false)}>Cancel</button>
+                    <Dialog.Description className="text-red w-100px">desc</Dialog.Description>
+                    <div className="p-4 w-full h-1/2">
+                        <div className="w-full h-full">
+                                <TwitterTimelineEmbed
+                                    sourceType="profile"
+                                    screenName="GenshinImpact"
+                                    theme="dark"
+                                    noHeader
+                                    noFooter
+                                    autoHeight
+                                    noScrollbar
+                                />
+                        </div>
+                    </div>
+                    <div className="flex flex-row flex-wrap gap-2 justify-start justify-items-center p-4 pt-0">
                         <VersionButton version={"july waxing phase"} />
                         <VersionButton version={"july waning phase"} />
                         <VersionButton version={"august waxing phase"} />
