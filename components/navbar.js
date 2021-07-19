@@ -13,8 +13,10 @@ const Navbar = () => {
             <NavbarModal isOpen={isOpen} setIsOpen={setIsOpen}/>
             <div className='p-3'>
                 <button>
+                    
                     <Image className='cursor-pointer z-0' src={Paimon} alt="paimon" 
-                        width={100} height={116} onClick={() => setIsOpen(true)} onMouseOver={() => setIsOpen(true) } onBlur={() => setIsOpen(false)}
+                        width={100} height={116} 
+                        onClick={() => setIsOpen(true)} onBlur={() => setIsOpen(false)} onMouseOver={() => setIsOpen(true)}
                     />
                 </button>
             </div>

@@ -15,30 +15,34 @@ const NavbarModal = (props) => {
             leaveFrom="translate-x-0"
             leaveTo="-translate-x-full"
         >
+            {/* onMouseLeave={() =>props.setIsOpen(false)} */}
             <Dialog className="absolute h-screen top-0 z-10 w-full md:w-1/3" 
-                open={props.isOpen} onClose={() => props.setIsOpen(false)} onMouseLeave={() =>props.setIsOpen(false)}>
+                open={props.isOpen} onClose={() => props.setIsOpen(false)} >
                 <Dialog.Overlay />
-                <div className="pt-20 bg-gradient-to-b from-yellow-100 h-screen">
-                    <Dialog.Title className="text-red w-100px">Title</Dialog.Title>
-                    <Dialog.Description className="text-red w-100px">desc</Dialog.Description>
-                    <div className="p-4 w-full h-1/2">
-                        <div className="w-full h-full">
-                                <TwitterTimelineEmbed
-                                    sourceType="profile"
-                                    screenName="GenshinImpact"
-                                    theme="dark"
-                                    noHeader
-                                    noFooter
-                                    autoHeight
-                                    noScrollbar
-                                    options={{tweetLimit: 1, height:'300'}}
-                                />
+                <div className="bg-gradient-to-b from-yellow-100 h-screen">
+                    <div className='flex flex-row'>
+                        <div className='w-100 h-screen bg-gray-800' content=''>
+                            
                         </div>
-                    </div>
-                    <div className="flex flex-row flex-wrap gap-2 justify-start justify-items-center p-4 pt-0">
-                        <VersionButton version={"july waxing phase"} />
-                        <VersionButton version={"july waning phase"} />
-                        <VersionButton version={"august waxing phase"} />
+                        <div className="p-4 w-full h-1/2">
+                                <div className="w-full h-full">
+                                    <TwitterTimelineEmbed
+                                        sourceType="profile"
+                                        screenName="GenshinImpact"
+                                        theme="dark"
+                                        noHeader
+                                        noFooter
+                                        autoHeight
+                                        noScrollbar
+                                        options={{tweetLimit: 1, height:'300'}}
+                                    />
+                                </div>
+                            </div>
+                            <div className="flex flex-row flex-wrap gap-2 justify-start justify-items-center p-4 pt-0">
+                                <VersionButton version={"july waxing phase"} />
+                                <VersionButton version={"july waning phase"} />
+                                <VersionButton version={"august waxing phase"} />
+                            </div>
                     </div>
                 </div>
             </Dialog>
