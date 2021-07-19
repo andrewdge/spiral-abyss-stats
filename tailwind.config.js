@@ -10,6 +10,10 @@ module.exports = {
       backgroundImage: theme => ({
         'watatsumi': "url('../public/images/watatsumi.png')"
       }),
+
+      colors: {
+        'menu-item': '#4e5a70',
+      },
     },
   },
   variants: {
