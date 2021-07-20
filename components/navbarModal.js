@@ -29,7 +29,7 @@ const NavbarModal = (props) => {
                         {/* Left Grey navbar */}
                         <div className='w-20 md:w-[80px] h-screen bg-menu-item flex flex-col justify-between items-center' content=''>
                             <div>
-                                <button onClick={() => props.setIsOpen(false)} className="w-16 h-16 rounded-full bg-menu-yellow border-[#969696] border-8 mt-4">
+                                <button onClick={() => props.setIsOpen(false)} className="w-14 h-14 rounded-full bg-menu-yellow border-[#969696] border-4 mt-4">
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: '#3A4154'}} />
                                 </button>
                             </div>
