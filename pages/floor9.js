@@ -1,7 +1,6 @@
 import React from 'react'
 import Content from '../components/content'
 import Layout from '../components/layout'
-import Watatsumi from '../public/images/watatsumi.png'
 
 const floor9 = () => {
     return (
