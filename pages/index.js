@@ -3,11 +3,6 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
-import dynamic from 'next/dynamic'
-
-const Paimon = dynamic(() => import('../public/images/spiralabyss.png'), {
-  ssr: false,
-})
 import Image from 'next/image'
 
 const Index = () => {
@@ -23,7 +18,7 @@ const Index = () => {
   // Background image for mobile
   const image = 
     <div className='object-cover w-screen-h-screen'> 
-      <Paimon className='-z-10' layout='fill' />
+      <Image className='-z-10' src='/images/spiralabyss.png' alt='spiralabyss' layout='fill' />
     </div>;
 
 
