@@ -7,8 +7,8 @@ const floor9 = () => {
     return (
         <>
             
-            <Layout className="relative flex items-center justify-center h-full mb-12 overflow-hidden">
-                <div className="object-cover bg-fixed bg-center bg-no-repeat bg-cover min-h-screen bg-watatsumi -z-1 md:px-20 py-36">
+            <Layout className="w-full h-full mb-12 ">
+                <div className="flex items-center justify-center bg-local bg-center bg-no-repeat bg-cover min-h-screen bg-watatsumi -z-1 px-20 py-36">
                     <Content>
                     </Content>
                 </div>
