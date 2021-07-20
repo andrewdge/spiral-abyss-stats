@@ -45,7 +45,7 @@ const NavbarModal = (props) => {
                         <div className='flex flex-col'>
                             {/* twitter embed */}
                             <div className="p-4 w-full h-1/2">
-                                <div className="w-full h-full">
+                                <div className="w-full h-full overflow-y-scroll no-scrollbar">
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="GenshinImpact"
