@@ -4,6 +4,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import VersionButton from './versionButton'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
+import NavButton from './navButton';
 import Link from 'next/link'
 
 const NavbarModal = (props) => {
@@ -19,7 +20,7 @@ const NavbarModal = (props) => {
             leaveTo="-translate-x-full"
         >
             {/* TODO: onMouseLeave={() =>props.setIsOpen(false)} */}
-            <Dialog className="fixed h-screen top-0 z-10 w-full md:w-1/3" 
+            <Dialog className="fixed h-screen top-0 z-10 w-full md:w-1/5" 
                 open={props.isOpen} onClose={() => props.setIsOpen(false)} >
                 <Dialog.Overlay />
                 {/* Menu Contents */}
@@ -29,14 +30,12 @@ const NavbarModal = (props) => {
                         {/* Left Grey navbar */}
                         <div className='w-20 md:w-[80px] h-screen bg-menu-item flex flex-col justify-between items-center' content=''>
                             <div>
-                                <button onClick={() => props.setIsOpen(false)} className="w-14 h-14 rounded-full bg-menu-yellow border-[#969696] border-4 mt-4">
+                                <button onClick={() => props.setIsOpen(false)} className="w-14 h-14 rounded-full bg-menu-yellow border-[#969696] border-4 mt-4 transition duration-100 transform hover:-translate-y-1 hover:scale-110">
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: '#3A4154'}} />
                                 </button>
                             </div>
                             <div>
-                                <Link href="/" passHref>
-                                    <HomeIcon className='cursor-pointer' fontSize='large' style={{ color: 'white'}}/>
-                                </Link>
+                                <NavButton link="/" icon={HomeIcon} color='white' fontSize='large' />
                             </div>
                             <div>
                                 
