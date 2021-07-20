@@ -14,6 +14,8 @@ module.exports = {
 
       colors: {
         'menu-item': '#4e5a70',
+        'menu-yellow': '#EDE5DA',
+        'menu-gray': '#50596A',
       },
     },
   },

@@ -24,13 +24,13 @@ const NavbarModal = (props) => {
                 <Dialog.Overlay />
                 {/* Menu Contents */}
                 {/* Gradient background */}
-                <div className="fixed bg-gradient-to-b from-yellow-100 h-screen">
+                <div className="fixed bg-gradient-to-b from-menu-yellow h-screen">
                     <div className='flex flex-row'>
                         {/* Left Grey navbar */}
                         <div className='w-20 md:w-[80px] h-screen bg-menu-item flex flex-col justify-between items-center' content=''>
                             <div>
-                                <button onClick={() => props.setIsOpen(false)}>
-                                    <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: 'white'}} />
+                                <button onClick={() => props.setIsOpen(false)} className="w-16 h-16 rounded-full bg-menu-yellow border-[#969696] border-8 mt-4">
+                                    <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: '#3A4154'}} />
                                 </button>
                             </div>
                             <div>
