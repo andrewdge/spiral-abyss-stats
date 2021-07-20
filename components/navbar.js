@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react'
-import NavbarModal from './navbarModal';
+
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 
-// const Paimon = dynamic(() => import('../public/images/spiralabyss.png'), {
-//   ssr: false,
-// })
+const DynamicNavbarModal = dynamic(() => import('./navbarModal'), {
+    ssr: false,
+})
 
 const Navbar = () => {
     let [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
             <title>
                 Spiral Stats
             </title>
-            <NavbarModal isOpen={isOpen} setIsOpen={setIsOpen}/>
+            <DynamicNavbarModal isOpen={isOpen} setIsOpen={setIsOpen}/>
             {/* Paimon Nav */}
             <div className='p-3'>
                 <button className="">

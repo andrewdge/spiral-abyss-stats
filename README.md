@@ -9,9 +9,6 @@ npm run dev
 yarn dev
 ```
 
-Upgrade npm
-```bash
-npm install npm@latest -g
-```
+
 
 
