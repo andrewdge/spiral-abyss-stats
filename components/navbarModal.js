@@ -55,7 +55,8 @@ const NavbarModal = (props) => {
                                 </div>
                             </div>
                             <div className="flex flex-row flex-wrap gap-2 justify-start justify-items-center p-4 pt-0">
-                                <VersionButton version={"july waxing phase"} />
+                                <VersionButton version={"floor9"} link={"/floor9"} />
+                                <VersionButton version={"july waxing phase"} link={''}/>
                                 <VersionButton version={"july waning phase"} />
                                 <VersionButton version={"august waxing phase"} />
                             </div>
