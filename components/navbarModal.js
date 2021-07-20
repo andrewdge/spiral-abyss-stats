@@ -3,6 +3,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import { Dialog, Transition } from '@headlessui/react'
 import VersionButton from './versionButton'
 import ReplyIcon from '@material-ui/icons/Reply.js';
+import HomeIcon from '@material-ui/icons/Home.js';
 import Link from 'next/link'
 
 const NavbarModal = (props) => {
@@ -28,12 +29,14 @@ const NavbarModal = (props) => {
                         {/* Left Grey navbar */}
                         <div className='w-20 md:w-2/12 h-screen bg-menu-item flex flex-col justify-between' content=''>
                             <div>
-                                <Link href="/" passHref>
+                                <button onClick={() => props.setIsOpen(false)}>
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: 'white'}} />
-                                </Link>
+                                </button>
                             </div>
                             <div>
-                                <ReplyIcon fontSize='large' style={{ color: 'white'}}/>
+                                <Link href="/" passHref>
+                                    <HomeIcon className='cursor-pointer' fontSize='large' style={{ color: 'white'}}/>
+                                </Link>
                             </div>
                             <div>
                                 
