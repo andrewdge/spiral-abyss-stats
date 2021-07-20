@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react'
 import NavbarModal from './navbarModal';
+import Image from 'next/image'
 
 const Navbar = () => {
     let [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
             {/* Paimon Nav */}
             <div className='p-3'>
                 <button className="">
-                    <img className='cursor-pointer' src={require('../public/images/paimon.png')} alt="paimon"
+                    <Image className='cursor-pointer' src={require('../public/images/paimon.png')} alt="paimon"
                         layout='fill'
                         onClick={() => setIsOpen(true)} onBlur={() => setIsOpen(false)}
                     />

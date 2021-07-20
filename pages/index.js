@@ -1,8 +1,14 @@
-/* eslint-disable @next/next/no-img-element */
+
 import Head from 'next/head'
 import Layout from '../components/layout'
 import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
+import dynamic from 'next/dynamic'
+
+const Paimon = dynamic(() => import('../public/images/spiralabyss.png'), {
+  ssr: false,
+})
+import Image from 'next/image'
 
 const Index = () => {
   const theme = useTheme();
@@ -17,7 +23,7 @@ const Index = () => {
   // Background image for mobile
   const image = 
     <div className='object-cover w-screen-h-screen'> 
-      <img className='-z-10'  src={require('../public/images/spiralabyss.png')} alt='spiral abyss' layout='fill' />
+      <Paimon className='-z-10' layout='fill' />
     </div>;
 
 
