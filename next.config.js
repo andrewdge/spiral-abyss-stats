@@ -1,8 +1,12 @@
-module.exports = {
+const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
+
+module.exports = withPlugins([
+  [optimizedImages, {
+    handleImages: ['png'],
+  }],
+],{
   reactStrictMode: true,
-  images: {
-    domains: ['spiralabyss.s3.amazonaws.com'],
-  },
   async headers() {
     return [
       {
@@ -17,4 +21,4 @@ module.exports = {
       },
     ]
   },
-}
+});

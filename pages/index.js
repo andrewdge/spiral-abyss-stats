@@ -1,9 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
-import Image from 'next/image'
 import Layout from '../components/layout'
 import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
-import SpiralAbyss from '../public/images/spiralabyss.png'
 
 const Index = () => {
   const theme = useTheme();
@@ -18,7 +17,7 @@ const Index = () => {
   // Background image for mobile
   const image = 
     <div className='object-cover w-screen-h-screen'> 
-      <Image className='-z-10'  src={SpiralAbyss} alt='spiral abyss' layout='fill' />
+      <img className='-z-10'  src={require('../public/images/spiralabyss.png')} alt='spiral abyss' layout='fill' />
     </div>;
 
 
