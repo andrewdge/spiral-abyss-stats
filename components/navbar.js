@@ -15,7 +15,7 @@ const Navbar = () => {
                 <button className="">
                     <Image className='cursor-pointer z-0' src={Paimon} alt="paimon"
                         layout='fill'
-                        onClick={() => setIsOpen(true)} onBlur={() => setIsOpen(false)} onMouseOver={() => setIsOpen(false)}
+                        onClick={() => setIsOpen(true)} onBlur={() => setIsOpen(false)} onMouseOver={() => setIsOpen(true)}
                     />
                 </button>
             </div>
