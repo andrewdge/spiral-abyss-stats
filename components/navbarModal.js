@@ -27,7 +27,7 @@ const NavbarModal = (props) => {
                 <div className="fixed bg-gradient-to-b from-yellow-100 h-screen">
                     <div className='flex flex-row'>
                         {/* Left Grey navbar */}
-                        <div className='w-20 md:w-[80px] h-screen bg-menu-item flex flex-col justify-between' content=''>
+                        <div className='w-20 md:w-[80px] h-screen bg-menu-item flex flex-col justify-between items-center' content=''>
                             <div>
                                 <button onClick={() => props.setIsOpen(false)}>
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: 'white'}} />
@@ -43,6 +43,7 @@ const NavbarModal = (props) => {
                             </div>
                         </div>
                         <div className='flex flex-col'>
+                            {/* twitter embed */}
                             <div className="p-4 w-full h-1/2">
                                 <div className="w-full h-full">
                                     <TwitterTimelineEmbed
@@ -57,6 +58,7 @@ const NavbarModal = (props) => {
                                     />
                                 </div>
                             </div>
+                            {/* data nav */}
                             <div className="flex flex-row flex-wrap gap-2 justify-start justify-items-center p-4 pt-0">
                                 <VersionButton version={"floor9"} link={"/floor9"} />
                                 <VersionButton version={"july waxing phase"} link={''}/>
