@@ -23,10 +23,10 @@ const NavbarModal = (props) => {
                 <Dialog.Overlay />
                 {/* Menu Contents */}
                 {/* Gradient background */}
-                <div className="bg-gradient-to-b from-yellow-100 h-screen">
+                <div className="fixed bg-gradient-to-b from-yellow-100 h-screen">
                     <div className='flex flex-row'>
                         {/* Left Grey navbar */}
-                        <div className='w-20 md:w-2/12 h-screen bg-menu-item flex flex-col justify-between' content=''>
+                        <div className='w-20 md:w-[80px] h-screen bg-menu-item flex flex-col justify-between' content=''>
                             <div>
                                 <Link href="/" passHref>
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: 'white'}} />
