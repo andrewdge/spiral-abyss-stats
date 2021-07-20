@@ -6,17 +6,16 @@ import Paimon from '../public/images/paimon.png'
 const Navbar = () => {
     let [isOpen, setIsOpen] = useState(false);
     return (
-        <div className="fixed">
+        <div className="fixed w-14 h-16 md:w-24 md:h-28 ">
             <title>
                 Spiral Stats
             </title>
             <NavbarModal isOpen={isOpen} setIsOpen={setIsOpen}/>
             <div className='p-3'>
-                <button>
-                    
-                    <Image className='cursor-pointer z-0' src={Paimon} alt="paimon" 
-                        width={100} height={116} 
-                        onClick={() => setIsOpen(true)} onBlur={() => setIsOpen(false)} onMouseOver={() => setIsOpen(true)}
+                <button className="">
+                    <Image className='cursor-pointer z-0' src={Paimon} alt="paimon"
+                        layout='fill'
+                        onClick={() => setIsOpen(true)} onBlur={() => setIsOpen(false)} onMouseOver={() => setIsOpen(false)}
                     />
                 </button>
             </div>

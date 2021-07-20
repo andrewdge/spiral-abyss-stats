@@ -2,6 +2,8 @@ import React, { useState, Fragment } from 'react'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import { Dialog, Transition } from '@headlessui/react'
 import VersionButton from './versionButton'
+import ReplyIcon from '@material-ui/icons/Reply.js';
+import Link from 'next/link'
 
 const NavbarModal = (props) => {
 
@@ -19,10 +21,23 @@ const NavbarModal = (props) => {
             <Dialog className="fixed h-screen top-0 z-10 w-full md:w-1/3" 
                 open={props.isOpen} onClose={() => props.setIsOpen(false)} >
                 <Dialog.Overlay />
+                {/* Menu Contents */}
+                {/* Gradient background */}
                 <div className="bg-gradient-to-b from-yellow-100 h-screen">
                     <div className='flex flex-row'>
-                        <div className='w-1/5 md:w-2/12 h-screen bg-gray-800' content=''>
-                            
+                        {/* Left Grey navbar */}
+                        <div className='w-20 md:w-2/12 h-screen bg-gray-800 flex flex-col justify-between' content=''>
+                            <div>
+                                <Link href="/" passHref>
+                                    <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: 'white'}} />
+                                </Link>
+                            </div>
+                            <div>
+                                <ReplyIcon fontSize='large' style={{ color: 'white'}}/>
+                            </div>
+                            <div>
+                                
+                            </div>
                         </div>
                         <div className='flex flex-col'>
                             <div className="p-4 w-full h-1/2">
