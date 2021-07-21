@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { EElement } from './enums/EElement';
 import type { IHero } from './interfaces/IHero';
 
@@ -10,4 +11,9 @@ export const getHeroes = (): IHero[] => {
         name: hero.name,
         element: hero.element as EElement,
     }));
+}
+
+export const useHeroes = () => {
+    const heroesRef = useRef<IHero[]>(getHeroes());
+    return heroesRef.current;
 }

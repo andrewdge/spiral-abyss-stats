@@ -6,8 +6,10 @@ import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
 import NavButton from './navButton';
 import Link from 'next/link'
+import { useHeroes } from '../pages/api/typedMock';
 
 const NavbarModal = (props) => {
+    const heroesList = useHeroes();
 
     return (
         <Transition show={props.isOpen} as={Fragment}
@@ -62,6 +64,13 @@ const NavbarModal = (props) => {
                                 <VersionButton version={"july waxing phase"} link={''}/>
                                 <VersionButton version={"july waning phase"} />
                                 <VersionButton version={"august waxing phase"} />
+                            </div>
+                            <div className="flex flex-col overflow-y-scroll" style={{ maxHeight: 200 }}>
+                                { heroesList.map(hero => (
+                                    <div key={hero.name}>
+                                        { hero.name }, { hero.element }
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
