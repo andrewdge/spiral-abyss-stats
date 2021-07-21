@@ -20,12 +20,12 @@ const NavbarModal = (props) => {
             leaveTo="-translate-x-full"
         >
             {/* TODO: onMouseLeave={() =>props.setIsOpen(false)} */}
-            <Dialog className="fixed h-screen top-0 z-10 w-full md:w-1/5" 
+            <Dialog className="fixed h-screen top-0 z-10 w-full md:w-1/3" 
                 open={props.isOpen} onClose={() => props.setIsOpen(false)} >
                 <Dialog.Overlay />
                 {/* Menu Contents */}
                 {/* Gradient background */}
-                <div className="fixed bg-gradient-to-b from-menu-yellow h-screen">
+                <div className="bg-gradient-to-b from-menu-yellow h-screen">
                     <div className='flex flex-row'>
                         {/* Left Grey navbar */}
                         <div className='w-20 md:w-[80px] h-screen bg-menu-item flex flex-col justify-between items-center' content=''>
