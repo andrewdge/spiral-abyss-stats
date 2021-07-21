@@ -52,7 +52,6 @@ const NavbarModal = (props) => {
                                         noHeader
                                         noFooter
                                         autoHeight
-                                        noScrollbar
                                         options={{tweetLimit: 1, height:'300'}}
                                     />
                                 </div>

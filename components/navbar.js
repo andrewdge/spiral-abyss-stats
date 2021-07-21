@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react'
-
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 

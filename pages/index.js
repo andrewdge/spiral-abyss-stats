@@ -6,6 +6,7 @@ import { useMediaQuery } from '@material-ui/core'
 import Image from 'next/image'
 
 const Index = () => {
+  // TODO: make these environment variables
   const theme = useTheme();
   const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
 
