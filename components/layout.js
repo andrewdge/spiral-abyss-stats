@@ -7,7 +7,7 @@ import Navbar from './navbar'
 
 const Layout = ({ children, className }) => {
     return (
-        <div className={className}>
+        <div>
             <Navbar className="fixed" />
             {children}
         </div>
