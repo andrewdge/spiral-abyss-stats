@@ -10,6 +10,7 @@ export const getHeroes = (): IHero[] => {
     return heroes?.map(hero => ({
         name: hero.name,
         element: hero.element as EElement,
+        image: `/images/characters/${hero.name.toLowerCase()}.png`,
     }));
 }
 
