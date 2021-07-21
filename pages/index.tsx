@@ -24,7 +24,7 @@ const Index = () => {
 
 
   return (
-    <Layout className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+    <Layout>
       {!largerThanPhone ? 
         image
         :

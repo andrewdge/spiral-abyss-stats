@@ -1,3 +1,18 @@
 {
-  "extends": ["next", "next/core-web-vitals"]
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+  ],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": 0, // Not forced to make types for everything
+    "@typescript-eslint/no-explicit-any": 0, // Not forced to make types for everything
+    "@typescript-eslint/no-non-null-assertion": 0, // allow asserting for clearier code
+  }
 }
