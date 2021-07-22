@@ -11,7 +11,7 @@ const Content = ({ children }) => {
                     Hey
                 </div>
 
-                <div className="flex flex-col h-full opacity-100 " style={{ maxHeight: 200 }}>
+                <div className="flex flex-col h-full opacity-100">
                     { heroesList.map(hero => (
                         <div key={hero.name}>
                             { hero.name }, { hero.element }, <Image src={hero.image} alt='char' width='100' height='100'></Image>
