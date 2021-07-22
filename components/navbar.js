@@ -10,7 +10,7 @@ const DynamicNavbarModal = dynamic(() => import('./navbarModal'), {
 const Navbar = () => {
     let [isOpen, setIsOpen] = useState(false);
     return (
-        <div className="fixed w-14 h-16 md:w-24 md:h-28 z-10">
+        <div className="fixed w-14 h-16 md:w-20 md:h-24 z-10">
             <title>
                 Spiral Stats
             </title>
