@@ -6,7 +6,7 @@ const Content = ({ children }) => {
 
     return (
         <>
-            <div className="flex flex-col w-full rounded-3xl h-full bg-opacity-50 bg-white">
+            <div className="flex flex-col w-full h-full bg-opacity-50 bg-white">
                 <div className="">
                     Hey
                 </div>

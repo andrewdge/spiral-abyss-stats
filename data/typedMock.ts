@@ -38,5 +38,5 @@ export const useSpecificHero = (hero: string) => {
             break;
     }
     const heroesList = useHeroes();
-    return heroesList.filter( hero => hero.name.toString().toLowerCase() === name)[0];
+    return heroesList.find( hero => hero.name.toString().toLowerCase() === name);
 }
