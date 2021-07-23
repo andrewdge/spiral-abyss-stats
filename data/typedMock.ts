@@ -28,13 +28,13 @@ export const useSpecificHero = (hero: string) => {
             name = 'tartaglia';
             break;
         case 'hutao':
-            name = 'hu_tao';
+            name = 'hu tao';
             break;
         case 'traveller':
             name = 'aether';
             break;
         case 'kazuha':
-            name = 'kaedehara_kazuha';
+            name = 'kaedehara kazuha';
             break;
     }
     const heroesList = useHeroes();
