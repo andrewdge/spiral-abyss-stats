@@ -20,3 +20,23 @@ export const useHeroes = () => {
     const heroesRef = useRef<IHero[]>(getHeroes());
     return heroesRef.current;
 }
+
+export const useSpecificHero = (hero: string) => {
+    let name = hero.toLowerCase();
+    switch(name) {
+        case 'childe':
+            name = 'tartaglia';
+            break;
+        case 'hutao':
+            name = 'hu_tao';
+            break;
+        case 'traveller':
+            name = 'aether';
+            break;
+        case 'kazuha':
+            name = 'kaedehara_kazuha';
+            break;
+    }
+    const heroesList = useHeroes();
+    return heroesList.filter( hero => hero.name.toString().toLowerCase() === name)[0];
+}
