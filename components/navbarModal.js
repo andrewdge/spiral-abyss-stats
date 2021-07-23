@@ -1,11 +1,10 @@
-import React, { useState, Fragment } from 'react'
+import React, { Fragment } from 'react'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import { Dialog, Transition } from '@headlessui/react'
 import VersionButton from './versionButton'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
 import NavButton from './navButton';
-import Link from 'next/link'
 
 const NavbarModal = (props) => {
 
