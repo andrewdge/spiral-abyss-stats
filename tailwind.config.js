@@ -17,6 +17,10 @@ module.exports = {
         'menu-yellow': '#EDE5DA',
         'menu-gray': '#50596A',
       },
+      
+      gridTemplateColumns: {
+        'teamcontainer': '10% 70% 20%',
+      },
     },
   },
   variants: {
