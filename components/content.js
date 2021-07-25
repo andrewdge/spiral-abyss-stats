@@ -10,7 +10,7 @@ const Content = ({ children }) => {
 
     return (
         <>
-            <CompRanks className="w-full h-1/2 md:w-1/2"/>
+            <CompRanks className="w-full h-1/2 lg:w-1/2"/>
         </>
     )
 }
