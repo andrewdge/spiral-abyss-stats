@@ -17,11 +17,11 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
 
     const phoneContent = 
     <>
-        <div className='grid grid-cols-2 grid-rows-2 flex-wrap pt-4 justify-center'> 
-            <div className="flex justify-center items-center w-full mb-2"><Image src={o1.image} alt={o1.name + ' image'} width={dim} height={dim} /></div>
-            <div className="flex justify-center items-center w-full mb-2"><Image src={o2.image} alt={o2.name + ' image'} width={dim} height={dim} /></div>
-            <div className="flex justify-center items-center w-full"><Image src={o3.image} alt={o3.name + ' image'} width={dim} height={dim} /></div>
-            <div className="flex justify-center items-center w-full"><Image src={o4.image} alt={o4.name + ' image'} width={dim} height={dim} /></div>
+        <div className='grid grid-cols-2 grid-rows-2 flex-wrap pt-4 justify-center content-center'> 
+            <div className="flex justify-center items-center w-full mb-3"><Image src={o1.image} alt={o1.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+            <div className="flex justify-center items-center w-full mb-3"><Image src={o2.image} alt={o2.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+            <div className="flex justify-center items-center w-full"><Image src={o3.image} alt={o3.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+            <div className="flex justify-center items-center w-full"><Image src={o4.image} alt={o4.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
         </div>
         <div className='flex flex-col text-white justify-start p-4'>
             <div>
@@ -50,7 +50,7 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
     </div>
 
     return (
-        <div className='m-0.5 bg-opacity-50 bg-black rounded-md'>
+        <div className='mx-0.5 my-1.5 bg-opacity-50 bg-black rounded-md'>
             {
                 largerThanPhone ?
                     desktopContent

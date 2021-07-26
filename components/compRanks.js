@@ -7,11 +7,11 @@ import { Button } from '@material-ui/core';
 const CompRanks = (props) => {
     let [numTeams, setNumTeams] = useState(10);
     return (
-        <div className={"flex flex-col bg-menu-gray p-4 border-white border-opacity-50 border-4 rounded-lg "+props.className}>
-                <div className='flex justify-center text-white font-bold font-serif text-lg'>
+        <div className={"flex flex-col bg-menu-gray p-4 border-white border-opacity-50 border-4 rounded-lg" + props.className}>
+                <div className='flex justify-center text-center text-white font-bold font-serif text-lg'>
                     FLOOR 12 POPULAR COMPS
                 </div>
-                <div className='flex justify-center text-white font-serif text-sm'>
+                <div className='flex justify-center text-center text-white font-serif text-sm'>
                     DISPLAYING USAGE RATE {'>'} 1%
                 </div>
 
