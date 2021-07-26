@@ -17,8 +17,8 @@ const Navbar = () => {
             <DynamicNavbarModal isOpen={isOpen} setIsOpen={setIsOpen}/>
             {/* Paimon Nav */}
             <div className='p-3'>
-                <button className="">
-                    <Image className='cursor-pointer' src='/images/paimon.png' alt="paimon"
+                <button>
+                    <Image className='cursor-pointer transition duration-500 ease-in-out transform hover:translate-y-1 hover:scale-110' src='/images/paimon.png' alt="paimon"
                         layout='fill'
                         onClick={() => setIsOpen(true)} onBlur={() => setIsOpen(false)}
                     />

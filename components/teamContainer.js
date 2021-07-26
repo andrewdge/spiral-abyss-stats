@@ -24,10 +24,10 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
             <div className="flex justify-center items-center w-full"><Image src={o4.image} alt={o4.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
         </div>
         <div className='flex flex-col text-white justify-start p-4'>
-            <div>
+            <div className='font-serif'>
                 Rank: {rank}
             </div>
-            <div>
+            <div className='font-serif'>
                 Usage: {usage}% 
             </div>
         </div>
@@ -35,7 +35,7 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
 
     const desktopContent = 
     <div className='grid grid-cols-teamcontainer'>
-        <div className='flex items-center justify-center text-white'>
+        <div className='flex items-center justify-center text-white font-serif'>
             {rank}
         </div>
         <div className='grid grid-cols-4 flex-shrink flex-wrap gap-1 py-2 justify-center items-center'>
@@ -44,7 +44,7 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
             <div><Image src={o3.image} alt={o3.name + ' image'} width={dim} height={dim} layout='intrinsic' className="rounded-md"/></div> 
             <div><Image src={o4.image} alt={o4.name + ' image'} width={dim} height={dim} layout='intrinsic' className="rounded-md"/></div>  
         </div>
-        <div className='flex items-center justify-center text-white'>
+        <div className='flex items-center justify-center text-white font-serif text-center'>
             <div className="w-min">Usage: {usage}%</div>
         </div>
     </div>
