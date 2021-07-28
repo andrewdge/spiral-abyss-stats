@@ -1,12 +1,9 @@
 import React from 'react'
-import { useRouter } from 'next/router'
 import Content from '../components/content'
 import Layout from '../components/layout'
 
 const Floor9 = (props) => {
 
-    const router = useRouter()
-    const { floor9 } = router.query
     // console.log(process.env)
 
     return (
@@ -33,7 +30,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(ctx) {
     const dev = process.env.NODE_ENV !== 'production';
-    console.log(process.env)
 
     const server = dev ? 'http://localhost:3000' : 'https://spiralabyss.vercel.app';
 
