@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import TeamContainer from './teamContainer';
-import CompFile from '../data/comp_usages.json'
+import CompFile from '../data/1_6_3_floor12_comp_usages.json'
 
 const CompRanks = (props) => {
     let [numTeams, setNumTeams] = useState(10);
