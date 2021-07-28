@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-import Image from 'next/image'
 import TeamContainer from './teamContainer';
 import CompFile from '../data/comp_usages.json'
-import { Button } from '@material-ui/core';
 
 const CompRanks = (props) => {
     let [numTeams, setNumTeams] = useState(10);
