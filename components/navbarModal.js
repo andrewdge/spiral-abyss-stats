@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import { Dialog, Transition } from '@headlessui/react'
-import VersionButton from './versionButton'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
+import BuildIcon from '@material-ui/icons/Build';
 import NavButton from './navButton';
+import LunarPhaseLinks from './lunarPhaseLinks';
 
 const NavbarModal = (props) => {
 
@@ -33,12 +34,12 @@ const NavbarModal = (props) => {
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: '#3A4154'}} />
                                 </button>
                             </div>
-                            <div>
-                                <NavButton link="/" icon={HomeIcon} color='white' fontSize='large' />
+                            <div className='flex flex-col content-between'>
+                                <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' />
+                                <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' disabled='true'/>
                             </div>
-                            <div>
-                                
-                            </div>
+                            {/** DO NOT REMOVE LINE BELOW, NEEDED FOR FORMATTING */}
+                            <div></div>
                         </div>
                         <div className='flex flex-col'>
                             {/* twitter embed */}
@@ -56,10 +57,7 @@ const NavbarModal = (props) => {
                                 </div>
                             </div>
                             {/* data nav */}
-                            <div className="flex flex-row flex-wrap gap-2 justify-start justify-items-center p-4 pt-0">
-                                <VersionButton version={"1.6 Floor 12"} link={"/floor12"} />
-                            </div>
-                            
+                            <LunarPhaseLinks />
                         </div>
                     </div>
                 </div>
