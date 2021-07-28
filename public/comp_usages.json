@@ -1,0 +1,5706 @@
+[
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 40.0,
+        "rank": 1
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Tartaglia",
+        "char_four": "Xiangling",
+        "usage_rate": 19.44,
+        "rank": 2
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Jean",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 15.0,
+        "rank": 3
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 10.99,
+        "rank": 4
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Jean",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 10.26,
+        "rank": 5
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Tartaglia",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 9.85,
+        "rank": 6
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Kazuha",
+        "char_three": "Klee",
+        "char_four": "Zhongli",
+        "usage_rate": 6.98,
+        "rank": 7
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 6.64,
+        "rank": 8
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 5.56,
+        "rank": 9
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Sucrose",
+        "char_three": "Tartaglia",
+        "char_four": "Xiangling",
+        "usage_rate": 5.56,
+        "rank": 9
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Mona",
+        "usage_rate": 5.24,
+        "rank": 11
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 5.2,
+        "rank": 12
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 5.19,
+        "rank": 13
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 5.15,
+        "rank": 14
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 4.46,
+        "rank": 15
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 4.44,
+        "rank": 16
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Hu Tao",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 4.39,
+        "rank": 17
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 4.26,
+        "rank": 18
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Klee",
+        "char_four": "Xiangling",
+        "usage_rate": 3.92,
+        "rank": 19
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 3.77,
+        "rank": 20
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Venti",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 3.74,
+        "rank": 21
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Klee",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 3.41,
+        "rank": 22
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 3.4,
+        "rank": 23
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Venti",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 3.36,
+        "rank": 24
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 3.35,
+        "rank": 25
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 3.33,
+        "rank": 26
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Venti",
+        "char_four": "Xiao",
+        "usage_rate": 3.21,
+        "rank": 27
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Xiao",
+        "usage_rate": 3.13,
+        "rank": 28
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 3.06,
+        "rank": 29
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 2.97,
+        "rank": 30
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 2.95,
+        "rank": 31
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Sucrose",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 2.94,
+        "rank": 32
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Klee",
+        "char_four": "Venti",
+        "usage_rate": 2.92,
+        "rank": 33
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Sucrose",
+        "usage_rate": 2.91,
+        "rank": 34
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 2.78,
+        "rank": 35
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 2.76,
+        "rank": 36
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Sucrose",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 2.69,
+        "rank": 37
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 2.67,
+        "rank": 38
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Fischl",
+        "usage_rate": 2.65,
+        "rank": 39
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 2.55,
+        "rank": 40
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 2.54,
+        "rank": 41
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Zhongli",
+        "usage_rate": 2.48,
+        "rank": 42
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Kazuha",
+        "char_four": "Klee",
+        "usage_rate": 2.47,
+        "rank": 43
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Kazuha",
+        "char_three": "Qiqi",
+        "char_four": "Xiao",
+        "usage_rate": 2.47,
+        "rank": 43
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 2.38,
+        "rank": 45
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Kazuha",
+        "char_four": "Klee",
+        "usage_rate": 2.38,
+        "rank": 45
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Hu Tao",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 2.33,
+        "rank": 47
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Jean",
+        "char_three": "Kaeya",
+        "char_four": "Xiao",
+        "usage_rate": 2.3,
+        "rank": 48
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 2.29,
+        "rank": 49
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 2.27,
+        "rank": 50
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 2.27,
+        "rank": 50
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Jean",
+        "char_three": "Klee",
+        "char_four": "Venti",
+        "usage_rate": 2.27,
+        "rank": 50
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 2.24,
+        "rank": 53
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Klee",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 2.19,
+        "rank": 54
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Klee",
+        "char_four": "Qiqi",
+        "usage_rate": 2.17,
+        "rank": 55
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Klee",
+        "char_four": "Venti",
+        "usage_rate": 2.08,
+        "rank": 56
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 2.03,
+        "rank": 57
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 2.0,
+        "rank": 58
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Sucrose",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 1.99,
+        "rank": 59
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Kaeya",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 1.98,
+        "rank": 60
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Kaeya",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.97,
+        "rank": 61
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Venti",
+        "char_four": "Xiao",
+        "usage_rate": 1.92,
+        "rank": 62
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.91,
+        "rank": 63
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Zhongli",
+        "usage_rate": 1.9,
+        "rank": 64
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Tartaglia",
+        "char_four": "Venti",
+        "usage_rate": 1.89,
+        "rank": 65
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Kazuha",
+        "usage_rate": 1.85,
+        "rank": 66
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Eula",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 1.85,
+        "rank": 66
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 1.84,
+        "rank": 68
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.77,
+        "rank": 69
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 1.73,
+        "rank": 70
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.71,
+        "rank": 71
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Xiangling",
+        "usage_rate": 1.71,
+        "rank": 71
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Hu Tao",
+        "char_three": "Keqing",
+        "char_four": "Zhongli",
+        "usage_rate": 1.67,
+        "rank": 73
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Venti",
+        "char_four": "Xiao",
+        "usage_rate": 1.65,
+        "rank": 74
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 1.65,
+        "rank": 74
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Qiqi",
+        "char_four": "Xiao",
+        "usage_rate": 1.63,
+        "rank": 76
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 1.61,
+        "rank": 77
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.6,
+        "rank": 78
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Xiangling",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 1.6,
+        "rank": 78
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Diona",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 1.59,
+        "rank": 80
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Zhongli",
+        "usage_rate": 1.59,
+        "rank": 80
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Keqing",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.57,
+        "rank": 82
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.56,
+        "rank": 83
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 1.56,
+        "rank": 83
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 1.55,
+        "rank": 85
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Rosaria",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 1.53,
+        "rank": 86
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.53,
+        "rank": 86
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kazuha",
+        "char_three": "Keqing",
+        "char_four": "Zhongli",
+        "usage_rate": 1.5,
+        "rank": 88
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Venti",
+        "char_four": "Xiao",
+        "usage_rate": 1.5,
+        "rank": 88
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Jean",
+        "char_three": "Kazuha",
+        "char_four": "Rosaria",
+        "usage_rate": 1.49,
+        "rank": 90
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Rosaria",
+        "usage_rate": 1.47,
+        "rank": 91
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Tartaglia",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 1.47,
+        "rank": 91
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Klee",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.47,
+        "rank": 91
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.46,
+        "rank": 94
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 1.44,
+        "rank": 95
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Zhongli",
+        "usage_rate": 1.43,
+        "rank": 96
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.43,
+        "rank": 96
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Rosaria",
+        "usage_rate": 1.43,
+        "rank": 96
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 1.39,
+        "rank": 99
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 1.39,
+        "rank": 99
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Venti",
+        "usage_rate": 1.38,
+        "rank": 101
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Chongyun",
+        "char_three": "Hu Tao",
+        "char_four": "Zhongli",
+        "usage_rate": 1.33,
+        "rank": 102
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.33,
+        "rank": 102
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Venti",
+        "usage_rate": 1.33,
+        "rank": 102
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 1.31,
+        "rank": 105
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Klee",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 1.3,
+        "rank": 106
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Kazuha",
+        "char_four": "Tartaglia",
+        "usage_rate": 1.3,
+        "rank": 106
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Kazuha",
+        "usage_rate": 1.3,
+        "rank": 106
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Tartaglia",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.28,
+        "rank": 109
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Ganyu",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 1.28,
+        "rank": 109
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Hu Tao",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.28,
+        "rank": 109
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Klee",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 1.27,
+        "rank": 112
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.27,
+        "rank": 112
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 1.23,
+        "rank": 114
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 1.23,
+        "rank": 114
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Xiangling",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 1.22,
+        "rank": 116
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Diluc",
+        "char_three": "Klee",
+        "char_four": "Venti",
+        "usage_rate": 1.2,
+        "rank": 117
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Rosaria",
+        "char_four": "Venti",
+        "usage_rate": 1.2,
+        "rank": 117
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Qiqi",
+        "usage_rate": 1.2,
+        "rank": 117
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Klee",
+        "char_four": "Zhongli",
+        "usage_rate": 1.19,
+        "rank": 120
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Venti",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 1.18,
+        "rank": 121
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 1.17,
+        "rank": 122
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Xiangling",
+        "char_four": "Xiao",
+        "usage_rate": 1.15,
+        "rank": 123
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Klee",
+        "char_three": "Qiqi",
+        "char_four": "Venti",
+        "usage_rate": 1.15,
+        "rank": 123
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Ganyu",
+        "char_three": "Noelle",
+        "char_four": "Xiangling",
+        "usage_rate": 1.15,
+        "rank": 123
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Kazuha",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 1.12,
+        "rank": 126
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Ganyu",
+        "char_four": "Venti",
+        "usage_rate": 1.11,
+        "rank": 127
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Zhongli",
+        "usage_rate": 1.1,
+        "rank": 128
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.1,
+        "rank": 128
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 1.1,
+        "rank": 128
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Zhongli",
+        "usage_rate": 1.1,
+        "rank": 128
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 1.09,
+        "rank": 132
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Jean",
+        "usage_rate": 1.09,
+        "rank": 132
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Klee",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 1.09,
+        "rank": 132
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Hu Tao",
+        "char_three": "Mona",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.08,
+        "rank": 135
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Mona",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 1.08,
+        "rank": 135
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Jean",
+        "usage_rate": 1.08,
+        "rank": 135
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Klee",
+        "char_four": "Venti",
+        "usage_rate": 1.08,
+        "rank": 135
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Hu Tao",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 1.08,
+        "rank": 135
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Eula",
+        "char_four": "Venti",
+        "usage_rate": 1.08,
+        "rank": 135
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 1.07,
+        "rank": 141
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Mona",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 1.07,
+        "rank": 141
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Jean",
+        "char_three": "Mona",
+        "char_four": "Rosaria",
+        "usage_rate": 1.06,
+        "rank": 143
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Jean",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.06,
+        "rank": 143
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Fischl",
+        "char_four": "Xiao",
+        "usage_rate": 1.05,
+        "rank": 145
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Jean",
+        "char_four": "Venti",
+        "usage_rate": 1.05,
+        "rank": 145
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Jean",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 1.05,
+        "rank": 145
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 1.04,
+        "rank": 148
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Klee",
+        "char_four": "Xiao",
+        "usage_rate": 1.04,
+        "rank": 148
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Fischl",
+        "char_four": "Tartaglia",
+        "usage_rate": 1.02,
+        "rank": 150
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Mona",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 1.02,
+        "rank": 150
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 1.01,
+        "rank": 152
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Klee",
+        "char_four": "Rosaria",
+        "usage_rate": 1.01,
+        "rank": 152
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Kazuha",
+        "char_four": "Xiao",
+        "usage_rate": 1.01,
+        "rank": 152
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Ganyu",
+        "usage_rate": 1.0,
+        "rank": 155
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Kaeya",
+        "char_four": "Xingqiu",
+        "usage_rate": 1.0,
+        "rank": 155
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Ganyu",
+        "char_four": "Xiangling",
+        "usage_rate": 1.0,
+        "rank": 155
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Keqing",
+        "char_four": "Zhongli",
+        "usage_rate": 1.0,
+        "rank": 155
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Xiangling",
+        "char_four": "Xiao",
+        "usage_rate": 0.99,
+        "rank": 159
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Rosaria",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 0.98,
+        "rank": 160
+    },
+    {
+        "char_one": "Klee",
+        "char_two": "Venti",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.98,
+        "rank": 160
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.97,
+        "rank": 162
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Venti",
+        "usage_rate": 0.97,
+        "rank": 162
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Tartaglia",
+        "usage_rate": 0.97,
+        "rank": 162
+    },
+    {
+        "char_one": "Klee",
+        "char_two": "Qiqi",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.96,
+        "rank": 165
+    },
+    {
+        "char_one": "Klee",
+        "char_two": "Qiqi",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.96,
+        "rank": 165
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Venti",
+        "char_four": "Xiao",
+        "usage_rate": 0.96,
+        "rank": 165
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Kazuha",
+        "char_three": "Noelle",
+        "char_four": "Rosaria",
+        "usage_rate": 0.95,
+        "rank": 168
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 0.95,
+        "rank": 168
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.93,
+        "rank": 170
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Chongyun",
+        "char_three": "Qiqi",
+        "char_four": "Xiao",
+        "usage_rate": 0.91,
+        "rank": 171
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.91,
+        "rank": 171
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 0.91,
+        "rank": 171
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 0.91,
+        "rank": 171
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Kaeya",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.89,
+        "rank": 175
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Mona",
+        "char_four": "Zhongli",
+        "usage_rate": 0.89,
+        "rank": 175
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Venti",
+        "char_four": "Yanfei",
+        "usage_rate": 0.89,
+        "rank": 175
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Jean",
+        "char_three": "Kazuha",
+        "char_four": "Xiao",
+        "usage_rate": 0.89,
+        "rank": 175
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.88,
+        "rank": 179
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Jean",
+        "char_three": "Kaeya",
+        "char_four": "Xiao",
+        "usage_rate": 0.88,
+        "rank": 179
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Jean",
+        "char_four": "Xiao",
+        "usage_rate": 0.88,
+        "rank": 179
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 0.88,
+        "rank": 179
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 0.87,
+        "rank": 183
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Klee",
+        "char_four": "Sucrose",
+        "usage_rate": 0.87,
+        "rank": 183
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Klee",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.86,
+        "rank": 185
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Venti",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.85,
+        "rank": 186
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Xiangling",
+        "usage_rate": 0.85,
+        "rank": 186
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Qiqi",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.85,
+        "rank": 186
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Rosaria",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.84,
+        "rank": 189
+    },
+    {
+        "char_one": "Kaeya",
+        "char_two": "Rosaria",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.83,
+        "rank": 190
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.83,
+        "rank": 190
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Sucrose",
+        "usage_rate": 0.82,
+        "rank": 192
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Klee",
+        "char_four": "Venti",
+        "usage_rate": 0.82,
+        "rank": 192
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Qiqi",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 0.81,
+        "rank": 194
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Venti",
+        "usage_rate": 0.81,
+        "rank": 194
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.81,
+        "rank": 194
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.81,
+        "rank": 194
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Keqing",
+        "char_four": "Venti",
+        "usage_rate": 0.81,
+        "rank": 194
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kazuha",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 0.81,
+        "rank": 194
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Rosaria",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.8,
+        "rank": 200
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.8,
+        "rank": 200
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.8,
+        "rank": 200
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.8,
+        "rank": 200
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Klee",
+        "char_four": "Zhongli",
+        "usage_rate": 0.8,
+        "rank": 200
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kaeya",
+        "char_three": "Klee",
+        "char_four": "Zhongli",
+        "usage_rate": 0.8,
+        "rank": 200
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Kazuha",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.79,
+        "rank": 206
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 0.79,
+        "rank": 206
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Venti",
+        "usage_rate": 0.79,
+        "rank": 206
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 0.78,
+        "rank": 209
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Keqing",
+        "char_four": "Xiangling",
+        "usage_rate": 0.78,
+        "rank": 209
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Chongyun",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 0.78,
+        "rank": 209
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.77,
+        "rank": 212
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Mona",
+        "char_four": "Zhongli",
+        "usage_rate": 0.77,
+        "rank": 212
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Eula",
+        "char_four": "Venti",
+        "usage_rate": 0.77,
+        "rank": 212
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Kaeya",
+        "char_four": "Venti",
+        "usage_rate": 0.77,
+        "rank": 212
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 0.76,
+        "rank": 216
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Xinyan",
+        "usage_rate": 0.76,
+        "rank": 216
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.76,
+        "rank": 216
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Jean",
+        "char_three": "Tartaglia",
+        "char_four": "Venti",
+        "usage_rate": 0.76,
+        "rank": 216
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Tartaglia",
+        "usage_rate": 0.76,
+        "rank": 216
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Ningguang",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.75,
+        "rank": 221
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.74,
+        "rank": 222
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Rosaria",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.74,
+        "rank": 222
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Kaeya",
+        "usage_rate": 0.74,
+        "rank": 222
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 0.73,
+        "rank": 225
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Jean",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.73,
+        "rank": 225
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Zhongli",
+        "usage_rate": 0.73,
+        "rank": 225
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.73,
+        "rank": 225
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.72,
+        "rank": 229
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Venti",
+        "char_three": "Xiao",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.72,
+        "rank": 229
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Jean",
+        "char_three": "Kaeya",
+        "char_four": "Rosaria",
+        "usage_rate": 0.71,
+        "rank": 231
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Klee",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.71,
+        "rank": 231
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Jean",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.71,
+        "rank": 231
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Venti",
+        "usage_rate": 0.71,
+        "rank": 231
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Kaeya",
+        "char_four": "Zhongli",
+        "usage_rate": 0.71,
+        "rank": 231
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Xiangling",
+        "usage_rate": 0.7,
+        "rank": 236
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 0.7,
+        "rank": 236
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.7,
+        "rank": 236
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.7,
+        "rank": 236
+    },
+    {
+        "char_one": "Tartaglia",
+        "char_two": "Venti",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.69,
+        "rank": 240
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Ganyu",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.69,
+        "rank": 240
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Keqing",
+        "usage_rate": 0.69,
+        "rank": 240
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Tartaglia",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.69,
+        "rank": 240
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diluc",
+        "char_three": "Ganyu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.68,
+        "rank": 244
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Klee",
+        "char_three": "Rosaria",
+        "char_four": "Venti",
+        "usage_rate": 0.68,
+        "rank": 244
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Fischl",
+        "char_four": "Klee",
+        "usage_rate": 0.67,
+        "rank": 246
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Mona",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.66,
+        "rank": 247
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Tartaglia",
+        "char_four": "Venti",
+        "usage_rate": 0.65,
+        "rank": 248
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Klee",
+        "usage_rate": 0.64,
+        "rank": 249
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Klee",
+        "char_three": "Noelle",
+        "char_four": "Xiangling",
+        "usage_rate": 0.63,
+        "rank": 250
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Klee",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.63,
+        "rank": 250
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Rosaria",
+        "char_four": "Sucrose",
+        "usage_rate": 0.63,
+        "rank": 250
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Kaeya",
+        "char_four": "Xiao",
+        "usage_rate": 0.63,
+        "rank": 250
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.63,
+        "rank": 250
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Noelle",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.63,
+        "rank": 250
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Chongyun",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.63,
+        "rank": 250
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Kaeya",
+        "usage_rate": 0.62,
+        "rank": 257
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.62,
+        "rank": 257
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Klee",
+        "usage_rate": 0.62,
+        "rank": 257
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Ganyu",
+        "char_three": "Qiqi",
+        "char_four": "Zhongli",
+        "usage_rate": 0.62,
+        "rank": 257
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.62,
+        "rank": 257
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Klee",
+        "char_four": "Venti",
+        "usage_rate": 0.62,
+        "rank": 257
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.61,
+        "rank": 263
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.61,
+        "rank": 263
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Chongyun",
+        "char_three": "Razor",
+        "char_four": "Zhongli",
+        "usage_rate": 0.61,
+        "rank": 263
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Fischl",
+        "char_four": "Xiangling",
+        "usage_rate": 0.61,
+        "rank": 263
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Chongyun",
+        "char_three": "Kaeya",
+        "char_four": "Zhongli",
+        "usage_rate": 0.61,
+        "rank": 263
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.61,
+        "rank": 263
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.61,
+        "rank": 263
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Venti",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.61,
+        "rank": 263
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Rosaria",
+        "char_four": "Venti",
+        "usage_rate": 0.6,
+        "rank": 271
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Rosaria",
+        "char_four": "Xiangling",
+        "usage_rate": 0.6,
+        "rank": 271
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Kaeya",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.6,
+        "rank": 271
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kazuha",
+        "char_three": "Keqing",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.59,
+        "rank": 274
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.59,
+        "rank": 274
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 0.59,
+        "rank": 274
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.58,
+        "rank": 277
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Kaeya",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.58,
+        "rank": 277
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Kazuha",
+        "char_four": "Venti",
+        "usage_rate": 0.58,
+        "rank": 277
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Klee",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.58,
+        "rank": 277
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.58,
+        "rank": 277
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Jean",
+        "char_four": "Venti",
+        "usage_rate": 0.58,
+        "rank": 277
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Xiao",
+        "usage_rate": 0.58,
+        "rank": 277
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ningguang",
+        "char_three": "Tartaglia",
+        "char_four": "Zhongli",
+        "usage_rate": 0.57,
+        "rank": 284
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 0.57,
+        "rank": 284
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.57,
+        "rank": 284
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Tartaglia",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.57,
+        "rank": 284
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Sucrose",
+        "usage_rate": 0.57,
+        "rank": 284
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Ningguang",
+        "char_three": "Tartaglia",
+        "char_four": "Zhongli",
+        "usage_rate": 0.56,
+        "rank": 289
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.56,
+        "rank": 289
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Jean",
+        "usage_rate": 0.56,
+        "rank": 289
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Rosaria",
+        "char_three": "Venti",
+        "char_four": "Xiao",
+        "usage_rate": 0.56,
+        "rank": 289
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.56,
+        "rank": 289
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.56,
+        "rank": 289
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Jean",
+        "char_three": "Keqing",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.55,
+        "rank": 295
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.55,
+        "rank": 295
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Klee",
+        "char_four": "Venti",
+        "usage_rate": 0.55,
+        "rank": 295
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.54,
+        "rank": 298
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.54,
+        "rank": 298
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Chongyun",
+        "char_three": "Diona",
+        "char_four": "Eula",
+        "usage_rate": 0.54,
+        "rank": 298
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Lisa",
+        "usage_rate": 0.54,
+        "rank": 298
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Mona",
+        "char_three": "Venti",
+        "char_four": "Yanfei",
+        "usage_rate": 0.54,
+        "rank": 298
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.53,
+        "rank": 303
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.53,
+        "rank": 303
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Sucrose",
+        "usage_rate": 0.53,
+        "rank": 303
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.53,
+        "rank": 303
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.53,
+        "rank": 303
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.53,
+        "rank": 303
+    },
+    {
+        "char_one": "Kaeya",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.53,
+        "rank": 303
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Fischl",
+        "char_four": "Noelle",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Mona",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Fischl",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Kazuha",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Beidou",
+        "char_three": "Ganyu",
+        "char_four": "Yanfei",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Jean",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Rosaria",
+        "char_four": "Tartaglia",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Kazuha",
+        "char_two": "Mona",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Beidou",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 0.52,
+        "rank": 310
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Xiangling",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Mona",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Jean",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Jean",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Kaeya",
+        "char_three": "Qiqi",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Venti",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Mona",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Venti",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Mona",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Qiqi",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.51,
+        "rank": 321
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Mona",
+        "char_three": "Rosaria",
+        "char_four": "Venti",
+        "usage_rate": 0.5,
+        "rank": 334
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 0.5,
+        "rank": 334
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Yanfei",
+        "usage_rate": 0.49,
+        "rank": 336
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Eula",
+        "char_four": "Zhongli",
+        "usage_rate": 0.49,
+        "rank": 336
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Mona",
+        "char_four": "Sucrose",
+        "usage_rate": 0.49,
+        "rank": 336
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Hu Tao",
+        "char_four": "Venti",
+        "usage_rate": 0.49,
+        "rank": 336
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Ganyu",
+        "char_three": "Razor",
+        "char_four": "Zhongli",
+        "usage_rate": 0.49,
+        "rank": 336
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Chongyun",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.49,
+        "rank": 336
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.49,
+        "rank": 336
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ganyu",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.48,
+        "rank": 343
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Noelle",
+        "char_three": "Razor",
+        "char_four": "Zhongli",
+        "usage_rate": 0.48,
+        "rank": 343
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Zhongli",
+        "usage_rate": 0.48,
+        "rank": 343
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Venti",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.48,
+        "rank": 343
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.48,
+        "rank": 343
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Mona",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.47,
+        "rank": 348
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Hu Tao",
+        "char_three": "Jean",
+        "char_four": "Rosaria",
+        "usage_rate": 0.47,
+        "rank": 348
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Rosaria",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.47,
+        "rank": 348
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Ningguang",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.47,
+        "rank": 348
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Ningguang",
+        "char_four": "Venti",
+        "usage_rate": 0.46,
+        "rank": 352
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.46,
+        "rank": 352
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.46,
+        "rank": 352
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 0.45,
+        "rank": 355
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.45,
+        "rank": 355
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.45,
+        "rank": 355
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Hu Tao",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.45,
+        "rank": 355
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Noelle",
+        "char_four": "Venti",
+        "usage_rate": 0.45,
+        "rank": 355
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Fischl",
+        "char_four": "Kazuha",
+        "usage_rate": 0.44,
+        "rank": 360
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Tartaglia",
+        "usage_rate": 0.44,
+        "rank": 360
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Kaeya",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Hu Tao",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Keqing",
+        "char_three": "Rosaria",
+        "char_four": "Xiangling",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Tartaglia",
+        "char_four": "Xiangling",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Hu Tao",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Bennett",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Kaeya",
+        "char_four": "Sucrose",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Hu Tao",
+        "char_four": "Kaeya",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Mona",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Chongyun",
+        "char_three": "Jean",
+        "char_four": "Keqing",
+        "usage_rate": 0.43,
+        "rank": 362
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Hu Tao",
+        "char_four": "Xiangling",
+        "usage_rate": 0.42,
+        "rank": 372
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Rosaria",
+        "char_four": "Sucrose",
+        "usage_rate": 0.42,
+        "rank": 372
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.42,
+        "rank": 372
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Diluc",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.42,
+        "rank": 372
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Lisa",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.42,
+        "rank": 372
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Sucrose",
+        "usage_rate": 0.42,
+        "rank": 372
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Rosaria",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.41,
+        "rank": 378
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Fischl",
+        "char_four": "Sucrose",
+        "usage_rate": 0.41,
+        "rank": 378
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Kazuha",
+        "char_four": "Yanfei",
+        "usage_rate": 0.41,
+        "rank": 378
+    },
+    {
+        "char_one": "Klee",
+        "char_two": "Qiqi",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.41,
+        "rank": 378
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.41,
+        "rank": 378
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Xiao",
+        "usage_rate": 0.41,
+        "rank": 378
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 0.41,
+        "rank": 378
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.4,
+        "rank": 385
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Hu Tao",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.4,
+        "rank": 385
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.4,
+        "rank": 385
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Qiqi",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.4,
+        "rank": 385
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Noelle",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.4,
+        "rank": 385
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.4,
+        "rank": 385
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Venti",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Jean",
+        "char_three": "Kaeya",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Bennett",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Qiqi",
+        "char_three": "Tartaglia",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Tartaglia",
+        "char_four": "Venti",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Jean",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Venti",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Kaeya",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Qiqi",
+        "char_two": "Venti",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.39,
+        "rank": 391
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Sucrose",
+        "char_four": "Venti",
+        "usage_rate": 0.38,
+        "rank": 403
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Keqing",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.38,
+        "rank": 403
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diluc",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.38,
+        "rank": 403
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kaeya",
+        "char_three": "Mona",
+        "char_four": "Zhongli",
+        "usage_rate": 0.38,
+        "rank": 403
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Jean",
+        "char_three": "Keqing",
+        "char_four": "Venti",
+        "usage_rate": 0.38,
+        "rank": 403
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Fischl",
+        "char_four": "Zhongli",
+        "usage_rate": 0.38,
+        "rank": 403
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Keqing",
+        "char_four": "Zhongli",
+        "usage_rate": 0.37,
+        "rank": 409
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Kaeya",
+        "char_four": "Kazuha",
+        "usage_rate": 0.37,
+        "rank": 409
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Kazuha",
+        "char_three": "Mona",
+        "char_four": "Xiangling",
+        "usage_rate": 0.37,
+        "rank": 409
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Fischl",
+        "usage_rate": 0.36,
+        "rank": 412
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 0.36,
+        "rank": 412
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Zhongli",
+        "usage_rate": 0.36,
+        "rank": 412
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kazuha",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.36,
+        "rank": 412
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Eula",
+        "char_four": "Xinyan",
+        "usage_rate": 0.36,
+        "rank": 412
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Hu Tao",
+        "char_four": "Rosaria",
+        "usage_rate": 0.36,
+        "rank": 412
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Mona",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Fischl",
+        "char_four": "Ningguang",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Kaeya",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Sucrose",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Venti",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Xiangling",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Fischl",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Xingqiu",
+        "char_three": "Yanfei",
+        "char_four": "Zhongli",
+        "usage_rate": 0.35,
+        "rank": 418
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Fischl",
+        "char_four": "Zhongli",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Noelle",
+        "char_four": "Xiangling",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Xingqiu",
+        "char_three": "Yanfei",
+        "char_four": "Zhongli",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Eula",
+        "char_three": "Jean",
+        "char_four": "Zhongli",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Mona",
+        "char_three": "Qiqi",
+        "char_four": "Venti",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Mona",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Kazuha",
+        "char_four": "Xiao",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Rosaria",
+        "char_four": "Xiao",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Mona",
+        "char_three": "Noelle",
+        "char_four": "Xiangling",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Keqing",
+        "char_four": "Venti",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ningguang",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.34,
+        "rank": 427
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Sucrose",
+        "char_three": "Venti",
+        "char_four": "Xiao",
+        "usage_rate": 0.33,
+        "rank": 439
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Venti",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.33,
+        "rank": 439
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Jean",
+        "char_three": "Lisa",
+        "char_four": "Zhongli",
+        "usage_rate": 0.33,
+        "rank": 439
+    },
+    {
+        "char_one": "Kaeya",
+        "char_two": "Klee",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.33,
+        "rank": 439
+    },
+    {
+        "char_one": "Klee",
+        "char_two": "Rosaria",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.33,
+        "rank": 439
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Hu Tao",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.33,
+        "rank": 439
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Kazuha",
+        "char_four": "Xiangling",
+        "usage_rate": 0.32,
+        "rank": 445
+    },
+    {
+        "char_one": "Kaeya",
+        "char_two": "Rosaria",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.32,
+        "rank": 445
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Noelle",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.32,
+        "rank": 445
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Kaeya",
+        "char_four": "Venti",
+        "usage_rate": 0.32,
+        "rank": 445
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diluc",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.32,
+        "rank": 445
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.31,
+        "rank": 450
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Ganyu",
+        "char_three": "Klee",
+        "char_four": "Noelle",
+        "usage_rate": 0.31,
+        "rank": 450
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.31,
+        "rank": 450
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Diona",
+        "char_four": "Mona",
+        "usage_rate": 0.31,
+        "rank": 450
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Ganyu",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.31,
+        "rank": 450
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Klee",
+        "char_four": "Xiangling",
+        "usage_rate": 0.31,
+        "rank": 450
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Rosaria",
+        "char_four": "Sucrose",
+        "usage_rate": 0.3,
+        "rank": 456
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Diluc",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.3,
+        "rank": 456
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Chongyun",
+        "char_three": "Diluc",
+        "char_four": "Zhongli",
+        "usage_rate": 0.3,
+        "rank": 456
+    },
+    {
+        "char_one": "Tartaglia",
+        "char_two": "Xiangling",
+        "char_three": "Xingqiu",
+        "char_four": "Xinyan",
+        "usage_rate": 0.3,
+        "rank": 456
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Keqing",
+        "char_four": "Mona",
+        "usage_rate": 0.3,
+        "rank": 456
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Chongyun",
+        "char_four": "Jean",
+        "usage_rate": 0.3,
+        "rank": 456
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Noelle",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.3,
+        "rank": 456
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Kaeya",
+        "char_four": "Xiao",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Ningguang",
+        "char_four": "Venti",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Hu Tao",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Rosaria",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Venti",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Kaeya",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Jean",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Jean",
+        "char_three": "Sucrose",
+        "char_four": "Xiao",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Jean",
+        "char_three": "Xiao",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Jean",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Venti",
+        "char_two": "Xingqiu",
+        "char_three": "Yanfei",
+        "char_four": "Zhongli",
+        "usage_rate": 0.29,
+        "rank": 463
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Jean",
+        "char_three": "Keqing",
+        "char_four": "Sucrose",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Keqing",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Jean",
+        "char_three": "Kaeya",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Eula",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Lisa",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Jean",
+        "char_four": "Tartaglia",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Tartaglia",
+        "char_four": "Xiangling",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Kaeya",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Venti",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Ganyu",
+        "char_three": "Kazuha",
+        "char_four": "Rosaria",
+        "usage_rate": 0.28,
+        "rank": 475
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Lisa",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Hu Tao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Fischl",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ningguang",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Razor",
+        "char_four": "Venti",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Kaeya",
+        "char_four": "Venti",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Razor",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Sucrose",
+        "char_three": "Yanfei",
+        "char_four": "Zhongli",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Keqing",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Sucrose",
+        "char_four": "Venti",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Klee",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Klee",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.27,
+        "rank": 488
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Kaeya",
+        "char_four": "Kazuha",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Kazuha",
+        "char_four": "Tartaglia",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Kaeya",
+        "char_four": "Zhongli",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Fischl",
+        "char_four": "Rosaria",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Venti",
+        "char_four": "Yanfei",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Jean",
+        "char_three": "Kaeya",
+        "char_four": "Venti",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Mona",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Keqing",
+        "char_three": "Mona",
+        "char_four": "Rosaria",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Venti",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Rosaria",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Ningguang",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Keqing",
+        "char_four": "Venti",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Keqing",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Eula",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Fischl",
+        "char_three": "Noelle",
+        "char_four": "Zhongli",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Mona",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Kazuha",
+        "char_four": "Venti",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Diona",
+        "char_three": "Rosaria",
+        "char_four": "Sucrose",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Venti",
+        "char_four": "Yanfei",
+        "usage_rate": 0.26,
+        "rank": 504
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kaeya",
+        "char_three": "Lisa",
+        "char_four": "Zhongli",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Keqing",
+        "char_four": "Sucrose",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Ganyu",
+        "char_four": "Sucrose",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Eula",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Sucrose",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Jean",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Sucrose",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Eula",
+        "char_three": "Ganyu",
+        "char_four": "Sucrose",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Sucrose",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Rosaria",
+        "char_four": "Xiangling",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Jean",
+        "char_three": "Rosaria",
+        "char_four": "Xinyan",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.25,
+        "rank": 525
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Venti",
+        "usage_rate": 0.24,
+        "rank": 537
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.24,
+        "rank": 537
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Venti",
+        "char_three": "Xiangling",
+        "char_four": "Xiao",
+        "usage_rate": 0.24,
+        "rank": 537
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Xiangling",
+        "char_three": "Xiao",
+        "char_four": "Zhongli",
+        "usage_rate": 0.24,
+        "rank": 537
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Keqing",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.24,
+        "rank": 537
+    },
+    {
+        "char_one": "Klee",
+        "char_two": "Noelle",
+        "char_three": "Xingqiu",
+        "char_four": "Xinyan",
+        "usage_rate": 0.23,
+        "rank": 542
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Zhongli",
+        "usage_rate": 0.23,
+        "rank": 542
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Qiqi",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.23,
+        "rank": 542
+    },
+    {
+        "char_one": "Hu Tao",
+        "char_two": "Jean",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.23,
+        "rank": 542
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Diluc",
+        "char_three": "Ganyu",
+        "char_four": "Venti",
+        "usage_rate": 0.23,
+        "rank": 542
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Keqing",
+        "char_four": "Sucrose",
+        "usage_rate": 0.23,
+        "rank": 542
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.23,
+        "rank": 542
+    },
+    {
+        "char_one": "Sucrose",
+        "char_two": "Xingqiu",
+        "char_three": "Yanfei",
+        "char_four": "Zhongli",
+        "usage_rate": 0.23,
+        "rank": 542
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ningguang",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.22,
+        "rank": 550
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Mona",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.22,
+        "rank": 550
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Hu Tao",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.22,
+        "rank": 550
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 0.22,
+        "rank": 550
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Razor",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.22,
+        "rank": 550
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.22,
+        "rank": 550
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Mona",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.22,
+        "rank": 550
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Mona",
+        "char_three": "Noelle",
+        "char_four": "Venti",
+        "usage_rate": 0.22,
+        "rank": 550
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Ganyu",
+        "char_three": "Mona",
+        "char_four": "Rosaria",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Chongyun",
+        "char_four": "Fischl",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Hu Tao",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Diluc",
+        "char_four": "Fischl",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Kazuha",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Beidou",
+        "char_three": "Fischl",
+        "char_four": "Sucrose",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Klee",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Rosaria",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Ningguang",
+        "char_three": "Noelle",
+        "char_four": "Zhongli",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Mona",
+        "char_three": "Noelle",
+        "char_four": "Rosaria",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Fischl",
+        "char_four": "Xiao",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Chongyun",
+        "char_three": "Diona",
+        "char_four": "Fischl",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Jean",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.21,
+        "rank": 558
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Xingqiu",
+        "char_four": "Yanfei",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Mona",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Bennett",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Fischl",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Fischl",
+        "char_three": "Noelle",
+        "char_four": "Zhongli",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Diona",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Razor",
+        "char_four": "Xiangling",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Ganyu",
+        "char_two": "Razor",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.2,
+        "rank": 574
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Jean",
+        "char_four": "Tartaglia",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Beidou",
+        "char_three": "Fischl",
+        "char_four": "Venti",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Kaeya",
+        "char_four": "Venti",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Tartaglia",
+        "char_four": "Venti",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Keqing",
+        "char_four": "Sucrose",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Tartaglia",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Sucrose",
+        "char_four": "Venti",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Tartaglia",
+        "char_four": "Venti",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Fischl",
+        "char_four": "Keqing",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Kaeya",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Kaeya",
+        "char_three": "Mona",
+        "char_four": "Venti",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kazuha",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Venti",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.19,
+        "rank": 587
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Hu Tao",
+        "char_three": "Rosaria",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Kaeya",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Albedo",
+        "char_two": "Bennett",
+        "char_three": "Ningguang",
+        "char_four": "Sucrose",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Eula",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ningguang",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Kazuha",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Sucrose",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Eula",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Jean",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Keqing",
+        "char_three": "Mona",
+        "char_four": "Zhongli",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ningguang",
+        "char_three": "Noelle",
+        "char_four": "Zhongli",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Razor",
+        "char_four": "Zhongli",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Xiangling",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Eula",
+        "char_three": "Fischl",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.18,
+        "rank": 600
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ganyu",
+        "char_three": "Jean",
+        "char_four": "Xiangling",
+        "usage_rate": 0.17,
+        "rank": 617
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.17,
+        "rank": 617
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Ganyu",
+        "char_three": "Noelle",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.17,
+        "rank": 617
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Ganyu",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.17,
+        "rank": 617
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kaeya",
+        "char_three": "Razor",
+        "char_four": "Zhongli",
+        "usage_rate": 0.17,
+        "rank": 617
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Sucrose",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.17,
+        "rank": 617
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Xiangling",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.17,
+        "rank": 617
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.16,
+        "rank": 624
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Keqing",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.16,
+        "rank": 624
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Mona",
+        "char_three": "Yanfei",
+        "char_four": "Zhongli",
+        "usage_rate": 0.16,
+        "rank": 624
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Chongyun",
+        "char_three": "Ningguang",
+        "char_four": "Noelle",
+        "usage_rate": 0.15,
+        "rank": 627
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Jean",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.15,
+        "rank": 627
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kaeya",
+        "char_three": "Kazuha",
+        "char_four": "Rosaria",
+        "usage_rate": 0.15,
+        "rank": 627
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Hu Tao",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.15,
+        "rank": 627
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.15,
+        "rank": 627
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Jean",
+        "char_three": "Rosaria",
+        "char_four": "Zhongli",
+        "usage_rate": 0.15,
+        "rank": 627
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Beidou",
+        "char_three": "Chongyun",
+        "char_four": "Fischl",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Kaeya",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Kaeya",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Noelle",
+        "char_four": "Xiangling",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Sucrose",
+        "char_three": "Tartaglia",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Keqing",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Keqing",
+        "char_four": "Mona",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Mona",
+        "char_three": "Xingqiu",
+        "char_four": "Yanfei",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Hu Tao",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Mona",
+        "char_three": "Ningguang",
+        "char_four": "Venti",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Bennett",
+        "char_three": "Chongyun",
+        "char_four": "Diona",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Kazuha",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.14,
+        "rank": 633
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Keqing",
+        "char_three": "Noelle",
+        "char_four": "Venti",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Xingqiu",
+        "char_four": "Xinyan",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Diluc",
+        "char_three": "Kaeya",
+        "char_four": "Venti",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Keqing",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Keqing",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Fischl",
+        "char_three": "Keqing",
+        "char_four": "Zhongli",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Fischl",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Fischl",
+        "char_three": "Sucrose",
+        "char_four": "Xiangling",
+        "usage_rate": 0.13,
+        "rank": 646
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Yanfei",
+        "char_four": "Zhongli",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Kaeya",
+        "char_four": "Xiangling",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Jean",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Ganyu",
+        "char_four": "Xiangling",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Sucrose",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Chongyun",
+        "char_three": "Fischl",
+        "char_four": "Ganyu",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Fischl",
+        "char_three": "Keqing",
+        "char_four": "Zhongli",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Ganyu",
+        "char_four": "Xiangling",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ganyu",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.12,
+        "rank": 655
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Rosaria",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Ningguang",
+        "char_three": "Noelle",
+        "char_four": "Xiangling",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Ningguang",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Xingqiu",
+        "char_three": "Yanfei",
+        "char_four": "Zhongli",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Qiqi",
+        "char_three": "Razor",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Razor",
+        "char_three": "Venti",
+        "char_four": "Zhongli",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Rosaria",
+        "char_three": "Xiangling",
+        "char_four": "Zhongli",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Rosaria",
+        "char_four": "Venti",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Kaeya",
+        "char_three": "Qiqi",
+        "char_four": "Razor",
+        "usage_rate": 0.11,
+        "rank": 667
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Sucrose",
+        "usage_rate": 0.1,
+        "rank": 677
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Keqing",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.1,
+        "rank": 677
+    },
+    {
+        "char_one": "Jean",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.1,
+        "rank": 677
+    },
+    {
+        "char_one": "Diluc",
+        "char_two": "Diona",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.1,
+        "rank": 677
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Sucrose",
+        "char_three": "Xingqiu",
+        "char_four": "Yanfei",
+        "usage_rate": 0.1,
+        "rank": 677
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Kaeya",
+        "char_three": "Keqing",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Keqing",
+        "char_four": "Xiangling",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Fischl",
+        "char_three": "Razor",
+        "char_four": "Rosaria",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Keqing",
+        "char_three": "Noelle",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Bennett",
+        "char_three": "Sucrose",
+        "char_four": "Venti",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Kaeya",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Fischl",
+        "char_three": "Jean",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Rosaria",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Jean",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Jean",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Rosaria",
+        "char_four": "Sucrose",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Venti",
+        "char_four": "Xiangling",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Noelle",
+        "char_four": "Zhongli",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Fischl",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Ningguang",
+        "char_four": "Zhongli",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Razor",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Diona",
+        "char_two": "Razor",
+        "char_three": "Sucrose",
+        "char_four": "Venti",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Chongyun",
+        "char_three": "Rosaria",
+        "char_four": "Sucrose",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Kaeya",
+        "char_three": "Xingqiu",
+        "char_four": "Zhongli",
+        "usage_rate": 0.09,
+        "rank": 682
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Noelle",
+        "char_three": "Sucrose",
+        "char_four": "Zhongli",
+        "usage_rate": 0.08,
+        "rank": 701
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Fischl",
+        "char_four": "Razor",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Ningguang",
+        "char_three": "Noelle",
+        "char_four": "Xiangling",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Barbara",
+        "char_two": "Beidou",
+        "char_three": "Fischl",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Bennett",
+        "char_two": "Ningguang",
+        "char_three": "Noelle",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Diona",
+        "char_four": "Kaeya",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Bennett",
+        "char_three": "Diona",
+        "char_four": "Sucrose",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Diona",
+        "char_three": "Kaeya",
+        "char_four": "Sucrose",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Amber",
+        "char_two": "Bennett",
+        "char_three": "Ningguang",
+        "char_four": "Noelle",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Beidou",
+        "char_two": "Chongyun",
+        "char_three": "Sucrose",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Chongyun",
+        "char_two": "Diona",
+        "char_three": "Kaeya",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.07,
+        "rank": 702
+    },
+    {
+        "char_one": "Fischl",
+        "char_two": "Sucrose",
+        "char_three": "Xiangling",
+        "char_four": "Xingqiu",
+        "usage_rate": 0.07,
+        "rank": 702
+    }
+]
