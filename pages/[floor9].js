@@ -7,8 +7,7 @@ const floor9 = (props) => {
 
     const router = useRouter()
     const { floor9 } = router.query
-    console.log(floor9)
-    console.log(props.file)
+    // console.log(process.env)
 
     return (
         <>
@@ -26,14 +25,19 @@ const floor9 = (props) => {
 export async function getStaticPaths() {
     return {
         paths: [
-            {params: { floor9: 'comp_usages_1_6'}}
+            {params: { floor9: 'comp_usages'}}
         ],
         fallback: false
     }
 }
 
 export async function getStaticProps(ctx) {
-    const res = await fetch("https://spiralabyss.s3.amazonaws.com/"+ctx.params.floor9+".json")
+    const dev = process.env.NODE_ENV !== 'production';
+    console.log(process.env)
+
+    const server = dev ? 'http://localhost:3000' : 'https://spiralabyss.vercel.app';
+
+    const res = await fetch(`${server}/${ctx.params.floor9}.json`)
     const file = await res.json()
     return {
         props: {'file': file}

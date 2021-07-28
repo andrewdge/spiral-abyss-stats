@@ -7,8 +7,6 @@ import CompRanks from './compRanks';
 
 const Content = ({ children, file }) => {
 
-    console.log(file)
-
     return (
         <>
             <CompRanks className="w-full h-1/2 lg:w-1/2" file={file} />
