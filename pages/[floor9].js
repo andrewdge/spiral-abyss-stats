@@ -2,7 +2,7 @@ import React from 'react'
 import Content from '../components/content'
 import Layout from '../components/layout'
 
-const floor9 = (props) => {
+const Floor9 = (props) => {
 
     // console.log(process.env)
 
@@ -40,4 +40,4 @@ export async function getStaticProps(ctx) {
     }
 }
 
-export default floor9
+export default Floor9
