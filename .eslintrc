@@ -1,5 +1,11 @@
 {
   "parser": "@typescript-eslint/parser",
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "browser": true,
+    "es6": true
+   },
   "plugins": [
     "@typescript-eslint",
   ],
