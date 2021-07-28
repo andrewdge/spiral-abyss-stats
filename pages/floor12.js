@@ -1,15 +1,13 @@
 import React from 'react'
-import Content from '../components/content'
 import Layout from '../components/layout'
+import CompRanks from '../components/compRanks'
 
 const floor9 = () => {
     return (
         <>
-            
             <Layout>
                 <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
-                    <Content>
-                    </Content>
+                    <CompRanks className="w-full h-1/2 lg:w-1/2 rounded-md"/>
                 </div>
             </Layout>
         </>

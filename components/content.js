@@ -1,7 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import TeamContainer from './teamContainer';
-import CompFile from '../data/comp_usages.json'
 import CompRanks from './compRanks';
 
 const Content = ({ children }) => {
