@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Content from '../components/content'
 import Layout from '../components/layout'
 
-const floor9 = (props) => {
+const Floor9 = (props) => {
 
     const router = useRouter()
     const { floor9 } = router.query
@@ -44,4 +44,4 @@ export async function getStaticProps(ctx) {
     }
 }
 
-export default floor9
+export default Floor9
