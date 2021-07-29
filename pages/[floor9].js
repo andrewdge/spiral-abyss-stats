@@ -35,7 +35,8 @@ export async function getStaticProps(ctx) {
 
     const res = await fetch(`${server}/${ctx.params.floor9}.json`,
     {headers: {
-        'Accept': 'application/json, text/plain, */*',
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
         'User-Agent': '*',
       }
     })
