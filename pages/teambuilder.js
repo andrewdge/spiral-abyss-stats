@@ -11,7 +11,7 @@ const TeamBuilder = () => {
                     <div className='flex justify-center text-center text-white font-bold font-serif text-xl'>
                         TEAM BUILDER
                     </div>
-                    <div className='flex flex-row'>
+                    <div className='flex flex-row flex-wrap justify-center'>
                         <TeamSelection />
                         <TeamSelection />
                         <TeamSelection />
