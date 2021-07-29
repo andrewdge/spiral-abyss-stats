@@ -38,7 +38,7 @@ export async function getStaticProps(ctx) {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
         'User-Agent': '*',
-      }
+        }, 
     })
     const file = await res.json()
     return {
