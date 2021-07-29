@@ -37,7 +37,7 @@ const NavbarModal = (props) => {
                             {/** Main nav */}
                             <div className='flex flex-col content-between'>
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' />
-                                <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' disabled='true'/>
+                                <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' />
                             </div>
                             {/** DO NOT REMOVE LINE BELOW, NEEDED FOR FORMATTING */}
                             <div></div>
