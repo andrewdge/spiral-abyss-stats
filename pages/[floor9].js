@@ -34,10 +34,12 @@ export async function getStaticProps(ctx) {
     const server = dev ? 'http://localhost:3000' : 'https://spiralabyss.vercel.app';
 
     const res = await fetch(`${server}/${ctx.params.floor9}.json`,
-    {headers: {
+    {
+        method: 'GET',
+        headers: {
         'Accept': 'application/json, text/plain, */*',
         'User-Agent': '*',
-      }
+        },
     })
     const file = await res.json()
     return {
