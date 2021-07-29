@@ -5,7 +5,7 @@ import CompFile from '../data/1_6_3_floor12_comp_usages.json'
 const CompRanks = (props) => {
     let [numTeams, setNumTeams] = useState(10);
     return (
-        <div className={"flex flex-col bg-menu-gray p-4 border-white border-opacity-50 border-4 rounded-lg" + props.className}>
+        <div className={"flex flex-col bg-menu-gray p-4 border-white border-opacity-50 border-4 rounded-lg w-full h-1/2 lg:w-1/2"}>
                 <div className='flex justify-center text-center text-white font-bold font-serif text-xl'>
                     FLOOR 12 POPULAR COMPS
                 </div>

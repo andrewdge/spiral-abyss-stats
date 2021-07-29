@@ -4,4 +4,5 @@ import { EElement } from '../enums/EElement';
 export interface IHero {
     name: string;
     element: EElement;
+    image: string;
 }

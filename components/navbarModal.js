@@ -34,6 +34,7 @@ const NavbarModal = (props) => {
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: '#3A4154'}} />
                                 </button>
                             </div>
+                            {/** Main nav */}
                             <div className='flex flex-col content-between'>
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' />
                                 <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' disabled='true'/>

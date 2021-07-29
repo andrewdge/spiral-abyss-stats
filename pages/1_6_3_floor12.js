@@ -7,7 +7,7 @@ const floor9 = () => {
         <>
             <Layout>
                 <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
-                    <CompRanks className="w-full h-1/2 lg:w-1/2 rounded-md"/>
+                    <CompRanks/>
                 </div>
             </Layout>
         </>
