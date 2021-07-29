@@ -7,13 +7,13 @@ import { useHeroes } from '../data/typedMock'
 const TeamSelection = (props) => {
 
     const heroesList = useHeroes();
-    const [selected, setSelected] = useState(heroesList[0]);
+    const [selectedHero, setSelectedHero] = useState(heroesList[0]);
 
     return (
         <div className={'m-3'}>
-            <Listbox value={selected} onChange={setSelected}>
+            <Listbox value={selectedHero} onChange={setSelectedHero}>
                 <Listbox.Button className="relative w-full py-2 pl-3 pr-10 text-left bg-white rounded-md shadow-md cursor-default focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-orange-300 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-sm">
-                    <span className="block truncate">{selected.name}</span>
+                    <span className="block truncate">{selectedHero.name}</span>
                     <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                     <SelectorIcon
                         className="w-5 h-5 text-gray-400"
@@ -33,35 +33,20 @@ const TeamSelection = (props) => {
                                 key={index}
                                 value={hero}
                                 className={({ active }) =>
-                                    `${active ? 'text-amber-900 bg-amber-100' : 'text-gray-900'}
+                                    `${active ? 'text-indigo-900 bg-indigo-100' : 'text-gray-900'}
                                         cursor-default select-none relative py-2 pl-10 pr-4`
                                 }
                             >
-                                {/* {({ active, selected }) => (
-                                <li className={`flex flex-row cursor-pointer pl-0 ${active ? 'bg-blue-500 text-white' : 'bg-white text-black'}`}>
-                                    {selected && <CheckIcon className='w-5 h-5' />}
-                                    {hero.name}
-                                </li>
-                                )} */}
                                 {({ selected, active }) => (
                                     <>
-                                    <span
-                                        className={`${
-                                        selected ? 'font-medium' : 'font-normal'
-                                        } block truncate`}
-                                    >
-                                        {hero.name}
-                                    </span>
-                                    {selected ? (
-                                        <span
-                                        className={`${
-                                            active ? 'text-amber-600' : 'text-amber-600'
-                                        }
-                                                absolute inset-y-0 left-0 flex items-center pl-3`}
-                                        >
-                                        <CheckIcon className="w-5 h-5" aria-hidden="true" />
+                                        <span className={`${ selected ? 'font-medium' : 'font-normal'} block truncate`}>
+                                            {hero.name}
                                         </span>
-                                    ) : null}
+                                        {selected ? (
+                                            <span className={`${ active ? 'text-indigo-600' : 'text-indigo-600'} absolute inset-y-0 left-0 flex items-center pl-3`}>
+                                                <CheckIcon className="w-5 h-5" aria-hidden="true" />
+                                            </span>
+                                        ) : null}
                                     </>
                                 )}
                             </Listbox.Option>
