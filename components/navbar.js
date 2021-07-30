@@ -21,13 +21,13 @@ const Navbar = () => {
                 </title>
                 <DynamicNavbarModal isOpen={isOpen} setIsOpen={setIsOpen}/>
                 {/* Paimon Nav */}
-                <div className='p-3'>
-                    <button>
-                        <Image className='cursor-pointer transition duration-500 ease-in-out transform hover:translate-y-1 hover:scale-110' src='/images/paimon.png' alt="paimon"
-                            layout='fill'
+                <div className='w-auto h-min transition duration-500 ease-in-out transform hover:translate-y-1 hover:scale-110 p-2'>
+                        <Image className='cursor-pointer' src='/images/paimon.png' alt="paimon"
+                            width={80}
+                            height={96}
+                            layout='intrinsic'
                             onClick={() => setIsOpen(true)} onBlur={() => setIsOpen(false)}
                         />
-                    </button>
                 </div>
             </div>
         </div>
