@@ -14,11 +14,9 @@ const Navbar = () => {
         <div>
             <Head>
                 <link rel='favicon' href='/favicon.ico' />
+                <title> Spiral Stats </title>
             </Head>
             <div className="fixed w-14 h-16 md:w-20 md:h-24 z-10">
-                <title>
-                    Spiral Stats
-                </title>
                 <DynamicNavbarModal isOpen={isOpen} setIsOpen={setIsOpen}/>
                 {/* Paimon Nav */}
                 <div className='w-auto h-min transition duration-500 ease-in-out transform hover:translate-y-1 hover:scale-110 p-2'>
