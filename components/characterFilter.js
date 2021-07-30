@@ -20,7 +20,10 @@ const CharacterFilter = () => {
 
     const heroesList = useHeroes();
 
-    const [checked, setChecked] = React.useState(heroesList.reduce((a,x) => ({...a, [x.name]: true}), {}))
+    /** takes heroesList and converts it to a dictionary with a hero name key and a boolean value which represents selected characters  */
+    const heroDict = heroesList.reduce((builderDict, currItem) => ({...builderDict, [currItem.name]: true}), {});
+
+    const [checked, setChecked] = useState(heroDict)
     const [search, setSearch] = useState('')
 
     useEffect(() => {console.log(checked)},[checked])
@@ -47,7 +50,7 @@ const CharacterFilter = () => {
                 <div className="flex flex-col overflow-y-scroll scrollbar scrollbar-thumb-rounded-lg scrollbar-thumb-h-1/3 scrollbar-track-gray-300 scrollbar-track-rounded-full scrollbar-thumb-white max-h-52">
                     <FormGroup>
                         {heroesList.filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
-                            <div className="pl-4">
+                            <div className="pl-4" key={index}>
                                 <FormControlLabel
                                     control={<CharacterCheckbox name={hero.name} checked={checked[hero.name]} color="white" onChange={handleChange}/>}
                                     label={hero.name}
