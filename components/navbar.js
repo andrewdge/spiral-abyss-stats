@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div>
             <Head>
-                <link rel='favicon' href='./favico.ico' />
+                <link rel='favicon' href='/favicon.ico' />
             </Head>
             <div className="fixed w-14 h-16 md:w-20 md:h-24 z-10">
                 <title>
