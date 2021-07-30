@@ -44,7 +44,7 @@ const PhaseData = (props) => {
                 <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
                     <div className='flex flex-col gap-2 w-full lg:w-1/2'>
                         <TeamBuilder 
-                            heroesList={heroesList} heroesDict={heroesDict}
+                            heroesList={heroesList} heroesDict={heroDict}
                             chars={chars} setChars={setChars}
                             checked={checked} setChecked={setChecked}
                             filterComps={filterComps} setFilterComps={setFilterComps}
