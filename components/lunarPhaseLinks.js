@@ -10,7 +10,6 @@ const LunarPhaseLinks = () => {
                 {
                     FileNames.map((filename, index) => <VersionButton version={filename} link={`/${filename}`} key={index}/>)
                 }
-                <VersionButton version={"1.6_3 Floor 12"} link={"/1_6_3_floor12"} />
             </div>
         </>
     )

@@ -15,6 +15,7 @@ const PhaseData = (props) => {
     )
 }
 
+/** phaseData is the slug, name comes from fileNames.json */
 export async function getStaticPaths(){
     return {
         paths: FileNames.map(name => ( { params: { phaseData: name} } )),
@@ -22,6 +23,7 @@ export async function getStaticPaths(){
     }
 }
 
+/** file is passed into props into this component */
 export async function getStaticProps(ctx) {
     const res = await fetch(`https://spiralabyss.s3.amazonaws.com/${ctx.params.phaseData}.json`)
     const file = await res.json()
