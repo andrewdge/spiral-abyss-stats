@@ -28,7 +28,7 @@ const NavbarModal = (props) => {
                 <div className="bg-gradient-to-b from-menu-yellow h-screen">
                     <div className='flex flex-row'>
                         {/* Left Grey navbar */}
-                        <div className='w-20 md:w-[80px] h-screen bg-menu-item flex flex-col justify-between items-center' content=''>
+                        <div className='w-20 md:w-[80px] h-screen bg-menu-item grid grid-rows-2 justify-items-center' content=''>
                             <div>
                                 <button onClick={() => props.setIsOpen(false)} className="w-14 h-14 rounded-full bg-menu-yellow border-[#969696] border-4 mt-4 transition duration-100 transform hover:-translate-y-1 hover:scale-110">
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: '#3A4154'}} />
@@ -39,8 +39,6 @@ const NavbarModal = (props) => {
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' />
                                 <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' />
                             </div>
-                            {/** DO NOT REMOVE LINE BELOW, NEEDED FOR FORMATTING */}
-                            <div></div>
                         </div>
                         <div className='flex flex-col'>
                             {/* twitter embed */}
