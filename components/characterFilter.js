@@ -25,11 +25,11 @@ const CharacterFilter = (props) => {
     useEffect(() => {console.log(props.checked)},[props.checked])
 
     const clear = () => {
-        props.setChecked(heroesList.reduce((a,x) => ({...a, [x.name]: false}), {}))
+        props.setChecked(props.heroesList.reduce((builderDict,currItem) => ({...builderDict, [currItem.name]: false}), {}))
     }
 
     const reset = () => {
-        props.setChecked(heroesList.reduce((a,x) => ({...a, [x.name]: true}), {}))
+        props.setChecked(props.heroesDict)
     }
 
     const handleChange = (event) => {

@@ -9,9 +9,11 @@ const PhaseData = (props) => {
 
     const heroesList = useHeroes();
 
+    const heroDict = heroesList.reduce((builderDict, currItem) => ({...builderDict, [currItem.name]: true}), {})
+
     const [filterComps, setFilterComps] = useState(false)
 
-    const [checked, setChecked] = React.useState(heroesList.reduce((a,x) => ({...a, [x.name]: true}), {}))
+    const [checked, setChecked] = React.useState()
 
     const [firstHero, setFirstHero] = useState(heroesList[0]);
     const [secondHero, setSecondHero] = useState(heroesList[0]);
@@ -42,10 +44,11 @@ const PhaseData = (props) => {
                 <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
                     <div className='flex flex-col gap-2 w-full lg:w-1/2'>
                         <TeamBuilder 
-                            heroesList={heroesList}
+                            heroesList={heroesList} heroesDict={heroesDict}
                             chars={chars} setChars={setChars}
                             checked={checked} setChecked={setChecked}
-                            filterComps={filterComps} setFilterComps={setFilterComps} />
+                            filterComps={filterComps} setFilterComps={setFilterComps}
+                        />
                         <CompRanks data={props.file} chars={chars} filterComps={filterComps} />
                     </div>
                 </div>

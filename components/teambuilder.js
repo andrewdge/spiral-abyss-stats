@@ -32,7 +32,7 @@ const TeamBuilder = (props) => {
                             />
                         </Disclosure.Button>
                         <Disclosure.Panel className="text-white p-3">
-                            <CharacterFilter checked={props.checked} setChecked={props.setChecked}/>
+                            <CharacterFilter checked={props.checked} setChecked={props.setChecked} heroesList={props.heroesList} heroesDick={props.heroesDict} />
                         </Disclosure.Panel>
                         </>
                     )}
