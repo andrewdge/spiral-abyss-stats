@@ -16,7 +16,6 @@ const PhaseData = (props) => {
 }
 
 export async function getStaticPaths(){
-    // console.log(FileNames.map(name => ({ params: { phaseData: name}})))
     return {
         paths: FileNames.map(name => ( { params: { phaseData: name} } )),
         fallback: false
@@ -24,10 +23,8 @@ export async function getStaticPaths(){
 }
 
 export async function getStaticProps(ctx) {
-    // console.log(ctx.params.phaseData)
     const res = await fetch(`https://spiralabyss.s3.amazonaws.com/${ctx.params.phaseData}.json`)
     const file = await res.json()
-    // console.log(file)
     return {
         props: {'file': file}
     }
