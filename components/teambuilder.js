@@ -12,10 +12,10 @@ const TeamBuilder = (props) => {
                 TEAM BUILDER
             </div>
             <div className='flex flex-row flex-wrap justify-center'>
-                <TeamSelection hero={props.chars.first} setHero={props.setChars.first} />
-                <TeamSelection hero={props.chars.second} setHero={props.setChars.second} />
-                <TeamSelection hero={props.chars.third} setHero={props.setChars.third} />
-                <TeamSelection hero={props.chars.fourth} setHero={props.setChars.fourth} />
+                <TeamSelection hero={props.chars.first} setHero={props.setChars.first} heroesList={props.heroesList} />
+                <TeamSelection hero={props.chars.second} setHero={props.setChars.second} heroesList={props.heroesList} />
+                <TeamSelection hero={props.chars.third} setHero={props.setChars.third} heroesList={props.heroesList} />
+                <TeamSelection hero={props.chars.fourth} setHero={props.setChars.fourth} heroesList={props.heroesList} />
             </div>
             <div className="bg-white bg-opacity-40 rounded-lg">
                 <Disclosure>
@@ -30,7 +30,7 @@ const TeamBuilder = (props) => {
                             />
                         </Disclosure.Button>
                         <Disclosure.Panel className="text-white p-3">
-                            <CharacterFilter/>
+                            <CharacterFilter checked={props.checked} setChecked={props.setChecked}/>
                         </Disclosure.Panel>
                         </>
                     )}

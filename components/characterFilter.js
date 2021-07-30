@@ -16,25 +16,24 @@ const CharacterCheckbox = withStyles({
     checked: {},
   })((props) => <Checkbox color="default" {...props} />);
 
-const CharacterFilter = () => {
+const CharacterFilter = (props) => {
 
     const heroesList = useHeroes();
 
-    const [checked, setChecked] = React.useState(heroesList.reduce((a,x) => ({...a, [x.name]: true}), {}))
     const [search, setSearch] = useState('')
 
-    useEffect(() => {console.log(checked)},[checked])
+    useEffect(() => {console.log(props.checked)},[props.checked])
 
     const clear = () => {
-        setChecked(heroesList.reduce((a,x) => ({...a, [x.name]: false}), {}))
+        props.setChecked(heroesList.reduce((a,x) => ({...a, [x.name]: false}), {}))
     }
 
     const reset = () => {
-        setChecked(heroesList.reduce((a,x) => ({...a, [x.name]: true}), {}))
+        props.setChecked(heroesList.reduce((a,x) => ({...a, [x.name]: true}), {}))
     }
 
     const handleChange = (event) => {
-        setChecked({ ...checked, [event.target.name]: event.target.checked })
+        props.setChecked({ ...props.checked, [event.target.name]: event.target.checked })
     }
 
     return (
@@ -49,7 +48,7 @@ const CharacterFilter = () => {
                         {heroesList.filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
                             <div className="pl-4">
                                 <FormControlLabel
-                                    control={<CharacterCheckbox name={hero.name} checked={checked[hero.name]} color="white" onChange={handleChange}/>}
+                                    control={<CharacterCheckbox name={hero.name} checked={props.checked[hero.name]} color="white" onChange={handleChange}/>}
                                     label={hero.name}
                                     key={index}
                                 />
