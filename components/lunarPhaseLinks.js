@@ -8,7 +8,7 @@ const LunarPhaseLinks = () => {
         <>
             <div className="flex flex-row flex-wrap gap-2 justify-start justify-items-center p-4 pt-0">
                 {
-                    FileNames.map(name => <VersionButton version={name} link={`/${name}`} />)
+                    FileNames.map(name, index => <VersionButton version={name} link={`/${name}`} key={index}/>)
                 }
                 <VersionButton version={"1.6_3 Floor 12"} link={"/1_6_3_floor12"} />
             </div>
