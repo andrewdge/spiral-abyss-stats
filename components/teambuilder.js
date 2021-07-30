@@ -5,17 +5,17 @@ import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
 import CharacterFilter from './characterFilter'
 
-const TeamBuilder = () => {
+const TeamBuilder = (props) => {
     return (
         <div  className='p-4 flex flex-col bg-menu-gray border-white border-opacity-50 border-4 rounded-lg'>
             <div className='flex justify-center text-center text-white font-bold font-serif text-xl'>
                 TEAM BUILDER
             </div>
             <div className='flex flex-row flex-wrap justify-center'>
-                <TeamSelection />
-                <TeamSelection />
-                <TeamSelection />
-                <TeamSelection />
+                <TeamSelection hero={props.chars.first} setHero={props.setChars.first} />
+                <TeamSelection hero={props.chars.second} setHero={props.setChars.second} />
+                <TeamSelection hero={props.chars.third} setHero={props.setChars.third} />
+                <TeamSelection hero={props.chars.fourth} setHero={props.setChars.fourth} />
             </div>
             <div className="bg-white bg-opacity-40 rounded-lg">
                 <Disclosure>
