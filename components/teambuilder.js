@@ -4,6 +4,7 @@ import TeamSelection from './teamSelection'
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
 import CharacterFilter from './characterFilter'
+import FilterSwitch from './filterSwitch'
 
 const TeamBuilder = (props) => {
     return (
@@ -16,6 +17,7 @@ const TeamBuilder = (props) => {
                 <TeamSelection hero={props.chars.second} setHero={props.setChars.second} heroesList={props.heroesList} />
                 <TeamSelection hero={props.chars.third} setHero={props.setChars.third} heroesList={props.heroesList} />
                 <TeamSelection hero={props.chars.fourth} setHero={props.setChars.fourth} heroesList={props.heroesList} />
+                <div className="flex flex-row items-center p-2 md:p-0"><FilterSwitch filter={props.filterComps} setFilter={props.setFilterComps} /></div>
             </div>
             <div className="bg-white bg-opacity-40 rounded-lg">
                 <Disclosure>
