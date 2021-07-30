@@ -14,7 +14,7 @@ const CompRanks = (props) => {
                 </div>
 
                 {/** speeding up loadtime with filter */}
-                {CompFile.filter(comp => comp.usage_rate > 1).map((comp, index) => 
+                {props.data.filter(comp => comp.usage_rate > 1).map((comp, index) => 
                     (index < numTeams) ? <TeamContainer key={index} c1={comp.char_one} c2={comp.char_two} c3={comp.char_three} c4={comp.char_four} rank={index+1} usage={comp.usage_rate} /> : <></>
                 )}
                 <div className="flex items-center justify-center pt-2">
