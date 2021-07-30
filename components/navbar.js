@@ -14,11 +14,9 @@ const Navbar = () => {
         <div>
             <Head>
                 <link rel='favicon' href='/favicon.ico' />
+                <title> Spiral Stats </title>
             </Head>
             <div className="fixed w-14 h-16 md:w-20 md:h-24 z-10">
-                <title>
-                    Spiral Stats
-                </title>
                 <DynamicNavbarModal isOpen={isOpen} setIsOpen={setIsOpen}/>
                 {/* Paimon Nav */}
                 <div className='p-3'>
