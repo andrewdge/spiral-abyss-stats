@@ -13,10 +13,10 @@ const TeamBuilder = (props) => {
                 TEAM BUILDER
             </div>
             <div className='flex flex-row flex-wrap justify-center'>
-                <TeamSelection hero={props.chars.first} setHero={props.setChars.first} heroesList={props.heroesList} />
-                <TeamSelection hero={props.chars.second} setHero={props.setChars.second} heroesList={props.heroesList} />
-                <TeamSelection hero={props.chars.third} setHero={props.setChars.third} heroesList={props.heroesList} />
-                <TeamSelection hero={props.chars.fourth} setHero={props.setChars.fourth} heroesList={props.heroesList} />
+                <TeamSelection hero={props.chars.first} setHero={props.setChars.first} heroList={props.heroList} />
+                <TeamSelection hero={props.chars.second} setHero={props.setChars.second} heroList={props.heroList} />
+                <TeamSelection hero={props.chars.third} setHero={props.setChars.third} heroList={props.heroList} />
+                <TeamSelection hero={props.chars.fourth} setHero={props.setChars.fourth} heroList={props.heroList} />
                 <div className="flex flex-row items-center p-2 md:p-0"><FilterSwitch filter={props.filterComps} setFilter={props.setFilterComps} /></div>
             </div>
             <div className="bg-white bg-opacity-40 rounded-lg">
@@ -32,7 +32,7 @@ const TeamBuilder = (props) => {
                             />
                         </Disclosure.Button>
                         <Disclosure.Panel className="text-white p-3">
-                            <CharacterFilter checked={props.checked} setChecked={props.setChecked} heroesList={props.heroesList} heroesDict={props.heroesDict} />
+                            <CharacterFilter checked={props.checked} setChecked={props.setChecked} heroList={props.heroList} heroDict={props.heroDict} />
                         </Disclosure.Panel>
                         </>
                     )}

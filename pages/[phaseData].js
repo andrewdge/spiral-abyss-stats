@@ -7,18 +7,18 @@ import { useHeroes } from '../data/typedMock'
 
 const PhaseData = (props) => {
 
-    const heroesList = useHeroes();
+    const heroList = useHeroes();
 
-    const heroesDict = heroesList.reduce((builderDict, currItem) => ({...builderDict, [currItem.name]: true}), {})
+    const heroDict = heroList.reduce((builderDict, currItem) => ({...builderDict, [currItem.name]: true}), {})
 
     const [filterComps, setFilterComps] = useState(false)
 
     const [checked, setChecked] = React.useState(heroDict)
 
-    const [firstHero, setFirstHero] = useState(heroesList[0]);
-    const [secondHero, setSecondHero] = useState(heroesList[0]);
-    const [thirdHero, setThirdHero] = useState(heroesList[0]);
-    const [fourthHero, setFourthHero] = useState(heroesList[0]);
+    const [firstHero, setFirstHero] = useState(heroList[0]);
+    const [secondHero, setSecondHero] = useState(heroList[0]);
+    const [thirdHero, setThirdHero] = useState(heroList[0]);
+    const [fourthHero, setFourthHero] = useState(heroList[0]);
 
     let chars = {
         first: firstHero,
@@ -44,7 +44,7 @@ const PhaseData = (props) => {
                 <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
                     <div className='flex flex-col gap-2 w-full lg:w-1/2'>
                         <TeamBuilder 
-                            heroesList={heroesList} heroesDict={heroesDict}
+                            heroList={heroList} heroDict={heroDict}
                             chars={chars} setChars={setChars}
                             checked={checked} setChecked={setChecked}
                             filterComps={filterComps} setFilterComps={setFilterComps}

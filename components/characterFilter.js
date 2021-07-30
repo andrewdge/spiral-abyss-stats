@@ -18,18 +18,17 @@ const CharacterCheckbox = withStyles({
 
 const CharacterFilter = (props) => {
 
-    const heroesList = useHeroes();
-
+    console.log(props.heroList)
     const [search, setSearch] = useState('')
 
     useEffect(() => {console.log(props.checked)},[props.checked])
 
     const clear = () => {
-        props.setChecked(props.heroesList.reduce((builderDict,currItem) => ({...builderDict, [currItem.name]: false}), {}))
+        props.setChecked(props.heroList.reduce((builderDict,currItem) => ({...builderDict, [currItem.name]: false}), {}))
     }
 
     const reset = () => {
-        props.setChecked(props.heroesDict)
+        props.setChecked(props.heroDict)
     }
 
     const handleChange = (event) => {
@@ -45,7 +44,7 @@ const CharacterFilter = (props) => {
                 </div>
                 <div className="flex flex-col overflow-y-scroll scrollbar scrollbar-thumb-rounded-lg scrollbar-thumb-h-1/3 scrollbar-track-gray-300 scrollbar-track-rounded-full scrollbar-thumb-white max-h-52">
                     <FormGroup>
-                        {heroesList.filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
+                        {props.heroList.filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
                             <div className="pl-4" key={index}>
                                 <FormControlLabel
                                     control={<CharacterCheckbox name={hero.name} checked={props.checked[hero.name]} color="white" onChange={handleChange}/>}
