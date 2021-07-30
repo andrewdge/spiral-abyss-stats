@@ -39,7 +39,7 @@ const CharacterFilter = () => {
 
     return (
         <div className='w-full flex flex-col gap-2 text-white'>
-                <div className="flex flex-row pb-2 justify-evenly border-color-white border-b-2 divide-x-2 divide-white">
+                <div className="grid grid-rows-2 md:flex md:flex-row pb-2 flex-wrap md:flex-nowrap justify-evenly border-color-white border-b-2 divide-x-2 divide-white">
                     <div className="pr-2 w-full"><TextField label="Search Hero" onInput={e => setSearch(e.target.value)} className='w-full'/></div>
                     <button onClick={clear} className="bg-opacity-40 transition duration-100 hover:bg-white hover:bg-opacity-40"><div className="w-max p-3 transition duration-100 transform hover:scale-110">Unselect All</div></button>
                     <button onClick={reset} className="bg-opacity-40 transition duration-100 hover:bg-white hover:bg-opacity-40"><div className="w-max p-3 transition duration-100 transform hover:scale-110">Reset</div></button>
