@@ -13,7 +13,7 @@ const PhaseData = (props) => {
 
     const [filterComps, setFilterComps] = useState(false)
 
-    const [checked, setChecked] = React.useState()
+    const [checked, setChecked] = React.useState(heroDict)
 
     const [firstHero, setFirstHero] = useState(heroesList[0]);
     const [secondHero, setSecondHero] = useState(heroesList[0]);
@@ -49,7 +49,7 @@ const PhaseData = (props) => {
                             checked={checked} setChecked={setChecked}
                             filterComps={filterComps} setFilterComps={setFilterComps}
                         />
-                        <CompRanks data={props.file} chars={chars} filterComps={filterComps} />
+                        <CompRanks data={props.file} chars={chars} filterComps={filterComps} checked={checked} />
                     </div>
                 </div>
             </Layout>
