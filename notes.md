@@ -5,6 +5,10 @@ Upgrade npm
 ```bash
 npm install npm@latest -g
 ```
+Update packages
+```
+npm upgrade
+```
 
 View website
 ```bash
