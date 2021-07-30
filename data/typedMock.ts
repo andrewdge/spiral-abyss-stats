@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import { EElement } from './enums/EElement';
 import type { IHero } from './interfaces/IHero';
-
 import { characters } from 'genshin-db';
 
 

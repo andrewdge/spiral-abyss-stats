@@ -6,7 +6,7 @@ Upgrade npm
 npm install npm@latest -g
 ```
 
-View
+View website
 ```bash
 npm run dev
 ```
