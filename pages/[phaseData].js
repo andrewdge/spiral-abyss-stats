@@ -15,10 +15,10 @@ const PhaseData = (props) => {
 
     const [checked, setChecked] = React.useState(heroDict)
 
-    const [firstHero, setFirstHero] = useState(heroList[0]);
-    const [secondHero, setSecondHero] = useState(heroList[0]);
-    const [thirdHero, setThirdHero] = useState(heroList[0]);
-    const [fourthHero, setFourthHero] = useState(heroList[0]);
+    const [firstHero, setFirstHero] = useState({name: "None"});
+    const [secondHero, setSecondHero] = useState({name: "None"});
+    const [thirdHero, setThirdHero] = useState({name: "None"});
+    const [fourthHero, setFourthHero] = useState({name: "None"});
 
     let chars = {
         first: firstHero,

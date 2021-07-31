@@ -7,6 +7,7 @@ const CompRanks = (props) => {
     let [numTeams, setNumTeams] = useState(10);
 
     let checkNames = (comp, char) => {
+        if (char.name === "None") return true
         if (comp.char_one === char.name) return (true)
         if (comp.char_two === char.name) return (true)
         if (comp.char_three === char.name) return (true)
@@ -16,22 +17,35 @@ const CompRanks = (props) => {
 
     // filter by dropdown selectors
     let checkSelected = (comp) => {
-        if (!checkNames(comp,props.chars.first)) return (false)
-        if (!checkNames(comp,props.chars.second)) return (false)
-        if (!checkNames(comp,props.chars.third)) return (false)
-        if (!checkNames(comp,props.chars.fourth)) return (false)
+        if (!checkNames(comp, props.chars.first)) return (false)
+        if (!checkNames(comp, props.chars.second)) return (false)
+        if (!checkNames(comp, props.chars.third)) return (false)
+        if (!checkNames(comp, props.chars.fourth)) return (false)
         return true
     }
 
     // filter by checkboxes
     let checkFilter = (comp) => {
-        if (!props.checked[comp.char_one]) return false
-        if (!props.checked[comp.char_two]) return false
-        if (!props.checked[comp.char_three]) return false    
-        if (!props.checked[comp.char_four]) return false
+        if (!props.checked[comp.char_one]) {
+            console.log(comp.char_one)
+            return false
+        }
+        if (!props.checked[comp.char_two]) {
+            console.log(comp.char_two)
+            return false
+        }
+        if (!props.checked[comp.char_three]) {
+            console.log(comp.char_three)
+            return false
+        }    
+        if (!props.checked[comp.char_four]) {
+            console.log(comp.char_four)
+            return false
+        }
         return true
     }
     
+    console.log(props.checked)
     {/** speeding up loadtime with filter */}
     let comps = props.data
             .filter(comp => comp.usage_rate > 1)
