@@ -3,8 +3,12 @@ import Layout from './layout'
 import TeamSelection from './teamSelection'
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
-import CharacterFilter from './characterFilter'
 import FilterSwitch from './filterSwitch'
+import dynamic from 'next/dynamic'
+
+const DynamicCharacterFilter = dynamic(() => import('./characterFilter'), {
+    ssr: false,
+})
 
 const TeamBuilder = (props) => {
     return (
@@ -32,7 +36,7 @@ const TeamBuilder = (props) => {
                             />
                         </Disclosure.Button>
                         <Disclosure.Panel className="text-white p-3">
-                            <CharacterFilter checked={props.checked} setChecked={props.setChecked} heroList={props.heroList} heroDict={props.heroDict} />
+                            <DynamicCharacterFilter checked={props.checked} setChecked={props.setChecked} heroList={props.heroList} heroDict={props.heroDict} />
                         </Disclosure.Panel>
                         </>
                     )}
