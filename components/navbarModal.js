@@ -6,8 +6,11 @@ import HomeIcon from '@material-ui/icons/Home.js';
 import BuildIcon from '@material-ui/icons/Build';
 import NavButton from './navButton';
 import LunarPhaseLinks from './lunarPhaseLinks';
+import InnerHtml from 'dangerously-set-html-content'
 
 const NavbarModal = (props) => {
+
+    console.log(props.twitter)
 
     return (
         <Transition show={props.isOpen} as={Fragment}
@@ -35,24 +38,16 @@ const NavbarModal = (props) => {
                                 </button>
                             </div>
                             {/** Main nav */}
-                            <div className='flex flex-col content-between'>
+                            <div className='flex flex-col content-between w-full'>
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' />
                                 <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' />
                             </div>
                         </div>
-                        <div className='flex flex-col'>
+                        <div className='grid grid-rows-2 grid-cols-1 h-screen w-full'>
                             {/* twitter embed */}
-                            <div className="p-4 w-full h-1/2">
+                            <div className="p-4 w-full h-full flex flex-col items-center justify-center">
                                 <div className="w-full h-full overflow-y-scroll no-scrollbar">
-                                    <TwitterTimelineEmbed
-                                        sourceType="profile"
-                                        screenName="GenshinImpact"
-                                        theme="dark"
-                                        noHeader
-                                        noFooter
-                                        autoHeight
-                                        options={{tweetLimit: 1, height:'300'}}
-                                    />
+                                    <InnerHtml html={props.twitter} />
                                 </div>
                             </div>
                             {/* data nav */}
