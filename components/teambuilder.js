@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from './layout'
 import TeamSelection from './teamSelection'
 import { Disclosure } from '@headlessui/react'
-import { ChevronUpIcon } from '@heroicons/react/solid'
+import { ChevronRightIcon } from '@heroicons/react/solid'
 import FilterSwitch from './filterSwitch'
 import dynamic from 'next/dynamic'
 
@@ -27,13 +27,13 @@ const TeamBuilder = (props) => {
                 <Disclosure>
                     {({ open }) => (
                         <>
-                        <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-white bg-opacity-50 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                            <span>Filter Characters</span>
-                            <ChevronUpIcon
+                        <Disclosure.Button className="flex w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-white bg-opacity-50 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                            <ChevronRightIcon
                             className={`${
-                                open ? 'transform rotate-180' : ''
+                                open ? 'transform rotate-90' : ''
                             } w-5 h-5 text-purple-500`}
                             />
+                            <span>Filter Characters</span>
                         </Disclosure.Button>
                         <Disclosure.Panel className="text-white p-3">
                             <DynamicCharacterFilter checked={props.checked} setChecked={props.setChecked} heroList={props.heroList} heroDict={props.heroDict} />
