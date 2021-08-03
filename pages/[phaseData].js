@@ -15,10 +15,10 @@ const PhaseData = (props) => {
 
     const [checked, setChecked] = React.useState(heroDict)
 
-    const [firstHero, setFirstHero] = useState({name: "None"});
-    const [secondHero, setSecondHero] = useState({name: "None"});
-    const [thirdHero, setThirdHero] = useState({name: "None"});
-    const [fourthHero, setFourthHero] = useState({name: "None"});
+    const [firstHero, setFirstHero] = useState(heroList[0]);
+    const [secondHero, setSecondHero] = useState(heroList[0]);
+    const [thirdHero, setThirdHero] = useState(heroList[0]);
+    const [fourthHero, setFourthHero] = useState(heroList[0]);
 
     let chars = {
         first: firstHero,
@@ -42,14 +42,18 @@ const PhaseData = (props) => {
         <>
             <Layout twitter={props.twitter} >
                 <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
-                    <div className='flex flex-col gap-2 w-full lg:w-1/2'>
-                        <TeamBuilderCollapsable 
-                            heroList={heroList} heroDict={heroDict}
-                            chars={chars} setChars={setChars}
-                            checked={checked} setChecked={setChecked}
-                            filterComps={filterComps} setFilterComps={setFilterComps}
-                        />
-                        <CompRanks data={props.file} chars={chars} filterComps={filterComps} checked={checked} />
+                    <div className='flex flex-col gap-2 w-full lg:grid lg:grid-cols-3 lg:w-full lg:grid-row-1'>
+                        <div className='lg:col-start-3 lg:col-span-1'>
+                            <TeamBuilderCollapsable 
+                                heroList={heroList} heroDict={heroDict}
+                                chars={chars} setChars={setChars}
+                                checked={checked} setChecked={setChecked}
+                                filterComps={filterComps} setFilterComps={setFilterComps}
+                            />
+                        </div>
+                        <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1'>
+                            <CompRanks data={props.file} chars={chars} filterComps={filterComps} checked={checked} className='lg:col-start-1'/>
+                        </div>
                     </div>
                 </div>
             </Layout>
