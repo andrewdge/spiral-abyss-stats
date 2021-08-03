@@ -22,7 +22,9 @@ const TeamBuilder = (props) => {
                 <TeamSelection hero={props.chars.third} setHero={props.setChars.third} heroList={props.heroList} />
                 <TeamSelection hero={props.chars.fourth} setHero={props.setChars.fourth} heroList={props.heroList} />
             </div>
-            <div className="flex flex-row items-center p-2 md:p-0"><FilterSwitch filter={props.filterComps} setFilter={props.setFilterComps} /></div>
+            <div className="flex flex-row items-center p-2 md:p-0">
+                <FilterSwitch filter={props.filterComps} setFilter={props.setFilterComps} />
+            </div>
             <div className="bg-white bg-opacity-40 rounded-lg w-full">
                 <Disclosure>
                     {({ open }) => (

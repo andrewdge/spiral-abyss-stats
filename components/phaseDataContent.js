@@ -9,7 +9,7 @@ const PhaseDataContent = (props) => {
 
     const heroDict = heroList.reduce((builderDict, currItem) => ({...builderDict, [currItem.name]: true}), {})
 
-    const [filterComps, setFilterComps] = useState(false)
+    const [filterComps, setFilterComps] = useState(true)
 
     const [checked, setChecked] = React.useState(heroDict)
 
