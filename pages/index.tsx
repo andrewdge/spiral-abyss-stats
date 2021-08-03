@@ -3,10 +3,12 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
+import FileNames from '../data/fileNames.json'
+import PhaseDataContent from '../components/phaseDataContent'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import Image from 'next/image'
 
-const Index = ({ twitter }) => {
+const Index = ({ file, twitter }) => {
   // TODO: make these environment variables
   const theme = useTheme();
   const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
@@ -34,7 +36,9 @@ const Index = ({ twitter }) => {
           video
         }
         <section className="section">
-          <div></div>
+          <div>
+            <PhaseDataContent file={file} className='p-24'/>
+          </div>
         </section>
       </Layout>
     </>
@@ -42,12 +46,14 @@ const Index = ({ twitter }) => {
 }
 
 export async function getStaticProps(ctx) {
+  const res = await fetch(`https://spiralabyss.s3.amazonaws.com/${FileNames[0]}.json`)
+  const file = await res.json()
   const twitterRes = await fetch('https://publish.twitter.com/oembed?url=https://twitter.com/GenshinImpact&&limit=5&&dnt=true&&maxheight=400')
   console.log(twitterRes)
   const twitter = await twitterRes.json()
   console.log(twitter)
   return {
-      props: { twitter: twitter.html }
+      props: { file: file, twitter: twitter.html }
   }
 }
 
