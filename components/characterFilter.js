@@ -43,7 +43,7 @@ const CharacterFilter = (props) => {
                 </div>
                 <div className="flex flex-col overflow-y-scroll scrollbar scrollbar-thumb-rounded-lg scrollbar-thumb-h-1/3 scrollbar-track-gray-300 scrollbar-track-rounded-full scrollbar-thumb-white max-h-52">
                     <FormGroup>
-                        {props.heroList.filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
+                        {props.heroList.slice(1,props.heroList.length).filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
                             <div className="pl-4" key={index}>
                                 <FormControlLabel
                                     control={<CharacterCheckbox name={hero.name} checked={props.checked[hero.name]} color="white" onChange={handleChange}/>}
