@@ -13,14 +13,13 @@ const TeamBuilderCollapsable = (props) => {
             <Disclosure>
                 {({ open }) => (
                     <>
-                    <Disclosure.Button className="className='grid grid-cols-3 grid justify-center text-center text-white font-bold font-serif text-xl w-full px-4 py-2 bg-white bg-opacity-0 rounded-lg hover:bg-opacity-50">
+                    <Disclosure.Button className="flex flex-row justify-center items-center text-center text-white font-bold font-serif text-xl w-full px-4 py-2 bg-white bg-opacity-0 rounded-lg hover:bg-opacity-50">
                             <ChevronRightIcon
-                                className={
-                                    `${ open ? 'transform rotate-90' : ''}
-                                    w-5 h-5 text-white justify-self-start`
-                                }
+                            className={`${
+                                open ? 'transform rotate-90' : ''
+                            } w-5 h-5 text-white`}
                             />
-                            <span className='place-self-center'>TEAM BUILDER</span>
+                            <span>Filter Characters</span>
                     </Disclosure.Button>
                     <Disclosure.Panel className="text-white p-3">
                         <TeamBuilder {...props}/>
