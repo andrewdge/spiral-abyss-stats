@@ -32,9 +32,9 @@ const PhaseDataContent = (props) => {
         fourth: setFourthHero
     }
 
-    useEffect(() => {
-        console.log(chars)
-    }, [firstHero, secondHero, thirdHero, fourthHero])
+    // useEffect(() => {
+    //     console.log(chars)
+    // }, [firstHero, secondHero, thirdHero, fourthHero])
 
     return (
         <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 '+props.className}>

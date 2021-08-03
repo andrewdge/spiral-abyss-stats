@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import { Dialog, Transition } from '@headlessui/react'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
@@ -7,6 +6,8 @@ import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import NavButton from './navButton';
 import LunarPhaseLinks from './lunarPhaseLinks';
 import InnerHtml from 'dangerously-set-html-content'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css'; // optional for styling
 
 const NavbarModal = (props) => {
 
@@ -32,15 +33,15 @@ const NavbarModal = (props) => {
                     <div className='flex flex-row'>
                         {/* Left Grey navbar */}
                         <div className='w-20 md:w-[80px] h-screen bg-menu-item grid grid-rows-2 justify-items-center' content=''>
-                            <div>
+                            <Tippy content='Close' placement='right'>
                                 <button onClick={() => props.setIsOpen(false)} className="w-14 h-14 rounded-full bg-menu-yellow border-[#969696] border-4 mt-4 transition duration-100 transform hover:-translate-y-1 hover:scale-110">
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: '#3A4154'}} />
                                 </button>
-                            </div>
+                            </Tippy>
                             {/** Main nav */}
                             <div className='flex flex-col content-between w-full'>
-                                <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' />
-                                <NavButton link="https://forms.gle/ksJ4pQfEKxNqDEk19" icon={CloudUploadIcon} color='lightgray' fontSize='large'/>
+                                <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' content='Home' />
+                                <NavButton link="https://forms.gle/ksJ4pQfEKxNqDEk19" icon={CloudUploadIcon} color='lightgray' fontSize='large' content='Submit Data'/>
                             </div>
                         </div>
                         <div className='grid grid-rows-2 grid-cols-1 h-screen w-full'>

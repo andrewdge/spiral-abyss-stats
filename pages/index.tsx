@@ -49,9 +49,9 @@ export async function getStaticProps(ctx) {
   const res = await fetch(`https://spiralabyss.s3.amazonaws.com/${FileNames[0]}.json`)
   const file = await res.json()
   const twitterRes = await fetch('https://publish.twitter.com/oembed?url=https://twitter.com/GenshinImpact&&limit=5&&dnt=true&&maxheight=400')
-  console.log(twitterRes)
+  // console.log(twitterRes)
   const twitter = await twitterRes.json()
-  console.log(twitter)
+  // console.log(twitter)
   return {
       props: { file: file, twitter: twitter.html }
   }
