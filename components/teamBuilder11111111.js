@@ -11,6 +11,8 @@ const DynamicCharacterFilter = dynamic(() => import('./characterFilter'), {
     ssr: false,
 })
 
+//test
+
 const TeamBuilder = (props) => {
     return (
         <div className=' flex flex-col gap-2 items-center sticky top-0'>
