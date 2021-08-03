@@ -5,10 +5,10 @@ import Navbar from './navbar'
 
 
 
-const Layout = ({ children }) => {
+const Layout = ({ children, twitter }) => {
     return (
         <div>
-            <Navbar className="fixed" />
+            <Navbar className="fixed" twitter={twitter} />
             {children}
         </div>
     );  
