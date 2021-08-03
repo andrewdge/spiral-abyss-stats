@@ -3,15 +3,21 @@ import Image from 'next/image'
 import { useSpecificHero } from '../data/typedMock'
 import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
+import HeroesFile from '../data/heroes.json'
+
+const useHero = (hero) => {
+    return HeroesFile.find(h => h.name === hero);
+}
 
 
 const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
     const theme = useTheme();
     const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
-    const o1 = useSpecificHero(c1);
-    const o2 = useSpecificHero(c2);
-    const o3 = useSpecificHero(c3);
-    const o4 = useSpecificHero(c4);
+    console.log(c1, c2, c3, c4);
+    const o1 = useHero(c1);
+    const o2 = useHero(c2);
+    const o3 = useHero(c3);
+    const o4 = useHero(c4);
     const dim = 100;
 
 

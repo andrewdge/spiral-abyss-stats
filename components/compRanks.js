@@ -45,7 +45,7 @@ const CompRanks = (props) => {
         return true
     }
     
-    console.log(props.checked)
+    // console.log(props.checked)
     {/** speeding up loadtime with filter */}
     let comps = props.data
             .filter(comp => comp.usage_rate > 1)

@@ -1,17 +1,7 @@
-import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from 'react'
+import { loadData } from "../data/typedMock"
 
 export default function Test() {
-  let [isOpen, setIsOpen] = useState(true)
-
-  function closeModal() {
-    setIsOpen(false)
-  }
-
-  function openModal() {
-    setIsOpen(true)
-  }
-
+  
   return (
     <>
       

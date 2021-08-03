@@ -18,7 +18,7 @@ const CharacterCheckbox = withStyles({
 
 const CharacterFilter = (props) => {
 
-    console.log(props.heroList)
+    // console.log(props.heroList)
     const [search, setSearch] = useState('')
 
     useEffect(() => {console.log(props.checked)},[props.checked])
