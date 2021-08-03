@@ -44,12 +44,14 @@ const PhaseData = (props) => {
                 <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
                     <div className='flex flex-col gap-2 w-full lg:grid lg:grid-cols-3 lg:w-full lg:grid-row-1'>
                         <div className='lg:col-start-3 lg:col-span-1'>
-                            <TeamBuilderCollapsable 
-                                heroList={heroList} heroDict={heroDict}
-                                chars={chars} setChars={setChars}
-                                checked={checked} setChecked={setChecked}
-                                filterComps={filterComps} setFilterComps={setFilterComps}
-                            />
+                            <div className='lg:fixed lg:w-1/3'>
+                                <TeamBuilderCollapsable 
+                                    heroList={heroList} heroDict={heroDict}
+                                    chars={chars} setChars={setChars}
+                                    checked={checked} setChecked={setChecked}
+                                    filterComps={filterComps} setFilterComps={setFilterComps}
+                                />
+                            </div>
                         </div>
                         <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1'>
                             <CompRanks data={props.file} chars={chars} filterComps={filterComps} checked={checked} className='lg:col-start-1'/>
