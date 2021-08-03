@@ -20,7 +20,7 @@ const CharacterFilter = (props) => {
     // console.log(props.heroList)
     const [search, setSearch] = useState('')
 
-    useEffect(() => {console.log(props.checked)},[props.checked])
+    // useEffect(() => {console.log(props.checked)},[props.checked])
 
     const clear = () => {
         props.setChecked(props.heroList.reduce((builderDict,currItem) => ({...builderDict, [currItem.name]: false}), {}))

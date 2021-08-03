@@ -10,7 +10,7 @@ import InnerHtml from 'dangerously-set-html-content'
 
 const NavbarModal = (props) => {
 
-    console.log(props.twitter)
+    // console.log(props.twitter)
 
     return (
         <Transition show={props.isOpen} as={Fragment}
