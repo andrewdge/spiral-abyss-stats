@@ -1,10 +1,10 @@
 import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import { ChevronRightIcon } from '@heroicons/react/solid'
-import TeamBuilder from './teamBuilder11111111';
+import TeamBuilder from './teamBuilder';
 import dynamic from 'next/dynamic';
 
-const DynamicTeamBuilder = dynamic(() => import('./teamBuilder11111111'), {
+const DynamicTeamBuilder = dynamic(() => import('./teamBuilder'), {
 })
 
 const TeamBuilderCollapsable = (props) => {
