@@ -3,7 +3,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import { Dialog, Transition } from '@headlessui/react'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
-import BuildIcon from '@material-ui/icons/Build';
+import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import NavButton from './navButton';
 import LunarPhaseLinks from './lunarPhaseLinks';
 import InnerHtml from 'dangerously-set-html-content'
@@ -40,7 +40,7 @@ const NavbarModal = (props) => {
                             {/** Main nav */}
                             <div className='flex flex-col content-between w-full'>
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' />
-                                <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' disabled='true'/>
+                                <NavButton link="https://forms.gle/ksJ4pQfEKxNqDEk19" icon={CloudUploadIcon} color='lightgray' fontSize='large'/>
                             </div>
                         </div>
                         <div className='grid grid-rows-2 grid-cols-1 h-screen w-full'>
