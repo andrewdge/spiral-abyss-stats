@@ -40,7 +40,7 @@ const NavbarModal = (props) => {
                             {/** Main nav */}
                             <div className='flex flex-col content-between w-full'>
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' />
-                                <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' />
+                                <NavButton link="/teambuilder" icon={BuildIcon} color='lightgray' fontSize='large' disabled='true'/>
                             </div>
                         </div>
                         <div className='grid grid-rows-2 grid-cols-1 h-screen w-full'>
