@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import TeamContainer from './teamContainer';
-import CompFile from '../data/1_6_3_floor12_comp_usages.json'
 
 const CompRanks = (props) => {
 

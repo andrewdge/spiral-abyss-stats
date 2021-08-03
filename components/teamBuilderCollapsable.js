@@ -1,15 +1,15 @@
 import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import { ChevronRightIcon } from '@heroicons/react/solid'
-import TeamBuilder from "./teambuilder";
+import TeamBuilder from "./teamBuilder";
 import dynamic from 'next/dynamic';
 
-const DynamicTeamBuilder = dynamic(() => import('./teambuilder'), {
+const DynamicTeamBuilder = dynamic(() => import('./teamBuilder'), {
 })
 
 const TeamBuilderCollapsable = (props) => {
     return (
-        <div  className='p-4 flex flex-col bg-menu-gray border-white border-opacity-50 border-4 bg-opacity-50 rounded-lg'>
+        <div  className='p-4 flex flex-col z-30 bg-menu-gray border-white border-opacity-50 border-4 bg-opacity-50 rounded-lg'>
             <Disclosure>
                 {({ open }) => (
                     <>

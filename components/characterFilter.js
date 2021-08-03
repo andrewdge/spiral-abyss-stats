@@ -3,7 +3,6 @@ import { Listbox, Transition } from '@headlessui/react'
 import { FormGroup, FormControlLabel, Checkbox, TextField } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles'
 import { CheckIcon, SelectorIcon } from '@heroicons/react/solid'
-import { useHeroes } from '../data/typedMock'
 import { CheckBox } from '@material-ui/icons';
 
 const CharacterCheckbox = withStyles({

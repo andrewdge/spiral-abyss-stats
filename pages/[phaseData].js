@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Layout from '../components/layout'
 import CompRanks from '../components/compRanks'
 import FileNames from '../data/fileNames.json'
-import TeamBuilder from '../components/teamBuilder'
+import TeamBuilderCollapsable from '../components/teamBuilderCollapsable'
 import { useHeroes } from '../data/typedMock'
 
 const PhaseData = (props) => {
