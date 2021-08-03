@@ -4,8 +4,8 @@ import { ChevronRightIcon } from '@heroicons/react/solid'
 import TeamBuilder from "./teamBuilder";
 import dynamic from 'next/dynamic';
 
-const DynamicTeamBuilder = dynamic(() => import('./teamBuilder'), {
-})
+// const DynamicTeamBuilder = dynamic(() => import('./teamBuilder'), {
+// })
 
 const TeamBuilderCollapsable = (props) => {
     return (

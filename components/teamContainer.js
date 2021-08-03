@@ -4,7 +4,7 @@ import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
 import HeroesFile from '../data/heroes.json'
 
-const useHero = (hero) => {
+export const useHero = (hero) => {
     return HeroesFile.find(h => h.name === hero);
 }
 
