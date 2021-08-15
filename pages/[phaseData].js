@@ -7,12 +7,13 @@ import { useHeroes } from '../data/typedMock'
 import PhaseDataContent from '../components/phaseDataContent'
 
 const PhaseData = (props) => {
+    let phase = props.phaseData.toUpperCase().replace(/_/g, ' ')
 
     return (
         <>
             <Layout twitter={props.twitter} >
                 <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
-                    <PhaseDataContent file={props.file} className='w-full'/>
+                    <PhaseDataContent file={props.file} phase={phase} className='w-full'/>
                 </div>
             </Layout>
         </>
@@ -35,7 +36,7 @@ export async function getServerSideProps(ctx) {
     const twitter = await twitterRes.json()
     // console.log(twitter)
     return {
-        props: { file: file, twitter: twitter.html }
+        props: { file: file, twitter: twitter.html, phaseData: ctx.params.phaseData }
     }
 }
 

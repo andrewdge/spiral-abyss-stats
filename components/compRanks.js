@@ -54,7 +54,7 @@ const CompRanks = (props) => {
     return (
         <div className={"flex flex-col bg-menu-gray p-4 border-white border-opacity-50 border-4 rounded-lg"}>
                 <div className='flex justify-center text-center text-white font-bold font-serif text-xl'>
-                    FLOOR 12 POPULAR COMPS
+                    {props.phase} FLOOR 12 POPULAR COMPS
                 </div>
                 <div className='flex justify-center text-center text-white font-serif text-sm'>
                     DISPLAYING USAGE RATE {'>'} 1%
