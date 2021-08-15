@@ -180,6 +180,12 @@
         "image": "/images/characters/traveller.png"
     },
     {
+        "name": "Traveler-G",
+        "rarity": "4",
+        "element": "None",
+        "image": "/images/characters/traveller.png"
+    },
+    {
         "name": "Venti",
         "rarity": "5",
         "element": "Anemo",
