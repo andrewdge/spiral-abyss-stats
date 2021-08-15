@@ -20,15 +20,15 @@ const PhaseData = (props) => {
 }
 
 /** phaseData is the slug, name comes from fileNames.json */
-export async function getStaticPaths(){
-    return {
-        paths: FileNames.map(name => ( { params: { phaseData: name} } )),
-        fallback: false
-    }
-}
+// export async function getStaticPaths(){
+//     return {
+//         paths: FileNames.map(name => ( { params: { phaseData: name} } )),
+//         fallback: false
+//     }
+// }
 
 /** file is passed into props into this component */
-export async function getStaticProps(ctx) {
+export async function getServerSideProps(ctx) {
     const res = await fetch(`https://spiralabyss.s3.amazonaws.com/${ctx.params.phaseData}.json`)
     const file = await res.json()
     const twitterRes = await fetch('https://publish.twitter.com/oembed?url=https://twitter.com/GenshinImpact&&limit=1&&dnt=true')
