@@ -8,7 +8,9 @@ import PhaseDataContent from '../components/phaseDataContent'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import Image from 'next/image'
 
-const Index = ({ file, twitter }) => {
+const Index = ({ file, twitter, phaseName }) => {
+  let phase = phaseName.toUpperCase().replace(/_/g, ' ')
+
   // TODO: make these environment variables
   const theme = useTheme();
   const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
@@ -37,7 +39,7 @@ const Index = ({ file, twitter }) => {
         }
         <section className="section">
           <div>
-            <PhaseDataContent file={file} className='p-24'/>
+            <PhaseDataContent file={file} phase={phase} className='p-24'/>
           </div>
         </section>
       </Layout>
@@ -53,7 +55,7 @@ export async function getStaticProps(ctx) {
   const twitter = await twitterRes.json()
   // console.log(twitter)
   return {
-      props: { file: file, twitter: twitter.html }
+      props: { file: file, twitter: twitter.html, phaseName: FileNames[0]}
   }
 }
 
