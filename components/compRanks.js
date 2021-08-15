@@ -26,19 +26,19 @@ const CompRanks = (props) => {
     // filter by checkboxes
     let checkFilter = (comp) => {
         if (!props.checked[comp.char_one]) {
-            console.log(comp.char_one)
+            // console.log(comp.char_one)
             return false
         }
         if (!props.checked[comp.char_two]) {
-            console.log(comp.char_two)
+            // console.log(comp.char_two)
             return false
         }
         if (!props.checked[comp.char_three]) {
-            console.log(comp.char_three)
+            // console.log(comp.char_three)
             return false
         }    
         if (!props.checked[comp.char_four]) {
-            console.log(comp.char_four)
+            // console.log(comp.char_four)
             return false
         }
         return true
