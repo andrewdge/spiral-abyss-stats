@@ -7,7 +7,7 @@ import { useHeroes } from '../data/typedMock'
 import PhaseDataContent from '../components/phaseDataContent'
 
 const PhaseData = (props) => {
-    let phase = props.phaseData.toUpperCase().replace(/_/g, ' ')
+    const phase = props.phaseData.toUpperCase().replace(/_/g, ' ')
 
     return (
         <>

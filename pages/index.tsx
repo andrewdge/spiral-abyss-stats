@@ -9,7 +9,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import Image from 'next/image'
 
 const Index = ({ file, twitter, phaseName }) => {
-  let phase = phaseName.toUpperCase().replace(/_/g, ' ')
+  const phase = phaseName.toUpperCase().replace(/_/g, ' ')
 
   // TODO: make these environment variables
   const theme = useTheme();
