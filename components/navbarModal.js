@@ -24,7 +24,7 @@ const NavbarModal = (props) => {
             leaveTo="-translate-x-full"
         >
             {/* TODO: onMouseLeave={() =>props.setIsOpen(false)} */}
-            <Dialog className="fixed h-screen top-0 z-10 w-full md:w-1/3" 
+            <Dialog className="fixed h-screen top-0 z-30 w-full md:w-1/3" 
                 open={props.isOpen} onClose={() => props.setIsOpen(false)} >
                 <Dialog.Overlay />
                 {/* Menu Contents */}

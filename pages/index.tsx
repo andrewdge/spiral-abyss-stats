@@ -23,8 +23,8 @@ const Index = ({ file, twitter, phaseName }) => {
 
   // Background image for mobile
   const image = 
-    <div className='object-cover w-screen-h-screen'> 
-      <Image className='-z-10' src='/images/spiralabyss.png' alt='spiralabyss' layout='fill' />
+    <div className='object-cover w-screen h-screen z-0 fixed block'> 
+      <Image className='z-0 h-full' src='/images/spiralabyss.png' alt='spiralabyss' layout="fill" />
     </div>;
 
 
@@ -39,7 +39,7 @@ const Index = ({ file, twitter, phaseName }) => {
         }
         <section className="section">
           <div>
-            <PhaseDataContent file={file} phase={phase} className='p-24'/>
+            <PhaseDataContent file={file} phase={phase} className="py-16 px-10"/>
           </div>
         </section>
       </Layout>

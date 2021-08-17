@@ -38,17 +38,18 @@ const PhaseDataContent = (props) => {
 
     return (
         <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 '+props.className}>
-            <div className='lg:col-start-3 lg:col-span-1'>
+            <div className='lg:col-start-3 lg:col-span-1 z-20'>
                 <div className='lg:fixed lg:w-1/3'>
                     <TeamBuilderCollapsable 
                         heroList={heroList} heroDict={heroDict}
                         chars={chars} setChars={setChars}
                         checked={checked} setChecked={setChecked}
                         filterComps={filterComps} setFilterComps={setFilterComps}
+                        className="z-20"
                     />
                 </div>
             </div>
-            <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1'>
+            <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1 z-20'>
                 <CompRanks data={props.file} chars={chars} filterComps={filterComps} checked={checked} phase={props.phase} className='lg:col-start-1'/>
             </div>
         </div>

@@ -15,7 +15,7 @@ const DynamicCharacterFilter = dynamic(() => import('./characterFilter'), {
 
 const TeamBuilder = (props) => {
     return (
-        <div className=' flex flex-col gap-2 items-center z-10'>
+        <div className=' flex flex-col gap-2 items-center'>
             <div className='w-full justify-center items-center grid grid-rows-2 grid-cols-2 md:grid-rows-1 md:grid-cols-4 lg:grid-rows-2 lg:grid-cols-2'>
                 <TeamSelection hero={props.chars.first} setHero={props.setChars.first} heroList={props.heroList} />
                 <TeamSelection hero={props.chars.second} setHero={props.setChars.second} heroList={props.heroList} />
