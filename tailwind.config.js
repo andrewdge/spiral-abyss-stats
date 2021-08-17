@@ -9,7 +9,7 @@ module.exports = {
         '-10': '-10',
       },
       backgroundImage: theme => ({
-        'watatsumi': "url('../public/images/watatsumi.png')"
+        'watatsumi': "url('../public/images/watatsumi.webp')"
       }),
 
       colors: {
