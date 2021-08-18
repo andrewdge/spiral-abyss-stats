@@ -5,6 +5,7 @@ import FileNames from '../data/fileNames.json'
 import TeamBuilderCollapsable from '../components/teamBuilderCollapsable'
 import { useHeroes } from '../data/typedMock'
 import PhaseDataContent from '../components/phaseDataContent'
+import FloorTab from '../components/floorTab'
 
 const PhaseData = (props) => {
     const phase = props.phaseData.toUpperCase().replace(/_/g, ' ')
@@ -12,8 +13,10 @@ const PhaseData = (props) => {
     return (
         <>
             <Layout twitter={props.twitter} >
-                <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
-                    <PhaseDataContent file={props.file} phase={phase} className='w-full'/>
+                <div className="flex flex-col items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
+                    <FloorTab>
+                        <PhaseDataContent file={props.file} phase={phase} className='w-full'/>
+                    </FloorTab>
                 </div>
             </Layout>
         </>

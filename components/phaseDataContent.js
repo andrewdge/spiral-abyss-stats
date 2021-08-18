@@ -50,7 +50,7 @@ const PhaseDataContent = (props) => {
                 </div>
             </div>
             <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1 z-20'>
-                <CompRanks data={props.file} chars={chars} filterComps={filterComps} checked={checked} phase={props.phase} className='lg:col-start-1'/>
+                <CompRanks data={props.file} chars={chars} filterComps={filterComps} checked={checked} phase={props.phase} floor={props.floor} className='lg:col-start-1'/>
             </div>
         </div>
     )

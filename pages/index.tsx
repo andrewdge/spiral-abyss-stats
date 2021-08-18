@@ -7,6 +7,7 @@ import FileNames from '../data/fileNames.json'
 import PhaseDataContent from '../components/phaseDataContent'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import Image from 'next/image'
+import FloorTab from '../components/floorTab'
 
 const Index = ({ file, twitter, phaseName }) => {
   const phase = phaseName.toUpperCase().replace(/_/g, ' ')
@@ -39,7 +40,9 @@ const Index = ({ file, twitter, phaseName }) => {
         }
         <section className="section">
           <div>
-            <PhaseDataContent file={file} phase={phase} className="py-16 px-10"/>
+            <FloorTab>
+              <PhaseDataContent file={file} phase={phase} className="py-16 px-10"/>
+            </FloorTab>
           </div>
         </section>
       </Layout>
