@@ -10,7 +10,6 @@ import Image from 'next/image'
 import FloorTab from '../components/floorTab'
 
 const Index = ({ file, twitter, phaseName }) => {
-  const phase = phaseName.toUpperCase().replace(/_/g, ' ')
 
   // TODO: make these environment variables
   const theme = useTheme();
@@ -41,7 +40,7 @@ const Index = ({ file, twitter, phaseName }) => {
         <section className="section">
           <div>
             <FloorTab>
-              <PhaseDataContent file={file} phase={phase} className="py-16 px-10"/>
+              <PhaseDataContent file={file} phase={phaseName} className="py-16 px-10"/>
             </FloorTab>
           </div>
         </section>
