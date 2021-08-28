@@ -6,9 +6,8 @@ function classNames(...classes) {
 }
 
 const FloorTab = ({children}) => {
-    const [floors] = useState([9, 10, 11, 12])
-
-
+    const [floors] = useState([0, 1, 2, 3])
+    
 
     return (
         <div className="flex flex-col w-full px-2 py-16 sm:px-0">
@@ -27,7 +26,7 @@ const FloorTab = ({children}) => {
                             )
                         }
                     >
-                        {'Floor ' +floor}
+                        {floor ? 'Chamber ' +floor : 'All Chambers'}
                     </Tab>
                     ))}
                 </Tab.List>
