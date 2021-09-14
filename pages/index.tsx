@@ -27,7 +27,6 @@ const Index = ({ file, twitter, phaseName }) => {
       <Image className='z-0 h-full' src='/images/spiralabyss.png' alt='spiralabyss' layout="fill" />
     </div>;
 
-
   return (
     <>
       
@@ -38,11 +37,9 @@ const Index = ({ file, twitter, phaseName }) => {
           video
         }
         <section className="section">
-          <div>
-            <FloorTab>
-              <PhaseDataContent file={file} phase={phaseName} className="py-16 px-10"/>
-            </FloorTab>
-          </div>
+          <FloorTab file={file} phase={phaseName} className="py-16 px-10" />
+            {/* <PhaseDataContent />
+          </FloorTab> */}
         </section>
       </Layout>
     </>

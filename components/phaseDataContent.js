@@ -40,7 +40,7 @@ const PhaseDataContent = (props) => {
     // }, [firstHero, secondHero, thirdHero, fourthHero])
 
     return (
-        <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 '+props.className}>
+        <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 ' + props.className}>
             <div className='lg:col-start-3 lg:col-span-1 z-20'>
                 <div className='lg:fixed lg:w-1/3'>
                     {props.floor ?

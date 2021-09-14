@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { Tab } from '@headlessui/react'
+import PhaseDataContent from './phaseDataContent'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-const FloorTab = ({children}) => {
+const FloorTab = (props) => {
     const [floors] = useState([0, 1, 2, 3])
-    
 
     return (
         <div className="flex flex-col w-full px-2 py-16 sm:px-0">
@@ -31,12 +31,19 @@ const FloorTab = ({children}) => {
                     ))}
                 </Tab.List>
                 <Tab.Panels className='mt-2'>
-                    {floors.map( floor => (
-                        <Tab.Panel
-                            key={floor}
-                        >
-                            {/** pass floor as props to PhaseDataContent */}
-                            {React.cloneElement(children, {floor: floor})}
+
+                        {/* <Tab.Panel key={0}> <PhaseDataContent file={file} phase={phase} /> </Tab.Panel>
+                        <Tab.Panel key={1}> <PhaseDataContent file={file} phase={phase} /> </Tab.Panel>
+                        <Tab.Panel key={2}> <PhaseDataContent file={file} phase={phase} /> </Tab.Panel>
+                        <Tab.Panel key={3}> <PhaseDataContent file={file} phase={phase} /> </Tab.Panel> */}
+
+                        {floors.map( floor => (
+                            <Tab.Panel
+                                key={floor}
+                            >
+                        {/** pass floor as props to PhaseDataContent */}
+                        {/* {React.cloneElement(children, {floor: floor})} */}
+                            <PhaseDataContent file={props.file} phase={props.phase} className={props.className}/>
                         </Tab.Panel>
                     ))}
                 </Tab.Panels>

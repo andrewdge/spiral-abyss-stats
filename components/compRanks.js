@@ -6,16 +6,15 @@ import TeamContainer from './teamContainer';
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
+
 const CompRanks = (props) => {
 
-    
-
     const urlFill = props.floor ? (`-${props.floor}-${props.firstHalf ? 1 : 2}`) : ''
-    console.log(urlFill)
+    //console.log(urlFill)
 
-    console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
+    //console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
 
-    let { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`, fetcher)
+    const { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`, fetcher)
 
     const phaseName = props.phase.toUpperCase().replace(/_/g, ' ')
 
