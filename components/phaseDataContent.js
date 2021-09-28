@@ -6,7 +6,7 @@ import { useHeroes } from "../data/typedMock";
 
 const PhaseDataContent = (props) => {
 
-    const [firstHalf, switchHalves] = useState(true)
+    const [firstHalf, switchHalves] = useState(false)
 
     const heroList = useHeroes();
 
@@ -47,11 +47,11 @@ const PhaseDataContent = (props) => {
                         <div className='flex items-center justify-center p-4 bg-menu-gray border-white border-opacity-50 border-4 bg-opacity-50 rounded-lg'>
                             <span className='text-white mr-4'>First Half</span>
                             <Switch
-                            checked={firstHalf}
-                            onChange={switchHalves}
-                            className={`${
-                                firstHalf ? 'bg-blue-600' : 'bg-gray-200'
-                            } relative inline-flex items-center h-6 rounded-full w-11`}
+                                checked={firstHalf}
+                                onChange={switchHalves}
+                                className={`${
+                                    firstHalf ? 'bg-blue-600' : 'bg-gray-200'
+                                } relative inline-flex items-center h-6 rounded-full w-11`}
                             >
                                 <span className="sr-only">Enable notifications</span>
                                 <span
