@@ -41,9 +41,9 @@ const FloorTab = (props) => {
                             <Tab.Panel
                                 key={floor}
                             >
+                            <PhaseDataContent file={props.file} phase={props.phase} floor={floor} className={props.className}/>
                         {/** pass floor as props to PhaseDataContent */}
                         {/* {React.cloneElement(children, {floor: floor})} */}
-                            <PhaseDataContent file={props.file} phase={props.phase} className={props.className}/>
                         </Tab.Panel>
                     ))}
                 </Tab.Panels>

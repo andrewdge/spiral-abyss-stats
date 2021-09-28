@@ -11,7 +11,7 @@ const CompRanks = (props) => {
 
     const urlFill = props.floor ? (`-${props.floor}-${props.firstHalf ? 1 : 2}`) : ''
     //console.log(urlFill)
-
+    //console.log(props)
     //console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
 
     const { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`, fetcher)
