@@ -29,7 +29,6 @@ const Index = ({ file, twitter, phaseName }) => {
 
   return (
     <>
-      
       <Layout twitter={twitter}>
         {!largerThanPhone ? 
           image
