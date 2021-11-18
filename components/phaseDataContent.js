@@ -7,6 +7,7 @@ import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
 import { Switch } from '@headlessui/react';
 import { useHeroes } from "../data/typedMock";
+import { ReactSVG } from 'react-svg'
 
 const PhaseDataContent = (props) => {
 
@@ -16,8 +17,8 @@ const PhaseDataContent = (props) => {
     // powered by vercel banner for sponsorship munaeyz
     const banner = 
         <div className='flex flex-row align-middle justify-center pt-2'>
-            <Link href={"https://vercel.com/?utm_source=spiral-abyss-stats&utm_campaign=oss"} className="cursor-pointer" >
-                <Image src={"/../public/images/powered-by-vercel.svg"} alt={'thanks vercel <3'} layout='intrinsic' width={212} height={44} className="rounded-md cursor-pointer"/>
+            <Link href={"https://vercel.com/?utm_source=spiral-abyss-stats&utm_campaign=oss"} className="cursor-pointer" passHref >
+                <ReactSVG src={"images/powered-by-vercel.svg"} alt={'thanks vercel <3'} layout='intrinsic' width={212} height={44} className="rounded-md cursor-pointer"/>
             </Link>
         </div>;
 
