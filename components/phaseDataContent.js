@@ -1,10 +1,25 @@
 import React, { useState, useEffect } from 'react'
 import TeamBuilderCollapsable from "./teamBuilderCollapsable"
 import CompRanks from "./compRanks"
+import Image from 'next/image';
+import Link from 'next/link'
+import { useTheme } from '@material-ui/core/styles'
+import { useMediaQuery } from '@material-ui/core'
 import { Switch } from '@headlessui/react';
 import { useHeroes } from "../data/typedMock";
 
 const PhaseDataContent = (props) => {
+
+    const theme = useTheme();
+    const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
+
+    // powered by vercel banner for sponsorship munaeyz
+    const banner = 
+        <div className='flex flex-row align-middle justify-center pt-2'>
+            <Link href={"https://vercel.com/?utm_source=spiral-abyss-stats&utm_campaign=oss"} className="cursor-pointer" >
+                <Image src={"/../public/images/powered-by-vercel.svg"} alt={'thanks vercel <3'} layout='intrinsic' width={212} height={44} className="rounded-md cursor-pointer"/>
+            </Link>
+        </div>;
 
     const [firstHalf, switchHalves] = useState(false)
 
@@ -73,10 +88,22 @@ const PhaseDataContent = (props) => {
                         filterComps={filterComps} setFilterComps={setFilterComps}
                         className="z-20"
                     />
+
+                    {/* {!largerThanPhone ? 
+                    <></>
+                    :
+                    banner
+                    } */}
                 </div>
             </div>
             <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1 z-20'>
                 <CompRanks firstHalf={firstHalf} data={props.file} chars={chars} filterComps={filterComps} checked={checked} phase={props.phase} floor={props.floor} className='lg:col-start-1'/>
+                {/* {!largerThanPhone ? 
+                banner
+                :
+                <></>
+                } */}
+                {banner}
             </div>
         </div>
     )
