@@ -7,10 +7,12 @@ import Navbar from './navbar'
 
 const Layout = ({ children, twitter }) => {
     return (
-        <div>
-            <Navbar className="fixed" twitter={twitter} />
-            {children}
-        </div>
+        <>
+            <div>
+                <Navbar className="fixed" twitter={twitter} />
+                {children}
+            </div>
+        </>
     );  
 }
 
