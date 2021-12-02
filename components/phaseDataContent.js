@@ -15,18 +15,18 @@ const PhaseDataContent = (props) => {
     const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
 
     // powered by vercel banner for sponsorship munaeyz
-    const banner = 
+    const banner =
         <div className='flex flex-row align-middle justify-center pt-2'>
             <Link href={"https://vercel.com/?utm_source=spiral-abyss-stats&utm_campaign=oss"} className="cursor-pointer" passHref >
-                <ReactSVG src={"images/powered-by-vercel.svg"} alt={'thanks vercel <3'} layout='intrinsic' width={212} height={44} className="rounded-md cursor-pointer"/>
+                <ReactSVG src={"images/powered-by-vercel.svg"} alt={'thanks vercel <3'} layout='intrinsic' width={212} height={44} className="rounded-md cursor-pointer" />
             </Link>
         </div>;
 
-    const [firstHalf, switchHalves] = useState(true)
+    const [firstHalf, switchHalves] = useState(false)
 
     const heroList = useHeroes();
 
-    const heroDict = heroList.reduce((builderDict, currItem) => ({...builderDict, [currItem.name]: true}), {})
+    const heroDict = heroList.reduce((builderDict, currItem) => ({ ...builderDict, [currItem.name]: true }), {})
 
     const [filterComps, setFilterComps] = useState(true)
 
@@ -65,15 +65,13 @@ const PhaseDataContent = (props) => {
                             <Switch
                                 checked={firstHalf}
                                 onChange={switchHalves}
-                                className={`${
-                                    firstHalf ? 'bg-blue-600' : 'bg-gray-200'
-                                } relative inline-flex items-center h-6 rounded-full w-11`}
+                                className={`${firstHalf ? 'bg-blue-600' : 'bg-gray-200'
+                                    } relative inline-flex items-center h-6 rounded-full w-11`}
                             >
                                 <span className="sr-only">Enable notifications</span>
                                 <span
-                                    className={`${
-                                    firstHalf ? 'translate-x-6' : 'translate-x-1'
-                                    } inline-block w-4 h-4 transform bg-white rounded-full`}
+                                    className={`${firstHalf ? 'translate-x-6' : 'translate-x-1'
+                                        } inline-block w-4 h-4 transform bg-white rounded-full`}
                                 />
                             </Switch>
                             <span className='text-white ml-4'>Second Half</span>
@@ -81,8 +79,8 @@ const PhaseDataContent = (props) => {
                         :
                         <></>
                     }
-                    
-                    <TeamBuilderCollapsable 
+
+                    <TeamBuilderCollapsable
                         heroList={heroList} heroDict={heroDict}
                         chars={chars} setChars={setChars}
                         checked={checked} setChecked={setChecked}
@@ -98,7 +96,7 @@ const PhaseDataContent = (props) => {
                 </div>
             </div>
             <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1 z-20'>
-                <CompRanks firstHalf={firstHalf} data={props.file} chars={chars} filterComps={filterComps} checked={checked} phase={props.phase} floor={props.floor} className='lg:col-start-1'/>
+                <CompRanks firstHalf={firstHalf} data={props.file} chars={chars} filterComps={filterComps} checked={checked} phase={props.phase} floor={props.floor} className='lg:col-start-1' />
                 {/* {!largerThanPhone ? 
                 banner
                 :
