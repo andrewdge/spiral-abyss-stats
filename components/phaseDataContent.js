@@ -22,7 +22,7 @@ const PhaseDataContent = (props) => {
             </Link>
         </div>;
 
-    const [firstHalf, switchHalves] = useState(false)
+    const [firstHalf, switchHalves] = useState(true)
 
     const heroList = useHeroes();
 

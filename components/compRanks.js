@@ -9,7 +9,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json())
 
 const CompRanks = (props) => {
 
-    const urlFill = props.floor ? (`-${props.floor}-${props.firstHalf ? 1 : 2}`) : ''
+    const urlFill = props.floor ? (`-${props.floor}-${props.firstHalf ? 2 : 1}`) : ''
     //console.log(urlFill)
     //console.log(props)
     //console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
@@ -72,7 +72,7 @@ const CompRanks = (props) => {
     return (
         <div className={"flex flex-col bg-menu-gray p-4 border-white border-opacity-50 border-4 rounded-lg"}>
                 <div className='flex justify-center text-center text-white font-bold font-serif text-xl'>
-                    {phaseName} {props.floor ? `CHAMBER ${props.floor}-${props.firstHalf ? 1 : 2}` : 'ALL CHAMBERS'} POPULAR COMPS
+                    {phaseName} {props.floor ? `CHAMBER ${props.floor}-${props.firstHalf ? 2 : 1}` : 'ALL CHAMBERS'} POPULAR COMPS
                 </div>
                 
                 
