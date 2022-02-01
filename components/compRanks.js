@@ -15,6 +15,7 @@ const CompRanks = (props) => {
     //console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
 
     const { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`, fetcher)
+    
 
     const phaseName = props.phase.toUpperCase().replace(/_/g, ' ')
 
@@ -68,6 +69,7 @@ const CompRanks = (props) => {
                 .filter(comp => !props.filterComps || checkSelected(comp))
                 .filter(comp => !props.filterComps || checkFilter(comp))
     }
+
 
     return (
         <div className={"flex flex-col bg-menu-gray p-4 border-white border-opacity-50 border-4 rounded-lg"}>

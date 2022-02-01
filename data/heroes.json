@@ -84,10 +84,22 @@
         "image": "/images/characters/ganyu.png"
     },
     {
+        "name": "Gorou",
+        "rarity": "4",
+        "element": "Geo",
+        "image": "/images/characters/gorou.png"
+    },
+    {
         "name": "Hu Tao",
         "rarity": "5",
         "element": "Pyro",
         "image": "/images/characters/hutao.png"
+    },
+    {
+        "name": "Itto",
+        "rarity": "5",
+        "element": "Geo",
+        "image": "/images/characters/itto.png"
     },
     {
         "name": "Jean",
@@ -186,6 +198,12 @@
         "image": "/images/characters/sayu.png"
     },
     {
+        "name": "Shenhe",
+        "rarity": "5",
+        "element": "Cryo",
+        "image": "/images/characters/shenhe.png"
+    },
+    {
         "name": "Sucrose",
         "rarity": "4",
         "element": "Anemo",
@@ -196,6 +214,12 @@
         "rarity": "5",
         "element": "Hydro",
         "image": "/images/characters/tartaglia.png"
+    },
+    {
+        "name": "Thoma",
+        "rarity": "4",
+        "element": "Pyro",
+        "image": "/images/characters/thoma.png"
     },
     {
         "name": "Traveller",

@@ -5,8 +5,6 @@ import { useMediaQuery } from '@material-ui/core'
 import HeroesFile from '../data/heroes.json'
 
 export const useHero = (hero) => {
-    //REMOVE THIS, FIX RAIDEN
-    if (hero === "Raiden Shogun") hero = "Raiden"
     return HeroesFile.find(h => h.name === hero);
 }
 
@@ -19,6 +17,19 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
     const o3 = useHero(c3);
     const o4 = useHero(c4);
     const dim = 100;
+
+    if (o1 === undefined){
+        console.log(c1);
+    }
+    if (o2 === undefined){
+        console.log(c2);
+    }
+    if (o3 === undefined){
+        console.log(c3);
+    }
+    if (o4 === undefined){
+        console.log(c4);
+    }
 
 
     const phoneContent = 

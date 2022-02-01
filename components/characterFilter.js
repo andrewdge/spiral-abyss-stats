@@ -46,7 +46,7 @@ const CharacterFilter = (props) => {
                         {props.heroList.slice(1,props.heroList.length).filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
                             <div className="pl-4" key={index}>
                                 <FormControlLabel
-                                    control={<CharacterCheckbox name={hero.name} checked={props.checked[hero.name]} color="white" onChange={handleChange}/>}
+                                    control={<CharacterCheckbox name={hero.name} checked={props.checked[hero.name]} color="default" onChange={handleChange}/>}
                                     label={hero.name}
                                     key={index}
                                 />

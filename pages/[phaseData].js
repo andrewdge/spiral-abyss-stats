@@ -8,7 +8,8 @@ import PhaseDataContent from '../components/phaseDataContent'
 import FloorTab from '../components/floorTab'
 
 const PhaseData = (props) => {
-    console.log(props.phaseData)
+    console.log(props.phaseData);
+    // console.log(props);
 
     return (
         <>
