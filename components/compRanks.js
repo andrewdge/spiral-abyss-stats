@@ -10,9 +10,9 @@ const fetcher = (url) => fetch(url).then((res) => res.json())
 const CompRanks = (props) => {
 
     const urlFill = props.floor ? (`-${props.floor}-${props.firstHalf ? 2 : 1}`) : ''
-    //console.log(urlFill)
-    //console.log(props)
-    //console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
+    // console.log(urlFill)
+    // console.log(props)
+    // console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
 
     const { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`, fetcher)
     
@@ -64,10 +64,14 @@ const CompRanks = (props) => {
     {/** speeding up loadtime with filter */}
     let comps = []
     if(data) {
+        
         comps = data.slice(0, numTeams)
                 .filter(comp => comp.usage_rate > 1)
                 .filter(comp => !props.filterComps || checkSelected(comp))
                 .filter(comp => !props.filterComps || checkFilter(comp))
+        console.log(comps)
+    } else {
+        console.log(error)
     }
 
 

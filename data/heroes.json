@@ -222,15 +222,21 @@
         "image": "/images/characters/thoma.png"
     },
     {
-        "name": "Traveller",
+        "name": "Traveler-A",
         "rarity": "4",
-        "element": "None",
+        "element": "Anemo",
+        "image": "/images/characters/traveller.png"
+    },
+    {
+        "name": "Traveler-E",
+        "rarity": "4",
+        "element": "Electro",
         "image": "/images/characters/traveller.png"
     },
     {
         "name": "Traveler-G",
         "rarity": "4",
-        "element": "None",
+        "element": "Geo",
         "image": "/images/characters/traveller.png"
     },
     {
@@ -262,6 +268,12 @@
         "rarity": "4",
         "element": "Pyro",
         "image": "/images/characters/xinyan.png"
+    },
+    {
+        "name": "Yae",
+        "rarity": "5",
+        "element": "Electro",
+        "image": "/images/characters/yae.png"
     },
     {
         "name": "Yanfei",
