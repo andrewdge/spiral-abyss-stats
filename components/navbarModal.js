@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
+import InfoIcon from '@material-ui/icons/Info';
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import NavButton from './navButton';
 import LunarPhaseLinks from './lunarPhaseLinks';
@@ -42,6 +43,7 @@ const NavbarModal = (props) => {
                             <div className='flex flex-col content-between w-full'>
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' content='Home' />
                                 <NavButton link="https://forms.gle/ksJ4pQfEKxNqDEk19" icon={CloudUploadIcon} color='lightgray' fontSize='large' content='Submit Data'/>
+                                <NavButton link="/about" icon={InfoIcon} color='lightgray' fontSize='large' content='About' />
                             </div>
                         </div>
                         <div className='grid grid-rows-2 grid-cols-1 h-screen w-full'>
