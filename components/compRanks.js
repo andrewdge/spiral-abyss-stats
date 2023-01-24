@@ -41,6 +41,11 @@ const CompRanks = (props) => {
 
     // filter by checkboxes
     let checkFilter = (comp) => {
+        if (!props.checked[comp.char_one]) console.log('missing: ' + comp.char_one)
+        if (!props.checked[comp.char_two]) console.log('missing: ' + comp.char_two)
+        if (!props.checked[comp.char_three]) console.log('missing: ' + comp.char_three)
+        if (!props.checked[comp.char_four]) console.log('missing: ' + comp.char_four)
+
         if (!props.checked[comp.char_one]) {
             // console.log(comp.char_one)
             return false
@@ -64,14 +69,17 @@ const CompRanks = (props) => {
     {/** speeding up loadtime with filter */}
     let comps = []
     if(data) {
-        
+        console.log(props)
+        console.log(data.slice(0, numTeams)
+        .filter(comp => comp.usage_rate > 1)
+        .filter(comp => !props.filterComps || checkSelected(comp)))
         comps = data.slice(0, numTeams)
                 .filter(comp => comp.usage_rate > 1)
                 .filter(comp => !props.filterComps || checkSelected(comp))
                 .filter(comp => !props.filterComps || checkFilter(comp))
         console.log(comps)
     } else {
-        console.log(error)
+        console.log('honestly idk')
     }
 
 

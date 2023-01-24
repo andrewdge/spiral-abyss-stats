@@ -30,6 +30,12 @@
         "image": "/images/characters/ayaka.png"
     },
     {
+        "name": "Ayato",
+        "rarity": "5",
+        "element": "Hydro",
+        "image": "/images/characters/ayato.png"
+    },
+    {
         "name": "Barbara",
         "rarity": "4",
         "element": "Hydro",
@@ -70,6 +76,12 @@
         "rarity": "5",
         "element": "Cryo",
         "image": "/images/characters/eula.png"
+    },
+    {
+        "name": "Faruzan",
+        "rarity": "4",
+        "element": "Anemo",
+        "image": "/images/characters/faruzan.png"
     },
     {
         "name": "Fischl",
@@ -150,6 +162,18 @@
         "image": "/images/characters/mona.png"
     },
     {
+        "name": "Nahida",
+        "rarity": "5",
+        "element": "Dendro",
+        "image": "/images/characters/nahida.png"
+    },
+    {
+        "name": "Nilou",
+        "rarity": "5",
+        "element": "Hydro",
+        "image": "/images/characters/nilou.png"
+    },
+    {
         "name": "Ningguang",
         "rarity": "4",
         "element": "Geo",
@@ -204,6 +228,12 @@
         "image": "/images/characters/shenhe.png"
     },
     {
+        "name": "Shinobu",
+        "rarity": "4",
+        "element": "Electro",
+        "image": "/images/characters/shinobu.png"
+    },
+    {
         "name": "Sucrose",
         "rarity": "4",
         "element": "Anemo",
@@ -246,6 +276,12 @@
         "image": "/images/characters/venti.png"
     },
     {
+        "name": "Wanderer",
+        "rarity": "5",
+        "element": "Anemo",
+        "image": "/images/characters/wanderer.png"
+    },
+    {
         "name": "Xiangling",
         "rarity": "4",
         "element": "Pyro",
@@ -280,6 +316,12 @@
         "rarity": "4",
         "element": "Pyro",
         "image": "/images/characters/yanfei.png"
+    },
+    {
+        "name": "Yelan",
+        "rarity": "5",
+        "element": "Hydro",
+        "image": "/images/characters/yelan.png"
     },
     {
         "name": "Yoimiya",

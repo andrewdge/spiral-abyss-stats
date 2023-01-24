@@ -16,6 +16,7 @@
     "@material-ui/icons": "^4.11.2",
     "@next/bundle-analyzer": "^11.0.1",
     "@tippyjs/react": "^4.2.5",
+    "@vercel/analytics": "^0.1.8",
     "dangerously-set-html-content": "^1.0.8",
     "genshin-db": "^3.8.0",
     "mongodb": "^4.1.0",
