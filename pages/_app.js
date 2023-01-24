@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Analytics />
     </>
-  )
+  );
 }
 
 export default MyApp
