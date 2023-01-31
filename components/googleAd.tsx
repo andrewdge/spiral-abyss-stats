@@ -35,13 +35,15 @@ interface GoogleAdProps {
 }
 
 export function GoogleAd({variant = AdType.DEFAULT}: GoogleAdProps) {
+  let adsbygoogle;
   useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (err) {
-      console.error(err);
+    const ads = document.getElementsByClassName("adsbygoogle").length;
+    for (let i = 0; i < ads; i++) {
+      try {
+        (adsbygoogle = (window as any).adsbygoogle || []).push({});
+      } catch (e) { console.log(e) }
     }
-  }, []);
+}, []);
 
   return (
     <div 

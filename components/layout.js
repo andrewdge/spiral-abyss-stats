@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Script from "next/script";
 import Image from 'next/image'
 import Navbar from './navbar'
 import { GoogleAd, AdType } from './googleAd'
@@ -20,11 +19,6 @@ const Layout = ({ children, twitter }) => {
                     `
             }}/> */}
             {/* adsense stuff */}
-            <Script 
-                data-ad-client={`${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}`} async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossOrigin="anonymous"
-            >
-            </Script>
             <Head>
                 <link rel="shortcut icon" href={"/public/favicon.ico"}/>
                 <meta name="robots" content="index, follow"/>
