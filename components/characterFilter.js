@@ -41,7 +41,7 @@ const CharacterFilter = (props) => {
                     <button onClick={clear} className="bg-opacity-40 transition duration-100 hover:bg-white hover:bg-opacity-40"><div className="w-max p-3 transition duration-100 transform hover:scale-110">Unselect All</div></button>
                     <button onClick={reset} className="bg-opacity-40 transition duration-100 hover:bg-white hover:bg-opacity-40"><div className="w-max p-3 transition duration-100 transform hover:scale-110">Reset</div></button>
                 </div>
-                <div className="flex flex-col overflow-y-scroll scrollbar scrollbar-thumb-rounded-lg scrollbar-thumb-h-1/3 scrollbar-track-gray-300 scrollbar-track-rounded-full scrollbar-thumb-white max-h-52">
+                <div className="flex flex-col overflow-y-scroll scrollbar scrollbar-thumb-rounded-lg scrollbar-thumb-h-1/3 scrollbar-track-gray-300 scrollbar-track-rounded-full scrollbar-thumb-white h-52 max-h-full">
                     <FormGroup>
                         {props.heroList.slice(1,props.heroList.length).filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
                             <div className="pl-4" key={index}>
