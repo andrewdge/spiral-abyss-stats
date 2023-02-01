@@ -35,7 +35,7 @@ const TeamBuilder = (props) => {
                                 open ? 'transform rotate-90' : ''
                             } w-5 h-5 text-purple-500`}
                             />
-                            <span>Filter Characters</span>
+                            <span>Exclude Characters</span>
                         </Disclosure.Button>
                         <Disclosure.Panel className="text-white p-3">
                             <DynamicCharacterFilter checked={props.checked} setChecked={props.setChecked} heroList={props.heroList} heroDict={props.heroDict} />

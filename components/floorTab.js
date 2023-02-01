@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Tab } from '@headlessui/react'
 import PhaseDataContent from './phaseDataContent'
+import NotificationBanner from '../components/notificationBanner'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -11,6 +12,7 @@ const FloorTab = (props) => {
 
     return (
         <div className="flex flex-col w-full px-2 py-16 sm:px-0">
+            <NotificationBanner />
             <Tab.Group>
                 <Tab.List className="flex p-1 space-x-1 bg-blue-900/20 rounded-xl min-w-[50%] place-self-center">
                     {floors.map( floor => (
