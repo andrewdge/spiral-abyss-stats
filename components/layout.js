@@ -29,8 +29,8 @@ const Layout = ({ children, twitter }) => {
             </Head>
             <div>
                 <Navbar className="fixed" twitter={twitter} />
-                <GoogleAd variant={AdType.HORIZONTAL} />
                 {children}
+                <GoogleAd variant={AdType.HORIZONTAL} />
             </div>
         </div>
     );  
