@@ -8,7 +8,7 @@ const TeamSelection = (props) => {
     return (
         <div className={'m-1 md:m-3'}>
             <Listbox value={props.hero} onChange={props.setHero}>
-                <Listbox.Button className="relative z-10 w-full py-2 pl-3 pr-10 text-left bg-white rounded-md shadow-md cursor-default focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-orange-300 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-sm">
+                <Listbox.Button className="relative z-10 w-full py-2 pl-3 pr-10 text-left hover:bg-indigo-100 cursor-pointer bg-white rounded-md shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-orange-300 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-sm">
                     <span className="block truncate text-black">{props.hero.name}</span>
                     <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                     <SelectorIcon
@@ -30,7 +30,7 @@ const TeamSelection = (props) => {
                                 value={hero}
                                 className={({ active }) =>
                                     `${active ? 'text-indigo-900 bg-indigo-100' : 'text-gray-900'}
-                                        cursor-default select-none relative py-2 pl-10 pr-4`
+                                        cursor-pointer select-none relative py-2 pl-10 pr-4`
                                 }
                             >
                                 {({ selected, active }) => (

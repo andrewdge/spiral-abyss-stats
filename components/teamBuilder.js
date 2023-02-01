@@ -37,7 +37,7 @@ const TeamBuilder = (props) => {
                             />
                             <span>Exclude Characters</span>
                         </Disclosure.Button>
-                        <Disclosure.Panel className="text-white p-3">
+                        <Disclosure.Panel className="text-white px-2">
                             <DynamicCharacterFilter checked={props.checked} setChecked={props.setChecked} heroList={props.heroList} heroDict={props.heroDict} />
                         </Disclosure.Panel>
                         </>
