@@ -58,7 +58,7 @@ const PhaseDataContent = (props) => {
     return (
         <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 ' + props.className}>
             <div className='lg:col-start-3 lg:col-span-1 z-20'>
-                <div className='lg:sticky top-0 w-full'>
+                <div className='lg:sticky top-20 w-full'>
                     {props.floor ?
                         <div className='flex items-center justify-center p-4 bg-menu-gray border-white border-opacity-50 border-4 bg-opacity-50 rounded-lg'>
                             <span className='text-white mr-4'>First Half</span>
