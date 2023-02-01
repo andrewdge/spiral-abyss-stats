@@ -12,6 +12,12 @@
         "image": "/images/characters/albedo.png"
     },
     {
+        "name": "Alhaitham",
+        "rarity": "5",
+        "element": "Dendro",
+        "image": "/images/characters/alhaitham.png"
+    },
+    {
         "name": "Aloy",
         "rarity": "5",
         "element": "Cryo",
