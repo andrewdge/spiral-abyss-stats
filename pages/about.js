@@ -15,7 +15,7 @@ const About = ({ twitter }) => {
                         <div className='mb-5'/>
                         <div className='px-20'>
                             This site was made by two college students in their junior year over the course of 3 months, with the assistance of a third student for visual design.
-                            Updates may be slow during the school year as we have class work to focus on. Feel free to contact us for information regarding how we built the site and to submit bug reports.
+                            Feel free to contact us for information regarding how we built the site and to submit bug reports.
 
                         </div>
                         <div className='mb-5'/>

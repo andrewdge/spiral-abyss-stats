@@ -11,16 +11,17 @@ module.exports = {
       backgroundImage: theme => ({
         'watatsumi': "url('../public/images/watatsumi.webp')"
       }),
-
       colors: {
         'menu-item': '#4e5a70',
         'menu-yellow': '#EDE5DA',
         'menu-gray': '#50596A',
       },
-      
       gridTemplateColumns: {
         'teamcontainer': '10% 70% 20%',
       },
+      invert: {
+        81: '.81'
+      }
     },
   },
   variants: {

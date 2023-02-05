@@ -1,12 +1,18 @@
 const withPlugins = require('next-compose-plugins');
+const withImages = require('next-images');
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
 
-module.exports = withPlugins([
+module.exports = withPlugins(
+//individual plugins
+[
   [withBundleAnalyzer],
-],{
+  [withImages]
+],
+//global config
+{
   reactStrictMode: true,
   images: {
     disableStaticImages: true,

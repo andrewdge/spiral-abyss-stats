@@ -2,7 +2,8 @@ import React, { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
-import InfoIcon from '@material-ui/icons/Info';
+import InfoIcon from '@material-ui/icons/Info.js';
+import KofiIcon from '../public/images/kofi_logo.png';
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import NavButton from './navButton';
 import LunarPhaseLinks from './lunarPhaseLinks';
@@ -44,6 +45,7 @@ const NavbarModal = (props) => {
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' content='Home' />
                                 <NavButton link="https://forms.gle/ksJ4pQfEKxNqDEk19" icon={CloudUploadIcon} color='lightgray' fontSize='large' content='Submit Data'/>
                                 <NavButton link="/about" icon={InfoIcon} color='lightgray' fontSize='large' content='About' />
+                                <NavButton link="https://ko-fi.com/kubbi" customImage='true' additionalStyling='invert-81' icon={KofiIcon} fontSize='large' content='Donate!'/>
                             </div>
                         </div>
                         <div className='grid grid-rows-2 grid-cols-1 h-screen w-full'>
