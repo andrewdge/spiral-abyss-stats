@@ -87,6 +87,15 @@ const PhaseDataContent = (props) => {
                         filterComps={filterComps} setFilterComps={setFilterComps}
                         className="z-20"
                     />
+                    <div className='flex place-content-center w-full h-full bg-menu-gray mt-3 border-yellow-600 border-4 bg-opacity-50 rounded-lg'>
+                        <Link href={'/trends'} passHref>
+                            <button className={`m-4 py-2 px-4 w-full transition duration-100 hover:bg-yellow-200 rounded-lg`}>
+                                <div className='text-center font-semibold text-yellow-500'>
+                                    View Trends
+                                </div>
+                            </button>
+                        </Link>
+                    </div>
 
                     {/* {!largerThanPhone ? 
                     <></>
