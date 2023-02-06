@@ -3,6 +3,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
 import InfoIcon from '@material-ui/icons/Info.js';
+import TimelineIcon from '@material-ui/icons/Timeline.js';
 import KofiIcon from '../public/images/kofi_logo.png';
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import NavButton from './navButton';
@@ -43,6 +44,7 @@ const NavbarModal = (props) => {
                             {/** Main nav */}
                             <div className='flex flex-col content-between w-full'>
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' content='Home' />
+                                <NavButton link="/trends" icon={TimelineIcon} color='lightgray' fontSize='large' content='Trends' />
                                 <NavButton link="https://forms.gle/ksJ4pQfEKxNqDEk19" icon={CloudUploadIcon} color='lightgray' fontSize='large' content='Submit Data'/>
                                 <NavButton link="https://ko-fi.com/kubbi" customImage='true' additionalStyling='invert-81' icon={KofiIcon} fontSize='large' content='Donate!'/>
                                 <NavButton link="/about" icon={InfoIcon} color='lightgray' fontSize='large' content='About' />

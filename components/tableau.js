@@ -24,8 +24,9 @@ const Tableau = () => {
 
     return (
         <div className='max-h-screen h-screen'>
-            <div className='max-w-full max-h-screen w-100 h-screen '>
-                <div ref={ref} className='scale-[.70] -translate-x-32 -translate-y-48'></div>
+            <div className='max-w-full max-h-screen w-100 h-screen flex place-content-center'>
+                <div ref={ref} className='scale-[.70] -translate-y-32'></div>
+                {/* -translate-x-32 -translate-y-48 */}
             </div>
         </div>
     );  
