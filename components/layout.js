@@ -30,7 +30,7 @@ const Layout = ({ children, twitter }) => {
             <div>
                 <Navbar className="fixed" twitter={twitter} />
                 {children}
-                <GoogleAd variant={AdType.HORIZONTAL} />
+                {/* <GoogleAd variant={AdType.HORIZONTAL} /> */}
             </div>
         </div>
     );  

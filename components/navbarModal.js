@@ -44,8 +44,8 @@ const NavbarModal = (props) => {
                             <div className='flex flex-col content-between w-full'>
                                 <NavButton link="/" icon={HomeIcon} color='lightgray' fontSize='large' content='Home' />
                                 <NavButton link="https://forms.gle/ksJ4pQfEKxNqDEk19" icon={CloudUploadIcon} color='lightgray' fontSize='large' content='Submit Data'/>
-                                <NavButton link="/about" icon={InfoIcon} color='lightgray' fontSize='large' content='About' />
                                 <NavButton link="https://ko-fi.com/kubbi" customImage='true' additionalStyling='invert-81' icon={KofiIcon} fontSize='large' content='Donate!'/>
+                                <NavButton link="/about" icon={InfoIcon} color='lightgray' fontSize='large' content='About' />
                             </div>
                         </div>
                         <div className='grid grid-rows-2 grid-cols-1 h-screen w-full'>
