@@ -13,10 +13,16 @@ const About = ({ twitter }) => {
                     <div className='flex flex-col items-center justify-center p-4 bg-white border-menu-gray border-opacity-50 border-4 bg-opacity-50 rounded-lg'>
                         <div className='font-bold text-3xl'>About</div>
                         <div className='mb-5'/>
-                        <div className='px-20'>
-                            This site was made by two college students in their junior year over the course of 3 months, with the assistance of a third student for visual design.
-                            Feel free to contact us for information regarding how we built the site and to submit bug reports.
-
+                        <div className='grid grid-cols-2 w-full'>
+                            <div className='px-3'>
+                                asfdadfaadsafaf
+                            </div>
+                            <div className='flex place-content-center border-l-2 border-black'>
+                                <p className='px-3'>
+                                    This site was made by two college students in their junior year over the course of 3 months, with the assistance of a third student for visual design.
+                                    Feel free to contact us for information regarding how we built the site and to submit bug reports.
+                                </p>
+                            </div>
                         </div>
                         <div className='mb-5'/>
                         <div className=''>

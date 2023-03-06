@@ -66,6 +66,18 @@
         "image": "/images/characters/chongyun.png"
     },
     {
+        "name": "Collei",
+        "rarity": "4",
+        "element": "Dendro",
+        "image": "/images/characters/collei.png"
+    },
+    {
+        "name": "Cyno",
+        "rarity": "5",
+        "element": "Electro",
+        "image": "/images/characters/cyno.png"
+    },
+    {
         "name": "Diluc",
         "rarity": "5",
         "element": "Pyro",
@@ -76,6 +88,12 @@
         "rarity": "4",
         "element": "Cryo",
         "image": "/images/characters/diona.png"
+    },
+    {
+        "name": "Dehya",
+        "rarity": "5",
+        "element": "Pyro",
+        "image": "/images/characters/dehya.png"
     },
     {
         "name": "Eula",
@@ -258,22 +276,34 @@
         "image": "/images/characters/thoma.png"
     },
     {
+        "name": "Tighnari",
+        "rarity": "5",
+        "element": "Dendro",
+        "image": "/images/characters/tighnari.png"
+    },
+    {
         "name": "Traveler-A",
         "rarity": "4",
         "element": "Anemo",
-        "image": "/images/characters/traveller.png"
+        "image": "/images/characters/traveler-anemo.png"
+    },
+    {
+        "name": "Traveler-D",
+        "rarity": "4",
+        "element": "Dendro",
+        "image": "/images/characters/traveler-dendro.png"
     },
     {
         "name": "Traveler-E",
         "rarity": "4",
         "element": "Electro",
-        "image": "/images/characters/traveller.png"
+        "image": "/images/characters/traveler-electro.png"
     },
     {
         "name": "Traveler-G",
         "rarity": "4",
         "element": "Geo",
-        "image": "/images/characters/traveller.png"
+        "image": "/images/characters/traveler-geo.png"
     },
     {
         "name": "Venti",
@@ -322,6 +352,12 @@
         "rarity": "4",
         "element": "Pyro",
         "image": "/images/characters/yanfei.png"
+    },
+    {
+        "name": "YaoYao",
+        "rarity": "4",
+        "element": "Dendro",
+        "image": "/images/characters/yaoyao.png"
     },
     {
         "name": "Yelan",
