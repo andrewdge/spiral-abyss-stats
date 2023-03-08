@@ -4,19 +4,24 @@ import { Switch } from '@headlessui/react'
 import useSWR from 'swr'
 import TeamContainer from './teamContainer';
 import { useRecoilState } from 'recoil';
-import { phaseNameState } from '../data/recoil/atoms';
+import { phaseNameState, includedCharactersState } from '../data/recoil/atoms';
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
 
-const CompRanks = ({floor, isFirstHalf, filterComps, chars, checked}) => {
+const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
     const [phaseName] = useRecoilState(phaseNameState);
+    const [includedCharacters]= useRecoilState(includedCharactersState);
+    console.log("compRanks", includedCharacters)
+
 
     const urlFill = floor ? (`-${floor}-${isFirstHalf ? 2 : 1}`) : ''
     // console.log(urlFill)
     // console.log(props)
     // console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
 
+
+    //TODO: load specific floor data dynamically when user hovers/clicks the corresponding button
     const { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${phaseName}${urlFill}.json`, fetcher)
     
 
@@ -24,24 +29,35 @@ const CompRanks = ({floor, isFirstHalf, filterComps, chars, checked}) => {
 
     let [numTeams, setNumTeams] = useState(10);
 
-    let checkNames = (comp, char) => {
-        if (char.name === "None") return true
-        if (comp.char_one === char.name) return (true)
-        if (comp.char_two === char.name) return (true)
-        if (comp.char_three === char.name) return (true)
-        if (comp.char_four === char.name) return (true)
-        return false
+    // let checkNames = (comp, char) => {
+    //     if (!char || char.name === "None") return true
+    //     if (comp.char_one === char.name) return (true)
+    //     if (comp.char_two === char.name) return (true)
+    //     if (comp.char_three === char.name) return (true)
+    //     if (comp.char_four === char.name) return (true)
+    //     return false
+    // }
+
+    // // filter by dropdown selectors
+    // let checkSelected = (comp) => {
+    //     if (!checkNames(comp, includedCharacters.first)) return (false)
+    //     if (!checkNames(comp, includedCharacters.second)) return (false)
+    //     if (!checkNames(comp, includedCharacters.third)) return (false)
+    //     if (!checkNames(comp, includedCharacters.fourth)) return (false)
+    //     return true
+    // }
+    
+    const checkIncluded = (comp) => {
+        const included = [includedCharacters.firstCharacter, includedCharacters.secondCharacter, includedCharacters.thirdCharacter, includedCharacters.fourthCharacter]
+        const compCharacters = [comp.char_one, comp.char_two, comp.char_three, comp.char_four];
+        console.log(included, compCharacters)
+
+        return included.every(includedChar=>(!includedChar || includedChar.name === "None")
+         || compCharacters.find(compChar=>compChar===includedChar.name)
+         )
     }
 
-    // filter by dropdown selectors
-    let checkSelected = (comp) => {
-        if (!checkNames(comp, chars.first)) return (false)
-        if (!checkNames(comp, chars.second)) return (false)
-        if (!checkNames(comp, chars.third)) return (false)
-        if (!checkNames(comp, chars.fourth)) return (false)
-        return true
-    }
-
+    //TODO: replace with excluded
     // filter by checkboxes
     let checkFilter = (comp) => {
         if (!checked[comp.char_one]) console.log('missing: ' + comp.char_one)
@@ -70,15 +86,16 @@ const CompRanks = ({floor, isFirstHalf, filterComps, chars, checked}) => {
     
     // console.log(checked)
     {/** speeding up loadtime with filter */}
-    let comps = []
+    let comps = [];
     if(data) {
         console.log(data.slice(0, numTeams)
         .filter(comp => comp.usage_rate > 1)
-        .filter(comp => !filterComps || checkSelected(comp)))
+        .filter(comp => !isFilterActive || checkIncluded(comp))
+        )
         comps = data.slice(0, numTeams)
                 .filter(comp => comp.usage_rate > 1)
-                .filter(comp => !filterComps || checkSelected(comp))
-                .filter(comp => !filterComps || checkFilter(comp))
+                .filter(comp => !isFilterActive || checkIncluded(comp))
+                .filter(comp => !isFilterActive || checkFilter(comp))
         console.log(comps)
     } else {
         console.log('honestly idk')
@@ -98,7 +115,7 @@ const CompRanks = ({floor, isFirstHalf, filterComps, chars, checked}) => {
                             <TeamContainer key={index} 
                             c1={comp.char_one} c2={comp.char_two} 
                             c3={comp.char_three} c4={comp.char_four} 
-                            rank={index+1} usage={comp.usage_rate} /> 
+                            rank={comp.rank} usage={comp.usage_rate} /> 
                         )
                         :
                         <></>

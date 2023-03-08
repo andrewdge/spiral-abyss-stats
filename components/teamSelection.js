@@ -3,14 +3,13 @@ import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, SelectorIcon } from '@heroicons/react/solid'
 
 
-const TeamSelection = (props) => {    
+const TeamSelection = ({hero, setHero, heroList}) => {    
 
     return (
         <div className={'m-1 md:m-3'}>
-            <Listbox value={props.hero} onChange={console.log}>
-                {console.log(props)}
+            <Listbox value={hero} onChange={setHero}>
                 <Listbox.Button className="relative z-10 w-full py-2 pl-3 pr-10 text-left hover:bg-indigo-100 cursor-pointer bg-white rounded-md shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-orange-300 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-sm">
-                    <span className="block truncate text-black">{props.hero.name}</span>
+                    <span className="block truncate text-black">{hero?.name}</span>
                     <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                     <SelectorIcon
                         className="w-5 h-5 text-gray-400"
@@ -25,7 +24,7 @@ const TeamSelection = (props) => {
                     leaveTo="opacity-0"
                 >
                     <Listbox.Options className="absolute z-20 py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                        {props.heroList.map((hero, index) => (
+                        {heroList.map((hero, index) => (
                             <Listbox.Option
                                 key={index}
                                 value={hero}

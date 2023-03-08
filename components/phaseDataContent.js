@@ -31,25 +31,7 @@ const PhaseDataContent = ({floor, classNameProp}) => {
 
     const [checked, setChecked] = React.useState(heroDict)
 
-    const [firstHero, setFirstHero] = useState(heroList[0]);
-    const [secondHero, setSecondHero] = useState(heroList[0]);
-    const [thirdHero, setThirdHero] = useState(heroList[0]);
-    const [fourthHero, setFourthHero] = useState(heroList[0]);
-
-    let chars = {
-        first: firstHero,
-        second: secondHero,
-        third: thirdHero,
-        fourth: fourthHero
-    }
-
-    let setChars = {
-        first: setFirstHero,
-        second: setSecondHero,
-        third: setThirdHero,
-        fourth: setFourthHero
-    }
-
+   
     // useEffect(() => {
     //     console.log(chars)
     // }, [firstHero, secondHero, thirdHero, fourthHero])
@@ -81,7 +63,6 @@ const PhaseDataContent = ({floor, classNameProp}) => {
 
                     <TeamBuilderCollapsable
                         heroList={heroList} heroDict={heroDict}
-                        chars={chars} setChars={setChars}
                         checked={checked} setChecked={setChecked}
                         isFilterActive={isFilterActive} setIsFilterActive={setIsFilterActive}
                         className="z-20"
@@ -104,7 +85,7 @@ const PhaseDataContent = ({floor, classNameProp}) => {
                 </div>
             </div>
             <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1 z-20'>
-                <CompRanks isFirstHalf={isFirstHalf}  chars={chars} isFilterActive={isFilterActive} checked={checked}  floor={floor} className='lg:col-start-1' />
+                <CompRanks isFirstHalf={isFirstHalf} isFilterActive={isFilterActive} checked={checked}  floor={floor} className='lg:col-start-1' />
                 {/* {!largerThanPhone ? 
                 banner
                 :
