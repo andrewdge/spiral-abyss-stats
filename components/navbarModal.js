@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { useRef, Fragment, useEffect } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import ReplyIcon from '@material-ui/icons/Reply.js';
 import HomeIcon from '@material-ui/icons/Home.js';
@@ -13,23 +13,29 @@ import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css'; // optional for styling
 
 const NavbarModal = (props) => {
+      let buttonRef = useRef(null)
+      useEffect(()=>{
+        console.log(props.isOpen);
+      },[props.isOpen])
 
     // console.log(props.twitter)
 
-    return (
-        <Transition show={props.isOpen} as={Fragment}
-            appear
-            enter="transition ease-in-out duration-150 transform"
-            enterFrom="-translate-x-full"
-            enterTo="translate-x-0"
-            leave="transition ease-in-out duration-150 transform"
-            leaveFrom="translate-x-0"
-            leaveTo="-translate-x-full"
-        >
-            {/* TODO: onMouseLeave={() =>props.setIsOpen(false)} */}
-            <Dialog className="fixed h-screen top-0 z-30 w-full md:w-1/3" 
+    
+        // <Transition show={props.isOpen} as={Fragment}
+        //     appear
+        //     enter="transition ease-in-out duration-150 transform"
+        //     enterFrom="-translate-x-full"
+        //     enterTo="translate-x-0"
+        //     leave="transition ease-in-out duration-150 transform"
+        //     leaveFrom="translate-x-0"
+        //     leaveTo="-translate-x-full"
+        // >
+             {/* //TODO: revert to dialog (?) */}
+                
+        return (
+                props.isOpen && <div className={`fixed h-screen top-0 z-30 w-full md:w-1/3`}
+                initialFocus={buttonRef}
                 open={props.isOpen} onClose={() => props.setIsOpen(false)} >
-                <Dialog.Overlay />
                 {/* Menu Contents */}
                 {/* Gradient background */}
                 <div className="bg-gradient-to-b from-menu-yellow h-screen">
@@ -37,7 +43,7 @@ const NavbarModal = (props) => {
                         {/* Left Grey navbar */}
                         <div className='w-20 md:w-[80px] h-screen bg-menu-item grid grid-rows-2 justify-items-center' content=''>
                             <Tippy content='Close' placement='right'>
-                                <button onClick={() => props.setIsOpen(false)} className="w-14 h-14 rounded-full bg-menu-yellow border-[#969696] border-4 mt-4 transition duration-100 transform hover:-translate-y-1 hover:scale-110">
+                                <button ref={buttonRef} onClick={() => props.setIsOpen(false)} className="w-14 h-14 rounded-full bg-menu-yellow border-[#969696] border-4 mt-4 transition duration-100 transform hover:-translate-y-1 hover:scale-110">
                                     <ReplyIcon  className='cursor-pointer' fontSize='large' style={{ color: '#3A4154'}} />
                                 </button>
                             </Tippy>
@@ -62,8 +68,7 @@ const NavbarModal = (props) => {
                         </div>
                     </div>
                 </div>
-            </Dialog>
-        </ Transition>
+            </div>
     )
 }
 
