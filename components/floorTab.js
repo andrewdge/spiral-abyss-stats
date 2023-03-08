@@ -7,7 +7,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-const FloorTab = (props) => {
+const FloorTab = ({classNameProp}) => {
     const [floors] = useState([0, 1, 2, 3])
 
     return (
@@ -43,7 +43,7 @@ const FloorTab = (props) => {
                             <Tab.Panel
                                 key={floor}
                             >
-                            <PhaseDataContent file={props.file} phase={props.phase} floor={floor} className={props.className}/>
+                            <PhaseDataContent  floor={floor} className={classNameProp}/>
                         {/** pass floor as props to PhaseDataContent */}
                         {/* {React.cloneElement(children, {floor: floor})} */}
                         </Tab.Panel>

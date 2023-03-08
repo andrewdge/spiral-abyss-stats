@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Script from "next/script";
 import { Analytics } from '@vercel/analytics/react';
+import { RecoilRoot } from 'recoil';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,7 +12,9 @@ function MyApp({ Component, pageProps }) {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossOrigin="anonymous"
       >
       </Script>
-      <Component {...pageProps} />
+      <RecoilRoot>
+        <Component {...pageProps} />
+      </RecoilRoot>
       <Analytics />
     </>
   );

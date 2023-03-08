@@ -9,10 +9,9 @@ import { Switch } from '@headlessui/react';
 import { useHeroes } from "../data/typedMock";
 import { ReactSVG } from 'react-svg'
 
-const PhaseDataContent = (props) => {
+const PhaseDataContent = ({floor, classNameProp}) => {
 
     const theme = useTheme();
-    const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
 
     // powered by vercel banner for sponsorship munaeyz
     const banner =
@@ -22,13 +21,13 @@ const PhaseDataContent = (props) => {
             </Link>
         </div>;
 
-    const [firstHalf, switchHalves] = useState(false)
+    const [isFirstHalf, switchHalves] = useState(false)
 
     const heroList = useHeroes();
 
     const heroDict = heroList.reduce((builderDict, currItem) => ({ ...builderDict, [currItem.name]: true }), {})
 
-    const [filterComps, setFilterComps] = useState(true)
+    const [isFilterActive, setIsFilterActive] = useState(true)
 
     const [checked, setChecked] = React.useState(heroDict)
 
@@ -56,21 +55,21 @@ const PhaseDataContent = (props) => {
     // }, [firstHero, secondHero, thirdHero, fourthHero])
 
     return (
-        <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 ' + props.className}>
+        <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 ' + classNameProp}>
             <div className='lg:col-start-3 lg:col-span-1 z-20'>
                 <div className='lg:sticky top-20 w-full'>
-                    {props.floor ?
+                    {floor ?
                         <div className='flex items-center justify-center p-4 bg-menu-gray border-white border-opacity-50 border-4 bg-opacity-50 rounded-lg'>
                             <span className='text-white mr-4'>First Half</span>
                             <Switch
-                                checked={firstHalf}
-                                onChange={switchHalves}
-                                className={`${firstHalf ? 'bg-blue-600' : 'bg-gray-200'
+                                checked={isFirstHalf}
+                                onChange={()=>switchHalves(!isFirstHalf)}
+                                className={`${isFirstHalf ? 'bg-blue-600' : 'bg-gray-200'
                                     } relative inline-flex items-center h-6 rounded-full w-11`}
                             >
                                 <span className="sr-only">Enable notifications</span>
                                 <span
-                                    className={`${firstHalf ? 'translate-x-6' : 'translate-x-1'
+                                    className={`${isFirstHalf ? 'translate-x-6' : 'translate-x-1'
                                         } inline-block w-4 h-4 transform bg-white rounded-full`}
                                 />
                             </Switch>
@@ -84,7 +83,7 @@ const PhaseDataContent = (props) => {
                         heroList={heroList} heroDict={heroDict}
                         chars={chars} setChars={setChars}
                         checked={checked} setChecked={setChecked}
-                        filterComps={filterComps} setFilterComps={setFilterComps}
+                        isFilterActive={isFilterActive} setIsFilterActive={setIsFilterActive}
                         className="z-20"
                     />
                     <div className='flex place-content-center w-full h-full bg-menu-gray mt-3 border-yellow-600 border-4 bg-opacity-50 rounded-lg'>
@@ -105,7 +104,7 @@ const PhaseDataContent = (props) => {
                 </div>
             </div>
             <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1 z-20'>
-                <CompRanks firstHalf={firstHalf} data={props.file} chars={chars} filterComps={filterComps} checked={checked} phase={props.phase} floor={props.floor} className='lg:col-start-1' />
+                <CompRanks isFirstHalf={isFirstHalf}  chars={chars} isFilterActive={isFilterActive} checked={checked}  floor={floor} className='lg:col-start-1' />
                 {/* {!largerThanPhone ? 
                 banner
                 :

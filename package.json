@@ -27,6 +27,7 @@
     "react-dom": "^18.2.0",
     "react-svg": "^14.1.2",
     "react-twitter-embed": "^4.0.4",
+    "recoil": "^0.7.7",
     "swr": "^1.0.1",
     "tableau-api": "^2.2.3"
   },

@@ -6,6 +6,8 @@ import { ChevronRightIcon } from '@heroicons/react/solid'
 import { Accordion, AccordionSummary, AccordionDetails } from '@material-ui/core'
 import FilterSwitch from './filterSwitch'
 import dynamic from 'next/dynamic'
+import { useRecoilState } from 'recoil'
+import { includedCharactersState } from '../data/recoil/atoms'
 
 const DynamicCharacterFilter = dynamic(() => import('./characterFilter'), {
     ssr: false,
@@ -14,6 +16,8 @@ const DynamicCharacterFilter = dynamic(() => import('./characterFilter'), {
 //test
 
 const TeamBuilder = (props) => {
+    console.log(props)
+    const [includedCharacters] = useRecoilState(includedCharactersState);
     return (
         <div className=' flex flex-col gap-2 items-center'>
             <div className='w-full justify-center items-center grid grid-rows-2 grid-cols-2 md:grid-rows-1 md:grid-cols-4 lg:grid-rows-2 lg:grid-cols-2'>
@@ -23,7 +27,7 @@ const TeamBuilder = (props) => {
                 <TeamSelection hero={props.chars.fourth} setHero={props.setChars.fourth} heroList={props.heroList} />
             </div>
             <div className="flex flex-row items-center p-2 md:p-0">
-                <FilterSwitch filter={props.filterComps} setFilter={props.setFilterComps} />
+                <FilterSwitch filter={props.isFilterActive} setFilter={props.setIsFilterActive} />
             </div>
             <div className="bg-white bg-opacity-40 rounded-lg w-full">
                 <Disclosure>

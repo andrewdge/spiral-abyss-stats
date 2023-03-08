@@ -18,7 +18,6 @@ const NavbarModal = (props) => {
         console.log(props.isOpen);
       },[props.isOpen])
 
-    // console.log(props.twitter)
 
     
         // <Transition show={props.isOpen} as={Fragment}

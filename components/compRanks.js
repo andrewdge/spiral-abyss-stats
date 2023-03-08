@@ -3,21 +3,24 @@ import React, { useEffect, useState } from 'react'
 import { Switch } from '@headlessui/react'
 import useSWR from 'swr'
 import TeamContainer from './teamContainer';
+import { useRecoilState } from 'recoil';
+import { phaseNameState } from '../data/recoil/atoms';
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
 
-const CompRanks = (props) => {
+const CompRanks = ({floor, isFirstHalf, filterComps, chars, checked}) => {
+    const [phaseName] = useRecoilState(phaseNameState);
 
-    const urlFill = props.floor ? (`-${props.floor}-${props.firstHalf ? 2 : 1}`) : ''
+    const urlFill = floor ? (`-${floor}-${isFirstHalf ? 2 : 1}`) : ''
     // console.log(urlFill)
     // console.log(props)
     // console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
 
-    const { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`, fetcher)
+    const { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${phaseName}${urlFill}.json`, fetcher)
     
 
-    const phaseName = props.phase.toUpperCase().replace(/_/g, ' ')
+    const normalizedPhaseName = phaseName.toUpperCase().replace(/_/g, ' ')
 
     let [numTeams, setNumTeams] = useState(10);
 
@@ -32,51 +35,50 @@ const CompRanks = (props) => {
 
     // filter by dropdown selectors
     let checkSelected = (comp) => {
-        if (!checkNames(comp, props.chars.first)) return (false)
-        if (!checkNames(comp, props.chars.second)) return (false)
-        if (!checkNames(comp, props.chars.third)) return (false)
-        if (!checkNames(comp, props.chars.fourth)) return (false)
+        if (!checkNames(comp, chars.first)) return (false)
+        if (!checkNames(comp, chars.second)) return (false)
+        if (!checkNames(comp, chars.third)) return (false)
+        if (!checkNames(comp, chars.fourth)) return (false)
         return true
     }
 
     // filter by checkboxes
     let checkFilter = (comp) => {
-        if (!props.checked[comp.char_one]) console.log('missing: ' + comp.char_one)
-        if (!props.checked[comp.char_two]) console.log('missing: ' + comp.char_two)
-        if (!props.checked[comp.char_three]) console.log('missing: ' + comp.char_three)
-        if (!props.checked[comp.char_four]) console.log('missing: ' + comp.char_four)
+        if (!checked[comp.char_one]) console.log('missing: ' + comp.char_one)
+        if (!checked[comp.char_two]) console.log('missing: ' + comp.char_two)
+        if (!checked[comp.char_three]) console.log('missing: ' + comp.char_three)
+        if (!checked[comp.char_four]) console.log('missing: ' + comp.char_four)
 
-        if (!props.checked[comp.char_one]) {
+        if (!checked[comp.char_one]) {
             // console.log(comp.char_one)
             return false
         }
-        if (!props.checked[comp.char_two]) {
+        if (!checked[comp.char_two]) {
             // console.log(comp.char_two)
             return false
         }
-        if (!props.checked[comp.char_three]) {
+        if (!checked[comp.char_three]) {
             // console.log(comp.char_three)
             return false
         }    
-        if (!props.checked[comp.char_four]) {
+        if (!checked[comp.char_four]) {
             // console.log(comp.char_four)
             return false
         }
         return true
     }
     
-    // console.log(props.checked)
+    // console.log(checked)
     {/** speeding up loadtime with filter */}
     let comps = []
     if(data) {
-        console.log(props)
         console.log(data.slice(0, numTeams)
         .filter(comp => comp.usage_rate > 1)
-        .filter(comp => !props.filterComps || checkSelected(comp)))
+        .filter(comp => !filterComps || checkSelected(comp)))
         comps = data.slice(0, numTeams)
                 .filter(comp => comp.usage_rate > 1)
-                .filter(comp => !props.filterComps || checkSelected(comp))
-                .filter(comp => !props.filterComps || checkFilter(comp))
+                .filter(comp => !filterComps || checkSelected(comp))
+                .filter(comp => !filterComps || checkFilter(comp))
         console.log(comps)
     } else {
         console.log('honestly idk')
@@ -86,7 +88,7 @@ const CompRanks = (props) => {
     return (
         <div className={"flex flex-col bg-menu-gray p-4 border-white border-opacity-50 border-4 rounded-lg"}>
                 <div className='flex justify-center text-center text-white font-bold font-serif text-xl'>
-                    {phaseName} {props.floor ? `CHAMBER ${props.floor}-${props.firstHalf ? 2 : 1}` : 'ALL CHAMBERS'} POPULAR COMPS
+                    {normalizedPhaseName} {floor ? `CHAMBER ${floor}-${isFirstHalf ? 2 : 1}` : 'ALL CHAMBERS'} POPULAR COMPS
                 </div>
                 
                 
