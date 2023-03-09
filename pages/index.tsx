@@ -9,10 +9,9 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed'
 import Image from 'next/image'
 import FloorTab from '../components/floorTab'
 import useSWR from 'swr'
-import { twitterHtmlState, fileState, phaseNameState } from '../data/recoil/atoms'
+import { fileState, phaseNameState } from '../data/recoil/atoms'
 import { useRecoilState } from 'recoil'
 import { useEffect } from 'react'
-twitterHtmlState
 
 const Index = () => {
   const [file, setFile] = useRecoilState(fileState);
@@ -39,8 +38,8 @@ const Index = () => {
 
   // Background image for mobile
   const image = 
-    <div className='object-cover w-screen h-screen -z-10 fixed block'> 
-      <Image className='z-0 h-full' src='/images/spiralabyss.png' alt='spiralabyss' height="100" width="100"/>
+    <div className='w-screen h-screen -z-10 fixed block'> 
+      <Image className='z-0 h-full' src='/images/spiralabyss.png' alt='spiralabyss' height="100" width="100" style={{width:"100%", objectFit:"cover"}}/>
     </div>;
 
   return (

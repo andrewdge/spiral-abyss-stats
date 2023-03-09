@@ -9,11 +9,11 @@ const Tableau = dynamic(
   { ssr: false }
 )
 
-const Trends = (props) => {
+const Trends = () => {
     return (
         <>
-            <Layout twitter={props.twitter} >
-                <div className="flex flex-col bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
+            <Layout>
+                <div className="flex flex-col bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1  px-4  w-full min-h-screen h-full">
                     <Tableau />
                 </div>
             </Layout>

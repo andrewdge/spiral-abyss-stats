@@ -5,7 +5,7 @@ export const allFloorsCompsState = atom({
     default:[]
 })
 
-const defaultCharacter={name:"None", element:"None", image:""}
+const defaultCharacter={name:"None", element:"None", image:" "}
 export const includedCharactersState = atom({
     key:"includedCharactersState",
     default: {
@@ -24,11 +24,6 @@ export const excludedCharactersState = atom({
 export const fileState = atom({
     key:"fileState",
     default: null
-})
-
-export const twitterHtmlState = atom({
-    key:"twitterHtmlState",
-    default: ""
 })
 
 export const phaseNameState = atom({

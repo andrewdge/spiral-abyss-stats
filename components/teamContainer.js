@@ -4,7 +4,7 @@ import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
 import HeroesFile from '../data/heroes.json'
 
-export const useHero = (hero) => {
+export const getHero = (hero) => {
     return HeroesFile.find(h => h?.name === hero);
 }
 
@@ -12,10 +12,10 @@ export const useHero = (hero) => {
 const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
     const theme = useTheme();
     const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
-    const o1 = useHero(c1);
-    const o2 = useHero(c2);
-    const o3 = useHero(c3);
-    const o4 = useHero(c4);
+    const o1 = getHero(c1);
+    const o2 = getHero(c2);
+    const o3 = getHero(c3);
+    const o4 = getHero(c4);
     const dim = 100;
 
     if (o1 === undefined){
