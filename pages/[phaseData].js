@@ -13,7 +13,7 @@ const PhaseData = (props) => {
 
     return (
         <>
-            <Layout twitter={props.twitter} >
+            <Layout >
                 <div className="flex flex-col bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
                     <FloorTab file={props.file} phase={props.phaseData} className='w-full'/> 
                 </div>

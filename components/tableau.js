@@ -1,24 +1,22 @@
 import { useEffect, useRef } from 'react'
-import tableau from 'tableau-api'
+import tableau from "tableau-api-js"
 
 const Tableau = () => {
     const ref = useRef(null)
     const vizUrl = "https://public.tableau.com/views/SpiralStats/SpiralUsage?:language=en-US&:display_count=n&:origin=viz_share_link"
-
-    useEffect(() => {
-        initTableau();
-        const iframe = ref.current.children[0]
-        console.log(iframe)
-    },[])
-
+    let viz;
+    
     function initTableau (){
+        viz && viz.dispose();
         const options = {
             height: "1000px",
-            width: "1750px"
+            width: "100vw",
+            device:"phone"
         };
-        new window.tableau.Viz(ref.current, vizUrl, options);
-    }
-
+        viz = new window.tableau.Viz(ref.current, vizUrl, options);    }
+     useEffect(() => {
+        initTableau();
+    },[])
     
 
     return (

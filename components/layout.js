@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Navbar from './navbar'
 import { GoogleAd, AdType } from './googleAd'
 
-const Layout = ({ children, twitter }) => {
+const Layout = ({ children}) => {
     return (
         <div>
             {/* analytics stuff, not included yet */}
@@ -28,7 +28,7 @@ const Layout = ({ children, twitter }) => {
                 <title>Spiral Stats</title>
             </Head>
             <div>
-                <Navbar className="fixed" twitter={twitter} />
+                <Navbar className="fixed"/>
                 {children}
                 {/* <GoogleAd variant={AdType.HORIZONTAL} /> */}
             </div>

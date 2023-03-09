@@ -12,13 +12,9 @@ const fetcher = (url) => fetch(url).then((res) => res.json())
 const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
     const [phaseName] = useRecoilState(phaseNameState);
     const [includedCharacters]= useRecoilState(includedCharactersState);
-    console.log("compRanks", includedCharacters)
 
 
     const urlFill = floor ? (`-${floor}-${isFirstHalf ? 2 : 1}`) : ''
-    // console.log(urlFill)
-    // console.log(props)
-    // console.log(`https://spiralabyss.s3.amazonaws.com/${props.phase}${urlFill}.json`)
 
 
     //TODO: load specific floor data dynamically when user hovers/clicks the corresponding button
@@ -28,32 +24,14 @@ const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
     const normalizedPhaseName = phaseName.toUpperCase().replace(/_/g, ' ')
 
     let [numTeams, setNumTeams] = useState(10);
-
-    // let checkNames = (comp, char) => {
-    //     if (!char || char.name === "None") return true
-    //     if (comp.char_one === char.name) return (true)
-    //     if (comp.char_two === char.name) return (true)
-    //     if (comp.char_three === char.name) return (true)
-    //     if (comp.char_four === char.name) return (true)
-    //     return false
-    // }
-
-    // // filter by dropdown selectors
-    // let checkSelected = (comp) => {
-    //     if (!checkNames(comp, includedCharacters.first)) return (false)
-    //     if (!checkNames(comp, includedCharacters.second)) return (false)
-    //     if (!checkNames(comp, includedCharacters.third)) return (false)
-    //     if (!checkNames(comp, includedCharacters.fourth)) return (false)
-    //     return true
-    // }
     
     const checkIncluded = (comp) => {
+    
         const included = [includedCharacters.firstCharacter, includedCharacters.secondCharacter, includedCharacters.thirdCharacter, includedCharacters.fourthCharacter]
-        const compCharacters = [comp.char_one, comp.char_two, comp.char_three, comp.char_four];
-        console.log(included, compCharacters)
+        const compCharacterNames = [comp.char_one, comp.char_two, comp.char_three, comp.char_four];
 
         return included.every(includedChar=>(!includedChar || includedChar.name === "None")
-         || compCharacters.find(compChar=>compChar===includedChar.name)
+         || compCharacterNames.find(compChar=>compChar===includedChar.name)
          )
     }
 
@@ -66,25 +44,22 @@ const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
         if (!checked[comp.char_four]) console.log('missing: ' + comp.char_four)
 
         if (!checked[comp.char_one]) {
-            // console.log(comp.char_one)
             return false
         }
         if (!checked[comp.char_two]) {
-            // console.log(comp.char_two)
             return false
         }
         if (!checked[comp.char_three]) {
-            // console.log(comp.char_three)
             return false
         }    
         if (!checked[comp.char_four]) {
-            // console.log(comp.char_four)
             return false
         }
         return true
     }
     
-    // console.log(checked)
+    //TODO: change (clientside filtering does not speed up loading from server)
+    //if a comp is not in the first 10 but the comps above it are filtered out, it should be shown at the top and visible without clicking "load more"
     {/** speeding up loadtime with filter */}
     let comps = [];
     if(data) {
@@ -111,8 +86,8 @@ const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
                 
                 { !error ?
                     data ?
-                        comps.map((comp, index) =>  
-                            <TeamContainer key={index} 
+                        comps.map((comp) =>  
+                            <TeamContainer key={comp.rank} 
                             c1={comp.char_one} c2={comp.char_two} 
                             c3={comp.char_three} c4={comp.char_four} 
                             rank={comp.rank} usage={comp.usage_rate} /> 

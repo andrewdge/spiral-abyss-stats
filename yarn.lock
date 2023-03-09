@@ -3060,10 +3060,10 @@ table@^6.0.9:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tableau-api@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/tableau-api/-/tableau-api-2.2.3.tgz#35e834ae605e67840a962edea07f587feb9a25c1"
-  integrity sha512-GFJdndC3+oDp2+JtjFKjY1TLd9F0qjjw1MAd3nSo+t5vHOgxflTl4ns72EwMnoUXgTGksh5hifTS3gn6kbCXIg==
+tableau-api-js@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tableau-api-js/-/tableau-api-js-2.8.1.tgz#d181bb220bf6335c72245010c9e4ab5805c4c14d"
+  integrity sha512-7NTX8VfR4MiTdacn6I0oeWn54tOLDBZhZAJymCxIrWbbhcFPfN3lB+A4+3tn14z0rYGg594hqUTSvIuIA5TdCg==
 
 tailwind-scrollbar@^1.3.1:
   version "1.3.2"

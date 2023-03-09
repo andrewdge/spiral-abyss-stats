@@ -9,7 +9,8 @@ import NavbarModal from './navbarModal'
 //     ssr: false,
 // })
 
-const Navbar = ({ twitter }) => {
+const Navbar = () => {
+   
     let [isOpen, setIsOpen] = useState(false);
     return (
         <div>
@@ -18,7 +19,7 @@ const Navbar = ({ twitter }) => {
                 <title> Spiral Stats </title>
             </Head>
             <div className="fixed w-14 h-16 md:w-20 md:h-24 z-30">
-                <NavbarModal isOpen={isOpen} setIsOpen={setIsOpen} twitter={twitter} />
+                <NavbarModal isOpen={isOpen} setIsOpen={setIsOpen} />
                 {/* Paimon Nav */}
                 <div className='w-auto h-min transition duration-500 ease-in-out transform hover:translate-y-1 hover:scale-110 p-2'>
                         <Image className='cursor-pointer' src='/images/paimon.png' alt="paimon"

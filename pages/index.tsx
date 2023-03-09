@@ -16,7 +16,6 @@ twitterHtmlState
 
 const Index = () => {
   const [file, setFile] = useRecoilState(fileState);
-  const [twitterHtml, setTwitterHtml] = useRecoilState(twitterHtmlState);
   const [phaseName, setPhaseName] = useRecoilState(phaseNameState);
   useEffect(()=>{
     setPhaseName(FileNames[0])
@@ -24,10 +23,8 @@ const Index = () => {
 
   const fetcher = async (url)=>  await fetch(url).then(res=>res.json());
   const {data: fileData, error: fileError} = useSWR(`https://spiralabyss.s3.amazonaws.com/${FileNames[0]}.json`, fetcher);
-  const {data: twitterData, error: twitterError} = useSWR("https://publish.twitter.com/oembed?url=https://twitter.com/GenshinImpact&&limit=5&&dnt=true&&maxheight=400", fetcher);
-    
+  
   fileData && setFile(fileData);
-  twitterData && setTwitterHtml(twitterData.html);
   
   
   // TODO: make these environment variables
@@ -51,7 +48,7 @@ const Index = () => {
       <Head>
           <meta name="description" content="Data on the most recent iteration of Genshin Impact's Spiral Abyss" />
       </Head>
-      <Layout twitter={twitterHtml}>
+      <Layout >
         {!largerThanPhone ? 
           image
           :
