@@ -6,16 +6,19 @@ import TeamBuilderCollapsable from '../components/teamBuilderCollapsable'
 import { useHeroes } from '../data/typedMock'
 import PhaseDataContent from '../components/phaseDataContent'
 import FloorTab from '../components/floorTab'
-
-const PhaseData = (props) => {
-    console.log(props.phaseData);
-    // console.log(props);
+import { useRecoilState } from 'recoil'
+import { phaseNameState } from '../data/recoil/atoms'
+const PhaseData = ({phaseData, file}) => {
+    const [_, setPhaseName] = useRecoilState(phaseNameState);
+    useEffect(()=>{
+        phaseData&&setPhaseName(phaseData)
+    },[phaseData]);
 
     return (
         <>
             <Layout >
                 <div className="flex flex-col bg-fixed bg-center bg-no-repeat bg-cover bg-watatsumi -z-1 py-16 px-10  w-full min-h-screen h-full">
-                    <FloorTab file={props.file} phase={props.phaseData} className='w-full'/> 
+                    <FloorTab className='w-full'/> 
                 </div>
             </Layout>
         </>

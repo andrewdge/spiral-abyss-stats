@@ -16,7 +16,7 @@ export const getHeroes = (): IHero[] => {
     //     element: hero.element as EElement,
     //     image: `/images/characters/${(hero.name.toLowerCase()).replace(' ', '_')}.png`,
     // }));
-    const data = loadData();
+    const data = HeroesFile;
     return data?.map(hero => ({
         name: hero.name,
         element:  hero.element as EElement,

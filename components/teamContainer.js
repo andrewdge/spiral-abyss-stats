@@ -56,10 +56,10 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
             {rank}
         </div>
         <div className='grid grid-cols-4 flex-shrink flex-wrap gap-1 py-2 justify-center items-center'>
-            <div><Image src={o1.image} alt={o1.name + ' image'} width={dim} height={dim} layout='intrinsic' className="rounded-md"/></div>
-            <div><Image src={o2.image} alt={o2.name + ' image'} width={dim} height={dim} layout='intrinsic' className="rounded-md"/></div> 
-            <div><Image src={o3.image} alt={o3.name + ' image'} width={dim} height={dim} layout='intrinsic' className="rounded-md"/></div> 
-            <div><Image src={o4.image} alt={o4.name + ' image'} width={dim} height={dim} layout='intrinsic' className="rounded-md"/></div>  
+            <div><Image src={o1?.image} alt={o1?.name + ' image'} width={dim} height={dim} className="rounded-md"/></div>
+            <div><Image src={o2?.image} alt={o2?.name + ' image'} width={dim} height={dim} className="rounded-md"/></div> 
+            <div><Image src={o3?.image} alt={o3?.name + ' image'} width={dim} height={dim} className="rounded-md"/></div> 
+            <div><Image src={o4?.image} alt={o4?.name + ' image'} width={dim} height={dim} className="rounded-md"/></div>  
         </div>
         <div className='flex items-center justify-center text-white font-serif text-center'>
             <div className="w-min">Usage: {usage}%</div>
@@ -69,10 +69,26 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
     return (
         <div className='mx-0.5 my-1.5 bg-opacity-50 bg-black rounded-md'>
             {
-                largerThanPhone ?
-                    desktopContent
-                :
-                    phoneContent
+                // largerThanPhone ?
+                //     desktopContent
+                // :
+                //     phoneContent
+         <div className="flex px-3 py-2">
+            <div className='flex flex-col text-white justify-start p-4 w-1/5 gap-2 order-2'>
+                <div className='font-serif'>
+                    Rank: {rank}
+                </div>
+                <div className='font-serif'>
+                    Usage: {usage}% 
+                </div>
+            </div>    
+            <div className="flex justify-between w-4/5"> 
+                <div className="flex justify-center items-center w-full"><Image src={o1?.image} alt={o1.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+                <div className="flex justify-center items-center w-full"><Image src={o2?.image} alt={o2.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+                <div className="flex justify-center items-center w-full"><Image src={o3?.image} alt={o3.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+                <div className="flex justify-center items-center w-full"><Image src={o4?.image} alt={o4.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+            </div>
+         </div>
             }
         </div>
     )

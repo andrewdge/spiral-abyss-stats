@@ -62,7 +62,7 @@ const NavbarModal = ({isOpen, setIsOpen}) => {
                                 </div>
                             </div>
                             {/* data nav */}
-                            <LunarPhaseLinks />
+                            <LunarPhaseLinks closeNav={()=>setIsOpen(false)}/>
                         </div>
                     </div>
                 </div>

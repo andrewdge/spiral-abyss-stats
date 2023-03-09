@@ -21,7 +21,7 @@ const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
     const { data, error } = useSWR(`https://spiralabyss.s3.amazonaws.com/${phaseName}${urlFill}.json`, fetcher)
     
 
-    const normalizedPhaseName = phaseName.toUpperCase().replace(/_/g, ' ')
+    const normalizedPhaseName = phaseName?.toUpperCase().replace(/_/g, ' ')
 
     let [numTeams, setNumTeams] = useState(10);
     

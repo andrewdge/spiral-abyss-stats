@@ -5,6 +5,11 @@ export const allFloorsCompsState = atom({
     default:[]
 })
 
+export const charactersState = atom({
+    key:"charactersState",
+    default:[]
+})
+
 const defaultCharacter={name:"None", element:"None", image:" "}
 export const includedCharactersState = atom({
     key:"includedCharactersState",
