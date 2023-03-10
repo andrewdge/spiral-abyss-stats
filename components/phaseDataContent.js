@@ -8,11 +8,13 @@ import { useMediaQuery } from '@material-ui/core'
 import { Switch } from '@headlessui/react';
 import { ReactSVG } from 'react-svg'
 import heroes from "../data/heroes.json"
+import {useSetRecoilState} from "recoil"
+import { excludedCharactersState } from '../data/recoil/atoms';
 
 const PhaseDataContent = ({floor}) => {
 
     const theme = useTheme();
-
+    const setExcludedCharacters = useSetRecoilState(excludedCharactersState)
     // powered by vercel banner for sponsorship munaeyz
     const banner =
         <div className='flex flex-row align-middle justify-center pt-2'>
@@ -23,11 +25,10 @@ const PhaseDataContent = ({floor}) => {
 
     const [isFirstHalf, switchHalves] = useState(false)
 
-    const heroDict = heroes.reduce((builderDict, currItem) => ({ ...builderDict, [currItem.name]: true }), {})
+    
 
     const [isFilterActive, setIsFilterActive] = useState(true)
 
-    const [checked, setChecked] = React.useState(heroDict)
 
    
     // useEffect(() => {
@@ -60,8 +61,6 @@ const PhaseDataContent = ({floor}) => {
                     }
                     <div className='flex flex-wrap place-content-center md:block'>
                         <TeamBuilderCollapsable
-                            heroDict={heroDict}
-                            checked={checked} setChecked={setChecked}
                             isFilterActive={isFilterActive} setIsFilterActive={setIsFilterActive}
                             className="z-20"
                         />
@@ -83,7 +82,7 @@ const PhaseDataContent = ({floor}) => {
                 </div>
             </div>
             <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1 z-20'>
-                <CompRanks isFirstHalf={isFirstHalf} isFilterActive={isFilterActive} checked={checked}  floor={floor} className='lg:col-start-1' />
+                <CompRanks isFirstHalf={isFirstHalf} isFilterActive={isFilterActive} floor={floor} className='lg:col-start-1' />
                 {/* {!largerThanPhone ? 
                 banner
                 :

@@ -21,7 +21,8 @@ export const includedCharactersState = atom({
     }
 })
 
-export const excludedCharactersState = atom({
+//names of excluded characters
+export const excludedCharactersState = atom<string[]>({
     key:"excludedCharactersState",
     default: []
 })

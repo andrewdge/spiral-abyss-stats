@@ -15,7 +15,7 @@ const DynamicCharacterFilter = dynamic(() => import('./characterFilter'), {
 
 
 //TODO: move heroes and heroDict to atoms, replace checked with excluded
-const TeamBuilder = ({isFilterActive, setIsFilterActive, checked, setChecked, heroDict}) => {
+const TeamBuilder = ({isFilterActive, setIsFilterActive}) => {
     const [includedCharacters, setIncludedCharacters] = useRecoilState(includedCharactersState);
     return (
         <div className=' flex flex-col gap-2 items-center'>
@@ -42,7 +42,7 @@ const TeamBuilder = ({isFilterActive, setIsFilterActive, checked, setChecked, he
                             <span>Exclude Characters</span>
                         </Disclosure.Button>
                         <Disclosure.Panel className="text-white px-2">
-                            <DynamicCharacterFilter checked={checked} setChecked={setChecked} heroDict={heroDict} />
+                            <DynamicCharacterFilter />
                         </Disclosure.Panel>
                         </>
                     )}

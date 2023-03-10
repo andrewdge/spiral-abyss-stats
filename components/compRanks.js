@@ -3,15 +3,16 @@ import React, { useEffect, useState } from 'react'
 import { Switch } from '@headlessui/react'
 import useSWR from 'swr'
 import TeamContainer from './teamContainer';
-import { useRecoilState } from 'recoil';
-import { phaseNameState, includedCharactersState } from '../data/recoil/atoms';
+import { useRecoilValue } from 'recoil';
+import { phaseNameState, includedCharactersState, excludedCharactersState } from '../data/recoil/atoms';
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
 
 const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
-    const [phaseName] = useRecoilState(phaseNameState);
-    const [includedCharacters]= useRecoilState(includedCharactersState);
+    const phaseName = useRecoilValue(phaseNameState);
+    const includedCharacters= useRecoilValue(includedCharactersState);
+    const excludedCharacters = useRecoilValue(excludedCharactersState);
 
 
     const urlFill = floor ? (`-${floor}-${isFirstHalf ? 2 : 1}`) : ''
@@ -35,43 +36,21 @@ const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
          )
     }
 
-    //TODO: replace with excluded
     // filter by checkboxes
-    let checkFilter = (comp) => {
-        if (!checked[comp.char_one]) console.log('missing: ' + comp.char_one)
-        if (!checked[comp.char_two]) console.log('missing: ' + comp.char_two)
-        if (!checked[comp.char_three]) console.log('missing: ' + comp.char_three)
-        if (!checked[comp.char_four]) console.log('missing: ' + comp.char_four)
 
-        if (!checked[comp.char_one]) {
-            return false
+    let checkExcluded = (comp) => {
+        const compCharacterNames = [comp.char_one, comp.char_two, comp.char_three, comp.char_four];
+        for (let compCharName of compCharacterNames) {
+            if (excludedCharacters.includes(compCharName)) return true;
         }
-        if (!checked[comp.char_two]) {
-            return false
-        }
-        if (!checked[comp.char_three]) {
-            return false
-        }    
-        if (!checked[comp.char_four]) {
-            return false
-        }
-        return true
     }
     
     //TODO: change (clientside filtering does not speed up loading from server)
     //if a comp is not in the first 10 but the comps above it are filtered out, it should be shown at the top and visible without clicking "load more"
-    {/** speeding up loadtime with filter */}
     let comps = [];
     if(data) {
-        console.log(data.slice(0, numTeams)
-        .filter(comp => comp.usage_rate > 1)
-        .filter(comp => !isFilterActive || checkIncluded(comp))
-        )
         comps = data.slice(0, numTeams)
-                .filter(comp => comp.usage_rate > 1)
-                .filter(comp => !isFilterActive || checkIncluded(comp))
-                .filter(comp => !isFilterActive || checkFilter(comp))
-        console.log(comps)
+                .filter(comp => comp.usage_rate > 1 && (isFilterActive && checkIncluded(comp) && !checkExcluded(comp)))
     } else {
         console.log('honestly idk')
     }

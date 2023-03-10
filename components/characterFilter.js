@@ -2,8 +2,9 @@ import React, { Fragment, useEffect, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { FormGroup, FormControlLabel, Checkbox, TextField } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles'
-import { CheckIcon, SelectorIcon } from '@heroicons/react/solid'
-import { CheckBox } from '@material-ui/icons';
+import heroes from "../data/heroes.json"
+import { useRecoilState } from 'recoil';
+import { excludedCharactersState } from '../data/recoil/atoms';
 
 const CharacterCheckbox = withStyles({
     root: {
@@ -17,21 +18,30 @@ const CharacterCheckbox = withStyles({
 
 const CharacterFilter = (props) => {
 
-    // console.log(props.heroes)
+    const [excludedCharacters, setExcludedCharacters] = useRecoilState(excludedCharactersState);
     const [search, setSearch] = useState('')
 
-    // useEffect(() => {console.log(props.checked)},[props.checked])
-
     const clear = () => {
-        props.setChecked(props.heroes.reduce((builderDict,currItem) => ({...builderDict, [currItem.name]: false}), {}))
+        setExcludedCharacters([]);
     }
 
+    //probably not necessary (should clear selection (?))
     const reset = () => {
-        props.setChecked(props.heroDict)
+        setExcludedCharacters([]);
     }
+    useEffect(() =>{console.log(excludedCharacters)}, [excludedCharacters]);
+
 
     const handleChange = (event) => {
-        props.setChecked({ ...props.checked, [event.target.name]: event.target.checked })
+        const selected = event.target.name;
+                console.log("handleChange", excludedCharacters)
+
+        if (excludedCharacters.includes(selected)) {
+               setExcludedCharacters(excludedCharacters.filter(name=>name !== selected))
+            }
+            else  {
+                setExcludedCharacters([...excludedCharacters, selected]);
+            }
     }
 
     return (
@@ -43,12 +53,11 @@ const CharacterFilter = (props) => {
                 </div>
                 <div className="flex flex-col overflow-y-scroll scrollbar scrollbar-thumb-rounded-lg scrollbar-thumb-h-1/3 scrollbar-track-gray-300 scrollbar-track-rounded-full scrollbar-thumb-white h-52 max-h-full">
                     <FormGroup>
-                        {props.heroes.slice(1,props.heroes.length).filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero, index) => 
-                            <div className="pl-4" key={index}>
+                        {heroes.slice(1,heroes.length).filter( (hero) => !search || hero.name.toLowerCase().includes(search.toLowerCase()) ).map((hero) => 
+                            <div className="pl-4" key={hero.name}>
                                 <FormControlLabel
-                                    control={<CharacterCheckbox name={hero.name} checked={props.checked[hero.name]} color="default" onChange={handleChange}/>}
+                                    control={<CharacterCheckbox name={hero.name} checked={excludedCharacters.includes(hero.name)} color="default" onChange={handleChange}/>}
                                     label={hero.name}
-                                    key={index}
                                 />
                             </div>
                         )}
