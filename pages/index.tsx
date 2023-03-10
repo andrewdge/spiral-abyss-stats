@@ -54,7 +54,7 @@ const Index = () => {
           video
         }
         <section className="section">
-          <FloorTab classNameProp="py-16 px-10" />
+          <FloorTab/>
             {/* <PhaseDataContent />
           </FloorTab> */}
         </section>

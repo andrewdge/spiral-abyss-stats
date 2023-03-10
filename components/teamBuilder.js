@@ -7,22 +7,23 @@ import FilterSwitch from './filterSwitch'
 import dynamic from 'next/dynamic'
 import { useRecoilState } from 'recoil'
 import { includedCharactersState } from '../data/recoil/atoms'
+import heroes from "../data/heroes.json"
 
 const DynamicCharacterFilter = dynamic(() => import('./characterFilter'), {
     ssr: false,
 })
 
 
-//TODO: move heroList and heroDict to atoms, replace checked with excluded
-const TeamBuilder = ({isFilterActive, setIsFilterActive, heroList, checked, setChecked, heroDict}) => {
+//TODO: move heroes and heroDict to atoms, replace checked with excluded
+const TeamBuilder = ({isFilterActive, setIsFilterActive, checked, setChecked, heroDict}) => {
     const [includedCharacters, setIncludedCharacters] = useRecoilState(includedCharactersState);
     return (
         <div className=' flex flex-col gap-2 items-center'>
             <div className='w-full justify-center items-center grid grid-rows-2 grid-cols-2 md:grid-rows-1 md:grid-cols-4 lg:grid-rows-2 lg:grid-cols-2'>
-                <TeamSelection hero={includedCharacters.firstCharacter} setHero={char=>setIncludedCharacters({...includedCharacters, firstCharacter:char})} heroList={heroList} />
-                <TeamSelection hero={includedCharacters.secondCharacter} setHero={char=>setIncludedCharacters({...includedCharacters, secondCharacter:char})} heroList={heroList} />
-                <TeamSelection hero={includedCharacters.thirdCharacter} setHero={char=>setIncludedCharacters({...includedCharacters, thirdCharacter:char})} heroList={heroList} />
-                <TeamSelection hero={includedCharacters.fourthCharacter} setHero={char=>setIncludedCharacters({...includedCharacters, fourthCharacter:char})} heroList={heroList} />
+                <TeamSelection hero={includedCharacters.firstCharacter} setHero={char=>setIncludedCharacters({...includedCharacters, firstCharacter:char})} heroes={heroes} />
+                <TeamSelection hero={includedCharacters.secondCharacter} setHero={char=>setIncludedCharacters({...includedCharacters, secondCharacter:char})} heroes={heroes} />
+                <TeamSelection hero={includedCharacters.thirdCharacter} setHero={char=>setIncludedCharacters({...includedCharacters, thirdCharacter:char})} heroes={heroes} />
+                <TeamSelection hero={includedCharacters.fourthCharacter} setHero={char=>setIncludedCharacters({...includedCharacters, fourthCharacter:char})} heroes={heroes} />
 
             </div>
             <div className="flex flex-row items-center p-2 md:p-0">
@@ -41,7 +42,7 @@ const TeamBuilder = ({isFilterActive, setIsFilterActive, heroList, checked, setC
                             <span>Exclude Characters</span>
                         </Disclosure.Button>
                         <Disclosure.Panel className="text-white px-2">
-                            <DynamicCharacterFilter checked={checked} setChecked={setChecked} heroList={heroList} heroDict={heroDict} />
+                            <DynamicCharacterFilter checked={checked} setChecked={setChecked} heroDict={heroDict} />
                         </Disclosure.Panel>
                         </>
                     )}

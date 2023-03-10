@@ -6,10 +6,10 @@ import Link from 'next/link'
 import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
 import { Switch } from '@headlessui/react';
-import { useHeroes } from "../data/typedMock";
 import { ReactSVG } from 'react-svg'
+import heroes from "../data/heroes.json"
 
-const PhaseDataContent = ({floor, classNameProp}) => {
+const PhaseDataContent = ({floor}) => {
 
     const theme = useTheme();
 
@@ -23,9 +23,7 @@ const PhaseDataContent = ({floor, classNameProp}) => {
 
     const [isFirstHalf, switchHalves] = useState(false)
 
-    const heroList = useHeroes();
-
-    const heroDict = heroList.reduce((builderDict, currItem) => ({ ...builderDict, [currItem.name]: true }), {})
+    const heroDict = heroes.reduce((builderDict, currItem) => ({ ...builderDict, [currItem.name]: true }), {})
 
     const [isFilterActive, setIsFilterActive] = useState(true)
 
@@ -37,7 +35,7 @@ const PhaseDataContent = ({floor, classNameProp}) => {
     // }, [firstHero, secondHero, thirdHero, fourthHero])
 
     return (
-        <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 ' + classNameProp}>
+        <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 lg:px-24 pt-8 '}>
             <div className='lg:col-start-3 lg:col-span-1 z-20'>
                 <div className='lg:sticky top-20 w-full'>
                     {floor ?
@@ -60,23 +58,23 @@ const PhaseDataContent = ({floor, classNameProp}) => {
                         :
                         <></>
                     }
-
-                    <TeamBuilderCollapsable
-                        heroList={heroList} heroDict={heroDict}
-                        checked={checked} setChecked={setChecked}
-                        isFilterActive={isFilterActive} setIsFilterActive={setIsFilterActive}
-                        className="z-20"
-                    />
-                    <div className='flex place-content-center w-full h-full bg-menu-gray mt-3 border-yellow-600 border-4 bg-opacity-50 rounded-lg'>
-                        <Link href={'/trends'} passHref>
-                            <button className={`m-4 py-2 px-4 w-full transition duration-100 hover:bg-yellow-200 rounded-lg`}>
-                                <div className='text-center font-semibold text-yellow-500'>
-                                    View Trends
-                                </div>
-                            </button>
-                        </Link>
+                    <div className='flex flex-wrap place-content-center md:block'>
+                        <TeamBuilderCollapsable
+                            heroDict={heroDict}
+                            checked={checked} setChecked={setChecked}
+                            isFilterActive={isFilterActive} setIsFilterActive={setIsFilterActive}
+                            className="z-20"
+                        />
+                        <div className='flex place-content-center w-full h-full bg-menu-gray mt-3 border-yellow-600 border-4 bg-opacity-50 rounded-lg max-w-[30rem]'>
+                            <Link href={'/trends'} passHref>
+                                <button className={`m-4 py-2 px-4 w-full transition duration-100 hover:bg-yellow-200 rounded-lg`}>
+                                    <div className='text-center font-semibold text-yellow-500 '>
+                                        View Trends
+                                    </div>
+                                </button>
+                            </Link>
+                        </div>
                     </div>
-
                     {/* {!largerThanPhone ? 
                     <></>
                     :

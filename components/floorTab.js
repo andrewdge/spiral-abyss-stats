@@ -7,11 +7,11 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-const FloorTab = ({classNameProp}) => {
+const FloorTab = () => {
     const [floors] = useState([0, 1, 2, 3])
 
     return (
-        <div className="flex flex-col w-full px-2 py-16 sm:px-0">
+        <div className="flex flex-col w-full px-2 py-12 sm:px-0">
             <NotificationBanner />
             <Tab.Group>
                 <Tab.List className="flex p-1 space-x-1 bg-blue-900/20 rounded-xl min-w-[50%] place-self-center">
@@ -43,7 +43,7 @@ const FloorTab = ({classNameProp}) => {
                             <Tab.Panel
                                 key={floor}
                             >
-                            <PhaseDataContent  floor={floor} className={classNameProp}/>
+                            <PhaseDataContent  floor={floor}/>
                         {/** pass floor as props to PhaseDataContent */}
                         {/* {React.cloneElement(children, {floor: floor})} */}
                         </Tab.Panel>
