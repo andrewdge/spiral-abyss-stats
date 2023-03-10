@@ -60,6 +60,12 @@
         "image": "/images/characters/bennett.png"
     },
     {
+        "name": "Candace",
+        "rarity": "4",
+        "element": "Hydro",
+        "image": "/images/characters/candace.png"
+    },
+    {
         "name": "Chongyun",
         "rarity": "4",
         "element": "Cryo",
@@ -88,6 +94,12 @@
         "rarity": "4",
         "element": "Cryo",
         "image": "/images/characters/diona.png"
+    },
+    {
+        "name": "Dori",
+        "rarity": "4",
+        "element": "Electro",
+        "image": "/images/characters/dori.png"
     },
     {
         "name": "Dehya",
@@ -370,6 +382,12 @@
         "rarity": "5",
         "element": "Pyro",
         "image": "/images/characters/yoimiya.png"
+    },
+    {
+        "name": "Yunjin",
+        "rarity": "4",
+        "element": "Geo",
+        "image": "/images/characters/yunjin.png"
     },
     {
         "name": "Zhongli",
