@@ -11,7 +11,6 @@ function MyApp({ Component, pageProps }) {
           data-ad-client={`${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}`} async strategy="afterInteractive"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossOrigin="anonymous"
       >
-        <script type="module" src="https://embedding.tableauusercontent.com/tableau.embedding.3.1.0.min.js"></script>
       </Script>
       <RecoilRoot>
         <Component {...pageProps} />
