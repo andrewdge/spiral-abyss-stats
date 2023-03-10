@@ -47,10 +47,10 @@ const TeamContainer = ({ c1, c2, c3, c4, rank, usage }) => {
                 </div>
             </div>    
             <div className="flex wrap justify-between min-w-[10rem] w-full md:w-4/5 gap-0.5"> 
-                <div className="flex justify-center items-center w-full"><Image src={o1?.image} alt={o1.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
-                <div className="flex justify-center items-center w-full"><Image src={o2?.image} alt={o2.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
-                <div className="flex justify-center items-center w-full"><Image src={o3?.image} alt={o3.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
-                <div className="flex justify-center items-center w-full"><Image src={o4?.image} alt={o4.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+                <div className="flex justify-center items-center w-full"><Image src={o1?.image} alt={o1?.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+                <div className="flex justify-center items-center w-full"><Image src={o2?.image} alt={o2?.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+                <div className="flex justify-center items-center w-full"><Image src={o3?.image} alt={o3?.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
+                <div className="flex justify-center items-center w-full"><Image src={o4?.image} alt={o4?.name + ' image'} width={dim} height={dim} className="rounded-md" /></div>
             </div>
          </div>
             }

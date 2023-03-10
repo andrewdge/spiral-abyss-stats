@@ -37,7 +37,6 @@ const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
     }
 
     // filter by checkboxes
-
     let checkExcluded = (comp) => {
         const compCharacterNames = [comp.char_one, comp.char_two, comp.char_three, comp.char_four];
         for (let compCharName of compCharacterNames) {
@@ -45,12 +44,12 @@ const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
         }
     }
     
-    //TODO: change (clientside filtering does not speed up loading from server)
-    //if a comp is not in the first 10 but the comps above it are filtered out, it should be shown at the top and visible without clicking "load more"
+    //TODO: if a comp is not in the first 10 by rank but the comps above it are filtered out, 
+    //it should be shown at the top without clicking "load more"
     let comps = [];
     if(data) {
         comps = data.slice(0, numTeams)
-                .filter(comp => comp.usage_rate > 1 && (isFilterActive && checkIncluded(comp) && !checkExcluded(comp)))
+                .filter(comp =>isFilterActive && checkIncluded(comp) && !checkExcluded(comp))
     } else {
         console.log('honestly idk')
     }
