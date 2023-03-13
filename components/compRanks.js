@@ -1,6 +1,4 @@
-import { CallToAction } from '@material-ui/icons';
-import React, { useEffect, useState } from 'react'
-import { Switch } from '@headlessui/react'
+import React, { useState } from 'react'
 import useSWR from 'swr'
 import TeamContainer from './teamContainer';
 import { useRecoilValue } from 'recoil';
@@ -8,8 +6,7 @@ import { phaseNameState, includedCharactersState, excludedCharactersState } from
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
-
-const CompRanks = ({floor, isFirstHalf, isFilterActive, checked}) => {
+const CompRanks = ({floor, isFirstHalf, isFilterActive}) => {
     const phaseName = useRecoilValue(phaseNameState);
     const includedCharacters= useRecoilValue(includedCharactersState);
     const excludedCharacters = useRecoilValue(excludedCharactersState);

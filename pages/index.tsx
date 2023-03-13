@@ -10,32 +10,27 @@ import Image from 'next/image'
 import FloorTab from '../components/floorTab'
 import useSWR from 'swr'
 import { fileState, phaseNameState } from '../data/recoil/atoms'
-import { useRecoilState } from 'recoil'
+import { useSetRecoilState } from 'recoil'
 import { useEffect } from 'react'
 
 const Index = () => {
-  const [file, setFile] = useRecoilState(fileState);
-  const [phaseName, setPhaseName] = useRecoilState(phaseNameState);
+  const setFile = useSetRecoilState(fileState);
+  const setPhaseName = useSetRecoilState(phaseNameState);  
   useEffect(()=>{
     setPhaseName(FileNames[0])
   },[])
-
-  const fetcher = async (url)=>  await fetch(url).then(res=>res.json());
+  
+  const fetcher = async (url)=> await fetch(url).then(res=>res.json());
   const {data: fileData, error: fileError} = useSWR(`https://spiralabyss.s3.amazonaws.com/${FileNames[0]}.json`, fetcher);
-  
   fileData && setFile(fileData);
-  
-  
   // TODO: make these environment variables
   const theme = useTheme();
   const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
-
   // Background video for > mobile
   const video = 
     <video className='object-cover w-screen h-screen fixed inset-0 -z-10' autoPlay loop muted>
       <source src="/SpiralAbyssMP4.mp4" type="video/mp4"></source>
     </video>;
-
   // Background image for mobile
   const image = 
     <div className='w-screen h-screen -z-10 fixed block'> 

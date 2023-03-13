@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Layout from '../components/layout'
 import FloorTab from '../components/floorTab'
-import { useRecoilState } from 'recoil'
+import { useSetRecoilState } from 'recoil'
 import { phaseNameState } from '../data/recoil/atoms'
 import { useRouter } from 'next/router'
 const PhaseData = () => {
     const {query:{phaseData}}=useRouter();
-    const [_, setPhaseName] = useRecoilState(phaseNameState);
+    const setPhaseName = useSetRecoilState(phaseNameState);
     useEffect(()=>{
         phaseData&&setPhaseName(phaseData)
     },[phaseData]);

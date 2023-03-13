@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from './layout'
 import TeamSelection from './teamSelection'
 import { Disclosure } from '@headlessui/react'
 import { ChevronRightIcon } from '@heroicons/react/solid'
@@ -7,12 +6,10 @@ import FilterSwitch from './filterSwitch'
 import dynamic from 'next/dynamic'
 import { useRecoilState } from 'recoil'
 import { includedCharactersState } from '../data/recoil/atoms'
-import heroes from "../data/heroes.json"
 
 const DynamicCharacterFilter = dynamic(() => import('./characterFilter'), {
     ssr: false,
 })
-
 
 //TODO: move heroes and heroDict to atoms, replace checked with excluded
 const TeamBuilder = ({isFilterActive, setIsFilterActive}) => {
