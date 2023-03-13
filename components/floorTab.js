@@ -9,7 +9,6 @@ function classNames(...classes) {
 
 const FloorTab = () => {
     const [floors] = useState([0, 1, 2, 3])
-
     return (
         <div className="flex flex-col w-full px-2 py-12 sm:px-0">
             <NotificationBanner />
@@ -25,25 +24,23 @@ const FloorTab = () => {
                                 selected
                                   ? 'bg-white shadow'
                                   : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
-                            )
-                        }
-                    >
+                                )
+                            }
+                        >
                         {floor ? 'Chamber ' +floor : 'All Chambers'}
                     </Tab>
                     ))}
                 </Tab.List>
                 <Tab.Panels className='mt-2'>
-
                         {/* <Tab.Panel key={0}> <PhaseDataContent file={file} phase={phase} /> </Tab.Panel>
                         <Tab.Panel key={1}> <PhaseDataContent file={file} phase={phase} /> </Tab.Panel>
                         <Tab.Panel key={2}> <PhaseDataContent file={file} phase={phase} /> </Tab.Panel>
                         <Tab.Panel key={3}> <PhaseDataContent file={file} phase={phase} /> </Tab.Panel> */}
-
                         {floors.map( floor => (
                             <Tab.Panel
                                 key={floor}
                             >
-                            <PhaseDataContent  floor={floor}/>
+                            <PhaseDataContent floor={floor}/>
                         {/** pass floor as props to PhaseDataContent */}
                         {/* {React.cloneElement(children, {floor: floor})} */}
                         </Tab.Panel>

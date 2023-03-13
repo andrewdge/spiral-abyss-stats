@@ -1,10 +1,9 @@
 import React, { Fragment, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, SelectorIcon } from '@heroicons/react/solid'
+import heroes from "../data/heroes.json"
 
-
-const TeamSelection = ({hero, setHero, heroes}) => {    
-
+const TeamSelection = ({hero, setHero}) => {    
     return (
         <div className={'m-1 md:m-3'}>
             <Listbox value={hero} onChange={setHero}>
@@ -46,14 +45,11 @@ const TeamSelection = ({hero, setHero, heroes}) => {
                                     </>
                                 )}
                             </Listbox.Option>
-                        ))}
-                        
+                        ))} 
                     </Listbox.Options>
                 </Transition>
             </Listbox>
-                
         </div>
-    
     )
 }
 
