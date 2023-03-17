@@ -9,7 +9,7 @@ const DynamicTeamBuilder = dynamic(() => import('./teamBuilder'), {
 
 const TeamBuilderCollapsable = (props) => {
     return (
-        <div  className='p-4 flex flex-col bg-menu-gray border-white border-opacity-50 border-4 bg-opacity-50 rounded-lg'>
+        <div  className='p-4 flex flex-col bg-menu-gray border-white border-opacity-50 border-4 bg-opacity-50 rounded-lg w-full max-w-[30rem]'>
             <Disclosure>
                 {({ open }) => (
                     <>

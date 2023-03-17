@@ -6,14 +6,15 @@ import Link from 'next/link'
 import { useTheme } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
 import { Switch } from '@headlessui/react';
-import { useHeroes } from "../data/typedMock";
 import { ReactSVG } from 'react-svg'
+import heroes from "../data/heroes.json"
+import {useSetRecoilState} from "recoil"
+import { excludedCharactersState } from '../data/recoil/atoms';
 
-const PhaseDataContent = (props) => {
+const PhaseDataContent = ({floor}) => {
 
     const theme = useTheme();
-    const largerThanPhone = useMediaQuery(theme.breakpoints.up('sm'));
-
+    const setExcludedCharacters = useSetRecoilState(excludedCharactersState)
     // powered by vercel banner for sponsorship munaeyz
     const banner =
         <div className='flex flex-row align-middle justify-center pt-2'>
@@ -22,55 +23,34 @@ const PhaseDataContent = (props) => {
             </Link>
         </div>;
 
-    const [firstHalf, switchHalves] = useState(false)
+    const [isFirstHalf, switchHalves] = useState(false)
 
-    const heroList = useHeroes();
+    
 
-    const heroDict = heroList.reduce((builderDict, currItem) => ({ ...builderDict, [currItem.name]: true }), {})
+    const [isFilterActive, setIsFilterActive] = useState(true)
 
-    const [filterComps, setFilterComps] = useState(true)
 
-    const [checked, setChecked] = React.useState(heroDict)
-
-    const [firstHero, setFirstHero] = useState(heroList[0]);
-    const [secondHero, setSecondHero] = useState(heroList[0]);
-    const [thirdHero, setThirdHero] = useState(heroList[0]);
-    const [fourthHero, setFourthHero] = useState(heroList[0]);
-
-    let chars = {
-        first: firstHero,
-        second: secondHero,
-        third: thirdHero,
-        fourth: fourthHero
-    }
-
-    let setChars = {
-        first: setFirstHero,
-        second: setSecondHero,
-        third: setThirdHero,
-        fourth: setFourthHero
-    }
-
+   
     // useEffect(() => {
     //     console.log(chars)
     // }, [firstHero, secondHero, thirdHero, fourthHero])
 
     return (
-        <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 ' + props.className}>
+        <div className={'flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:grid-row-1 lg:px-24 pt-8 '}>
             <div className='lg:col-start-3 lg:col-span-1 z-20'>
                 <div className='lg:sticky top-20 w-full'>
-                    {props.floor ?
+                    {floor ?
                         <div className='flex items-center justify-center p-4 bg-menu-gray border-white border-opacity-50 border-4 bg-opacity-50 rounded-lg'>
                             <span className='text-white mr-4'>First Half</span>
                             <Switch
-                                checked={firstHalf}
-                                onChange={switchHalves}
-                                className={`${firstHalf ? 'bg-blue-600' : 'bg-gray-200'
+                                checked={isFirstHalf}
+                                onChange={()=>switchHalves(!isFirstHalf)}
+                                className={`${isFirstHalf ? 'bg-blue-600' : 'bg-gray-200'
                                     } relative inline-flex items-center h-6 rounded-full w-11`}
                             >
                                 <span className="sr-only">Enable notifications</span>
                                 <span
-                                    className={`${firstHalf ? 'translate-x-6' : 'translate-x-1'
+                                    className={`${isFirstHalf ? 'translate-x-6' : 'translate-x-1'
                                         } inline-block w-4 h-4 transform bg-white rounded-full`}
                                 />
                             </Switch>
@@ -79,24 +59,21 @@ const PhaseDataContent = (props) => {
                         :
                         <></>
                     }
-
-                    <TeamBuilderCollapsable
-                        heroList={heroList} heroDict={heroDict}
-                        chars={chars} setChars={setChars}
-                        checked={checked} setChecked={setChecked}
-                        filterComps={filterComps} setFilterComps={setFilterComps}
-                        className="z-20"
-                    />
-                    <div className='flex place-content-center w-full h-full bg-menu-gray mt-3 border-yellow-600 border-4 bg-opacity-50 rounded-lg'>
-                        <Link href={'/trends'} passHref>
-                            <button className={`m-4 py-2 px-4 w-full transition duration-100 hover:bg-yellow-200 rounded-lg`}>
-                                <div className='text-center font-semibold text-yellow-500'>
-                                    View Trends
-                                </div>
-                            </button>
-                        </Link>
+                    <div className='flex flex-wrap place-content-center md:block'>
+                        <TeamBuilderCollapsable
+                            isFilterActive={isFilterActive} setIsFilterActive={setIsFilterActive}
+                            className="z-20"
+                        />
+                        <div className='flex place-content-center w-full h-full bg-menu-gray mt-3 border-yellow-600 border-4 bg-opacity-50 rounded-lg max-w-[30rem]'>
+                            <Link href={'/trends'} passHref>
+                                <button className={`m-4 py-2 px-4 w-full transition duration-100 hover:bg-yellow-200 rounded-lg`}>
+                                    <div className='text-center font-semibold text-yellow-500 '>
+                                        View Trends
+                                    </div>
+                                </button>
+                            </Link>
+                        </div>
                     </div>
-
                     {/* {!largerThanPhone ? 
                     <></>
                     :
@@ -105,7 +82,7 @@ const PhaseDataContent = (props) => {
                 </div>
             </div>
             <div className='lg:col-start-1 lg:col-span-2 lg:row-start-1 z-20'>
-                <CompRanks firstHalf={firstHalf} data={props.file} chars={chars} filterComps={filterComps} checked={checked} phase={props.phase} floor={props.floor} className='lg:col-start-1' />
+                <CompRanks isFirstHalf={isFirstHalf} isFilterActive={isFilterActive} floor={floor} className='lg:col-start-1' />
                 {/* {!largerThanPhone ? 
                 banner
                 :
