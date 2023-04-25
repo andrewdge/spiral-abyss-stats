@@ -18,7 +18,11 @@ const TeamBuilder = ({isFilterActive, setIsFilterActive}) => {
         <div className=' flex flex-col gap-2 items-center'>
             <div className='w-full justify-center items-center grid grid-rows-2 grid-cols-2 md:grid-rows-1 md:grid-cols-4 lg:grid-rows-2 lg:grid-cols-2'>
                 <TeamSelection hero={includedCharacters.firstCharacter} 
-                               setHero={char=>setIncludedCharacters({...includedCharacters, firstCharacter:char})}/>
+                               setHero={char=>{
+                                setIncludedCharacters({...includedCharacters, firstCharacter:char});
+                                console.log(char);
+                                }
+                                }/>
                 <TeamSelection hero={includedCharacters.secondCharacter} 
                                setHero={char=>setIncludedCharacters({...includedCharacters, secondCharacter:char})}/>
                 <TeamSelection hero={includedCharacters.thirdCharacter}
