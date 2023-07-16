@@ -42,6 +42,12 @@
         "image": "/images/characters/ayato.png"
     },
     {
+        "name": "Baizhu",
+        "rarity": "5",
+        "element": "Dendro",
+        "image": "/images/characters/baizhu.png"
+    },
+    {
         "name": "Barbara",
         "rarity": "4",
         "element": "Hydro",
@@ -162,6 +168,12 @@
         "image": "/images/characters/kaeya.png"
     },
     {
+        "name": "Kaveh",
+        "rarity": "4",
+        "element": "Dendro",
+        "image": "/images/characters/kaveh.png"
+    },
+    {
         "name": "Kazuha",
         "rarity": "5",
         "element": "Anemo",
@@ -172,6 +184,12 @@
         "rarity": "5",
         "element": "Electro",
         "image": "/images/characters/keqing.png"
+    },
+    {
+        "name": "Kirara",
+        "rarity": "4",
+        "element": "Dendro",
+        "image": "/images/characters/kirara.png"
     },
     {
         "name": "Klee",
@@ -196,6 +214,12 @@
         "rarity": "5",
         "element": "Hydro",
         "image": "/images/characters/mona.png"
+    },
+    {
+        "name": "Mika",
+        "rarity": "4",
+        "element": "Cryo",
+        "image": "/images/characters/mika.png"
     },
     {
         "name": "Nahida",
